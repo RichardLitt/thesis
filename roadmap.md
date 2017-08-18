@@ -4,8 +4,6 @@
 
 Extend the LREC paper into a full-length thesis. Give a broader overview of the state of low-resource languages in Europe (and elsewhere).
 
-Advisors: Alexis Palmer, Dietrich Klakow
-
 ## Table of Contents
 
 ### Introduction
