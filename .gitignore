@@ -1,1 +1,7 @@
 repos
+*.aux
+*.log
+*.synctex.gz
+*.fdb_latexmk.gz
+*.fdb_latexmk
+*.fls
