@@ -35,7 +35,8 @@
 
 At least half of the world's 7000 languages will be extinct this century. Grenoble 2011:27 (Bourget 2015)
 
-Of the world's roughly 7000 languages, only a small number are present on the World Wide Web, or present in digital form. The majority of technological infrastructure that first world nations use and depend upon has been built with English, and serves English speakers. There are a few languages with large populations and state-backing which have a large foothold on the web. For instance, China is estimated to have more users of the internet than Japan, India, and the United States combined \footnote{\url{http://chinapower.csis.org/web-connectedness/}{http://chinapower.csis.org/web-connectedness/}}. The majority of these users will be speakers of Standard Mandarin, and not English; the operating systems and infrastructural backbone will still depend upon English-language originating software, but the user interface will be in Chinese. Some thirty languages \cite{Crubadan} are estimated to be at this level. The majority of the world's languages, however, have no significant user presence, and are not present on the World Wide Web.
+Of the world's roughly 7000 languages, only a small number are present on the World Wide Web, or present in digital form. The majority of technological infrastructure that first world nations use and depend upon has been built with English, and serves English speakers. There are a few languages with large populations and state-backing which have a large foothold on the web. For instance, China is estimated to have more users of the internet than Japan, India, and the United States combined \footnote{\url{http://chinapower.csis.org/web-connectedness/}{http://chinapower.csis.org/web-connectedness/}}. The majority of these users will be speakers of Standard Mandarin, and not English; the operating systems and infrastructural backbone will still depend upon English-language originating software, but the user interface will be in Chinese. Some thirty languages % TODO \cite{Crubadan}
+ are estimated to be at this level. The majority of the world's languages, however, have no significant user presence, and are not present on the World Wide Web.
 
 There are various metrics would can be used to assess linguistic health in the digital sphere.
 
@@ -87,12 +88,6 @@ In this paper, I will talk about:
   - Case study on GitHub, SourceForge, some archival sites (UPenn, Max Planck, DFKI)
 - Case study using endangered-languages repository
   - Clean up resource
-    - Add all listed resources in issues
-    - Contact and create the LSA CELP Technology Subcommittee
-    - Clone all SourceForge repositories
-    - Rename to low-resource-languages
-    - "List quality"
-    - "the pages and subpages are often dead"
   - Get diagnostics on the state of the links I've found:
     - What percentage have been updated when
     - Downloaded, etc.
@@ -164,13 +159,22 @@ Universities and institutions have short timelines and are largely dependent on 
 
 \section{Choosing Repositories}
 
-Longer term plans for open source repositories; GitHub is useful currently, but it also a business, and as such its aims may not be aligned with its users. I would like to talk about building a database of open source repositories on a secure, permanent, peer-to-peer network. This is something I am actively involved in professionally (I currently work at IPFS, which is building such a network). I would like to talk about linguistic and scientific applications of using versioned, p2p, and distributed systems for storing both open source code related to low resource languages as well as language data. 
+Longer term plans for open source repositories; GitHub is useful currently, but it also a business, and as such its aims may not be aligned with its users. I would like to talk about building a database of open source repositories on a secure, permanent, peer-to-peer network. This is something I am actively involved in professionally (I currently work at IPFS, which is building such a network). I would like to talk about linguistic and scientific applications of using versioned, p2p, and distributed systems for storing both open source code related to low resource languages as well as language data.
 
 \section{Language Specific Needs}
 
-- Disambiguate low-resource language, minoirty languages, endangered languages, and sparse languages (among others) are used often synonymously, but are distinct and come along with different stakeholders and communities, which means different values, methods, and goals.
+- Disambiguate low-resource language, minority languages, endangered languages, and sparse languages (among others) are used often synonymously, but are distinct and come along with different stakeholders and communities, which means different values, methods, and goals.
 - A review of low resource language resources and their target communities and languages, in general; a state of the field for the issue.
-- Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries. 
+- Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
+
+\subsection{Some Thoughts on NLTK}
+
+\href{NLTK (Natural Language Toolkit)}{http://nltk.org/} is an free and open source library which uses the Python language, and enables users to interface with over fifty different corpora and lexical resources. A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command `git authors` % TODO Explain
+). Some of the resources within NLTK have to do with low resource languages. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
+
+By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports.
+% TODO cite.
+One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural#license}{https://github.com/NaturalNode/natural#license}.
 
 \section{Example Use Case}
 
