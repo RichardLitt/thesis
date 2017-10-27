@@ -5,3 +5,4 @@ repos
 *.fdb_latexmk.gz
 *.fdb_latexmk
 *.fls
+*.out
