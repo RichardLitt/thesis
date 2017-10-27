@@ -1,6 +1,6 @@
 \documentclass[10pt, a4paper]{article}
 \usepackage{../LREC2016/lrec2016}
-\usepackage{multibib, url}
+\usepackage{multibib, url, hyperref}
 \newcites{languageresource}{Language Resources}
 \usepackage{graphicx}
 % for eps graphics
@@ -38,6 +38,36 @@ At least half of the world's 7000 languages will be extinct this century. Grenob
 Of the world's roughly 7000 languages, only a small number are present on the World Wide Web, or present in digital form. The majority of technological infrastructure that first world nations use and depend upon has been built with English, and serves English speakers. There are a few languages with large populations and state-backing which have a large foothold on the web. For instance, China is estimated to have more users of the internet than Japan, India, and the United States combined \footnote{\url{http://chinapower.csis.org/web-connectedness/}{http://chinapower.csis.org/web-connectedness/}}. The majority of these users will be speakers of Standard Mandarin, and not English; the operating systems and infrastructural backbone will still depend upon English-language originating software, but the user interface will be in Chinese. Some thirty languages % TODO \cite{Crubadan}
  are estimated to be at this level. The majority of the world's languages, however, have no significant user presence, and are not present on the World Wide Web.
 
+In this paper, I will talk about:
+
+- Open source code
+  -  Longevity of linguistic scholarship and work
+  - Data, rights, liability, and privacy
+  - Funding
+    - Institutional bottleneck
+    - Linguistic colonialism
+    - Ethical and moral concerns for military usage
+    - Ethical and moral concerns for big business usage
+- Open Source work currently available
+  - Case study on GitHub, SourceForge, some archival sites (UPenn, Max Planck, DFKI)
+- Case study using endangered-languages repository
+  - Get diagnostics on the state of the links I've found:
+    - What percentage have been updated when
+    - Downloaded, etc.
+  - Review Excel results
+- Peer-to-peer solution for sharing code
+  - Stub out example
+  - Build a web searcher for automatically getting and sharing code
+Further Work:
+  - Open source data repositories (touch on)
+  - Working with Ethnologue
+Conclusion
+
+
+\section{Language Case Studies}
+
+\subsection{Metrics}
+
 There are various metrics would can be used to assess linguistic health in the digital sphere.
 
 % Would be good to be able to cite something here. Otherwise it is original research.
@@ -66,6 +96,48 @@ There are various metrics would can be used to assess linguistic health in the d
 \item There are speech-to-text or text-to-speech systems developed for the language.
 \end{itemize}
 
+To get a better idea of hose these metrics can be implemented, we can look at several different languages and how they use code to further language development.
+
+
+\subsection{Naskapi}
+
+Naskapi is a Cree language spoken % Verify this is the right denomination
+ in central Quebec. Virtually the entire population of 800 Naskapi (meaning "The People" %Verify meaning and size of population
+) live within the reservation Kawawawimatch, % Spell check
+around 10 miles from Schefferville. Schefferville is only accessible by train or plane, and contains another local tribe called the Innu (which has more than 10,000 members, scattered among seven communities in Quebec), % TODO Source
+ who live on their own reservation and who speak Montagnais % Spelling
+ Cree, a related language. The two languages are not mutually distinguishable to a large degree. %Verify
+The Naskapi speak English as a first or second language, while the Innu speak French (and some speak three or all four languages). They moved to Kawawawimatch in the 1960s, after initially settling in Schefferville for some years. Some of the elders still remember being a nomadic people who followed caribou and were raised in the bush. However, half of the population is under the age of 16, as the First Nations population is the largest growing population in Canada. % Fact check
+
+Besides a few social workers, teachers, and nurses who speak English, all of the Naskapi speak their own language regularly. There has been a long tradition of missionaries, and almost all of the Naskapi are Protestant. At church, they use Innu hymnals and an Innu bible. % Verify it's not another Cree language
+In recent years, the Naskapi Development Council, which works with translators provided by the local tribal council (called the Band), has produced a Naskapi to English bilingual dictionary in three volumes % \source{Bill and Norma Jean and Margueritte MacKenzie}. 
+This was produced by linguists from the Summer Institute of Linguistics, funded by Wycliffe. %TODO More on Wycliffe
+% How was the document originally made?
+Today, the SIL linguists are a team of six: two long term linguists, and two pairs of husband and wife pairs who are training how to work as bible translators in this community before moving on to working with other Cree communities in Canada. Naskapi does not have it's own bible: work has been done on Gensis, Exodus, and Psalms, and several children stories and books of oral legends from a few elders have been produced. The full-time translators are two people: a young woman in her mid-twenties, and an older gentleman of around 50 years of age. At times, elders also contribute to the bible translation effort by marking up their pre-publication drafts, which they then go over with the translators. 
+
+When there is a need to come up with a new term, the elders are consulted, and they agree on an appropriate translation. For instance, "grill" is translated as "metal-net". A grill is not a pre-existing word in Naskapi, but net is, and it is easy to imagine the metaphor of a grill on which you braise meat as being a metal net. However, these decisions are not replicated outside of the bible. Likewise, when there is a term which needs to be invented at the school, the teachers there decide on an appropriate term - for instance, for situations like Halloween, where "Frankenstein" may need to be translated into a local alternative. These decisions are largely one-off, although they may be used year to year, and informally recorded in their respective domains.
+
+The linguists use FLExbox % Link
+to document new linguistic terms. FLEx was developed by SIL International, and provides linguists with an out-of-the-box solution for recording linguistics terms using interlinear glossed text. Users can export as a PDF (among other file formats), or export words to an online interface known as Webonary. %Link
+This allows language workers to automatically create a useable, free dictionary for members of the community.
+
+Naskapi uses the Innuit syllabics spelling system,   % From whom? 
+as well as two other roman-based systems with only minor differences. For instance, a macron, such as \^u is used in place of a double \emph{uu} to indicate vowel length. Computational writing using the syllabic system is possible by using Keyman, %Link,
+which must be installed manually on a computer. It allows a user to type roman letters which are converted to the right syllabic phrase, and is forgiving for phonemic variants. For instance, "ju", "chu", "tchu" and so on might all be interpreted and replaced by the appropriate syllabic, .%Add syllabic %% Is this even possible in LaTeX
+
+Currently, the school has a computer lab with over a dozen computers, but no in-house computer technician. One of the Wycliffe translators needed to visit the school to check on Keyman updates, and the students are not regularly trained in how to set up Keyman on their own, or how to set it up on their phones or other portable devices. While Facebook and other online platforms are increasingly popular, the majority of talking takes place in Naskapi written in local characters, or in English.
+
+There are no spell checkers, word lists, or large corpora available digitally except for the dictionary. As well as the SIL-sponsored webonary, there is also work done by atlas-ling.ca, .% Who runs this.
+This website also has some options for looking at languages, but does not seem to be updated by local translators from the community. It is sourced from the previously published dictionary, which the SIL linguists have indicated is not up to date and has insufficient English to Naskapi translations. These are insufficient because of the nature of Naskapi; a root word is used with a slot system, and any word which mentions water is included under the English heading. This makes translating something as simple as "the mug is red" difficult, as you need to know to look for "red" as a root word, and then to find the appropriate example from which you can extrapolate the correct form for translation.
+
+There is a potentially large corpus of spoken language in Naskapi from the local radio station, but this is not linguistically digested. There does not appear to be any adult-level secular written corpora which could be utilized to jump-start a corpus. The Band employs translators (who generally have other jobs - one this author interviewed was a band Councilman, one of four elected officials underneath the Chief) who may be able to provide bilingual texts in English, French, or Innu.
+
+All told, computational work is exceedingly limited. There are some websites in Naskapi, which could be used to make a small corpus, but there are no currently active projects working on collecting corpora for the purpose of linguistic study, and neither is there an active academic community working on Naskapi outside of the SIL translators, who may occasionally publish a paper (or, of course, a dictionary or physical book).
+
+While FLExbox is open source, none of the linguists edit the code for it or use the codebase, depending on SIL International to keep the product up to date. Keymap is likewise not edited, although it is installed on local computers. There have been at least one Naskapi speaker who found and used a syllabic keyboard, but there has been no effort to standardize the syllabics in the schools or with other speakers, and the relevant code has not been shared in any official capacity by any party in the language community.
+
+\section{Open Source code}
+
 
 - Definition of computational linguistics, and linguistic tooling
 - Code as it pertains to lrl
@@ -74,35 +146,6 @@ There are various metrics would can be used to assess linguistic health in the d
 - Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
 - Some shared code
 
-In this paper, I will talk about:
-
-- Open source code
-  -  Longevity of linguistic scholarship and work
-  - Data, rights, liability, and privacy
-  - Funding
-    - Institutional bottleneck
-    - Linguistic colonialism
-    - Ethical and moral concerns for military usage
-    - Ethical and moral concerns for big business usage
-- Open Source work currently available
-  - Case study on GitHub, SourceForge, some archival sites (UPenn, Max Planck, DFKI)
-- Case study using endangered-languages repository
-  - Clean up resource
-  - Get diagnostics on the state of the links I've found:
-    - What percentage have been updated when
-    - Downloaded, etc.
-  - Review Excel results
-- Peer-to-peer solution for sharing code
-  - Stub out example
-  - Build a web searcher for automatically getting and sharing code
-Further Work:
-  - Open source data repositories (touch on)
-  - Working with Ethnologue
-Conculusion
-
-
-
-\section{Open Source code}
 
 What it is, the history of it in Computational Linguistics and elsewhere, and various incentive models for using open source methods
 
@@ -179,7 +222,7 @@ Longer term plans for open source repositories; GitHub is useful currently, but 
 
 By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports.
 % TODO cite.
-One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural#license}{https://github.com/NaturalNode/natural#license}.
+One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
 
 \section{Example Use Case}
 
