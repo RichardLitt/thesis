@@ -6,3 +6,6 @@ repos
 *.fdb_latexmk
 *.fls
 *.out
+*.bbl
+*.blg
+*.synctex.gz(busy)
