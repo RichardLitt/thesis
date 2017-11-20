@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1.}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2.}Language Case Studies}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1.}Metrics}{1}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2.}Scottish Gaelic}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3.}Naskapi}{2}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1.}Language Background}{2}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2.}Literacy Developments}{2}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3.}Computational Tools}{3}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3.}Open Source code}{3}{section.3}
+\contentsline {section}{\numberline {4.}Data and privacy}{3}{section.4}
+\contentsline {section}{\numberline {5.}Funding}{3}{section.5}
+\contentsline {section}{\numberline {6.}Digital Permanence and Storage}{4}{section.6}
+\contentsline {section}{\numberline {7.}Choosing Repositories}{4}{section.7}
+\contentsline {section}{\numberline {8.}Language Specific Needs}{4}{section.8}
+\contentsline {subsection}{\numberline {8.1.}Some Thoughts on NLTK}{4}{subsection.8.1}
+\contentsline {section}{\numberline {9.}Example Use Case}{4}{section.9}
+\contentsline {section}{\numberline {10.}Tool}{4}{section.10}
+\contentsline {section}{\numberline {11.}References}{4}{section.11}
