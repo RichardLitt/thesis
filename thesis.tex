@@ -7,10 +7,17 @@
 % for eps graphics
 
 
+
 \usepackage{epstopdf}
 \usepackage[latin1]{inputenc}
 
-\title{The State of Open Source Resources for Low Resource Languages}
+\def\signed #1 (#2){{\unskip\nobreak\hfil\penalty50
+    \hskip2em\hbox{}\nobreak\hfil\sl#1\/ \rm(#2)
+    \parfillskip=0pt \finalhyphendemerits=0 \par}}
+
+
+
+\title{Open Source Resources for Low Resource Languages}
 
 \name{Richard Littauer}
 
@@ -31,11 +38,16 @@
 
 \begin{document}
 
-\pagenumbering{arabic}
+\begin{titlepage}
 \maketitleabstract
 
-\tableofcontents
 
+
+\tableofcontents
+\end{titlepage}
+
+
+\setcounter{page}{1}
 \section{Introduction}
 
 At least half of the world's 7000 languages will be extinct this century \cite[p. 27]{grenoble_2011}. Only a small number are present on the World Wide Web, or present in digital form. The majority of technological infrastructure that first world nations use and depend upon has been built with English, and serves English speakers. There are a few languages with large populations and state-backing which have a large foothold on the web. For instance, China is estimated to have more users of the internet than Japan, India, and the United States combined \footnote{\url{http://chinapower.csis.org/web-connectedness/}{http://chinapower.csis.org/web-connectedness/}}. The majority of these users will be speakers of Standard Mandarin, and not English; the operating systems and infrastructural backbone will still depend upon English-language originating software, but the user interface will be in Chinese. Tt is estimated that less than 5\% of the world's langauges will be used online or have significant digital presence \cite{kornai2013digital}.
