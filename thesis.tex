@@ -59,7 +59,7 @@ In this paper, I will talk about:
   - Data, rights, liability, and privacy
   - Funding
     - Institutional bottleneck
-    - Linguistic colonialism
+    - Linguistic colonialism-
     - Ethical and moral concerns for military usage
     - Ethical and moral concerns for big business usage
 - Open Source work currently available
@@ -82,7 +82,7 @@ Conclusion
 
 \subsection{Metrics}
 
-There are various metrics would can be used to assess language health. 
+There are various metrics would can be used to assess language health.
 
 % > A variety of metrics have been proposed for assessing a language?s degree of endangerment ? the UNESCO system (2003), the Graded Intergenerational Disruption Scale (GIDS; Fishman 1991), the Extended Graded Intergenerational Dis- ruption Scale (E-GIDS; Lewis & Simons 2010), and the Language Endangerment Index (LEI; Lee & Van Way 2016), among others. - yang_ogrady.pdf
 
@@ -170,7 +170,61 @@ All told, computational work is exceedingly limited. There are some websites in 
 
 While FLEx is open source, none of the linguists edit the code for it or use the codebase, depending on SIL International to keep the product up to date. Keymap is likewise not edited, although it is installed on local computers. There have been at least one Naskapi speaker who found and used a syllabic keyboard, but there has been no effort to standardise the syllabics in the schools or with other speakers, and the relevant code has not been shared in any official capacity by any party in the language community.
 
-\section{Open Source code}
+\section{Open Source Code}
+
+\subsection{Defining {\it Open Source}}
+
+{\it Open Source} is a complex term which refers to any code, not just code related to computational linguistics. At its core, {\it open source} refers to code which has a license which allows it to be available to freely inspect, use, or modify by anyone. It was introduced in 1998 by some programmers, in response to the Netscape browser's code being openly licensed and made available. {\it Open source} is one of many terms which can be used to differentiate code which is either available or licensed permissively for re-use; other terms include {\it free software} and {\it libre software}, or the combination, {\it FLOSS} (free and and libre open source software). There is no standard definition of open source that is universally accepted.
+
+Nor will universal acceptance be forthcoming. The issue regarding reconciliation between open source, free software, and the rest of the terms stems largely from a different of opinion between what constitutes open software. For some adherents, software itself ought to be free, as it is a result of human labour and because it is maximally helpful for others to never have to code that again. This idea contains within it the seed of the digital commons: like the commons in philosophical and economic literature, code can be viewed as a resource that belongs to humanity as a whole, and not the creators who initially fashioned it. In this sense, open source is a philosophy.
+
+\begin{quote}
+Open source is a development methodology; free software is a social movement. For the free software movement, free software is an ethical imperative, essential respect for the users' freedom. By contrast, the philosophy of open source considers issues in terms of how to make software  "better" - in a practical sense only. It says that nonfree software is an inferior solution to the practical problem at hand.
+\signed Richard Stallman (Founder of GNU/Linux)\footnote{\href{https://www.gnu.org/philosophy/open-source-misses-the-point.html}{https://www.gnu.org/philosophy/open-source-misses-the-point.html}}
+\end{quote}
+
+Before continuing, a quick word on licenses. Licenses determine the legal rights to sharing code. A piece of  code which is taken from a proprietary server and published on the internet is not necessarily open source. In this instance, the code may have been illegally copied and shared, but it is not licensed for free usage. Under no definitions is this considered open source. Indeed, this touches upon issues of digital copytheft and "piracy", which is a standard term used frequently in the media and in legal proceedings to attach a sense that copying code is the same as larceny or theft on the high seas. Avoiding the question of the validity of this viewpoint, it is important to focus on the license as the differentiating factor between code which has been released legally under an "open" definition or not.
+
+There are many licenses which are considered to be open source, and there are several arbiters available which judge the validity of open source licensing. The Open Source Initiative maintains a list of approved licenses on their website: \href{https://opensource.org/licenses}{https://opensource.org/licenses}.
+
+Open source, on the other hand, under most definitions, does pertain to ethical concerns about the software's usage, but rather simply refers to whether or not it is permissively licensed and available for users.
+
+
+The Open Source Institute, which originally coined the term {\it open source}, has several parameters by which open source software can be judge as being 'open' or 'closed' (that is, proprietary, non-permissively licensed, non-reusable, limited in usage to a set amount of people, and so on). It may be useful to list these terms below, as they are instructive about how open source can be a nuanced term. These terms are from the OSI's website \footnote{\href{https://opensource.org/osd}{https://opensource.org/osd}}.
+
+\begin{enumerate}
+
+\item{Free Redistribution}. The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
+
+\item{Source Code}. The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
+
+\item{Derived Works}. The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
+
+\item{Integrity of The Author's Source Code}.
+  The license may restrict source-code from being distributed in modified form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.
+
+\item{No Discrimination Against Persons or Groups}.
+  The license must not discriminate against any person or group of persons.
+
+\item{No Discrimination Against Fields of Endeavor}.
+  The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
+
+\item{Distribution of License}.
+  The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
+
+\item{License Must Not Be Specific to a Product}.
+  The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.
+
+\item{License Must Not Restrict Other Software}.
+  The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.
+
+\item{License Must Be Technology-Neutral}.
+  No provision of the license may be predicated on any individual technology or style of interface.
+\end{enumerate}
+
+\subsection{Open Source}
+
+This needs to be deleted.
 
 
 - Definition of computational linguistics, and linguistic tooling
