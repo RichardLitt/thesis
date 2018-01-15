@@ -1,389 +1,138 @@
-\documentclass[10pt, a4paper]{article}
-\usepackage{./LREC2016/lrec2016}
-\usepackage{multibib, url, hyperref}
-\newcites{languageresource}{Language Resources}
-\usepackage{graphicx}
-% \usepackage{casyl} for syllabics
-% for eps graphics
+\documentclass[12pt,a4paper]{article}
+\usepackage{thesiscommands}
 
+%\drafttrue % or
+\draftfalse
 
+\author{Richard Littauer}
 
-\usepackage{epstopdf}
-\usepackage[latin1]{inputenc}
-
-\def\signed #1 (#2){{\unskip\nobreak\hfil\penalty50
-    \hskip2em\hbox{}\nobreak\hfil\sl#1\/ \rm(#2)
-    \parfillskip=0pt \finalhyphendemerits=0 \par}}
-
-\setlength{\parindent}{1cm}
-
-
-\title{Open Source Resources for Low Resource Languages}
-
-\name{Richard Littauer}
-
-\address{Saarland University\\
-         Saarbr\"ucken, Germany\\
-         richard.littauer@gmail.com\\}
-
-
-\abstract{
-% TODO Rewrite this into something useful
-% We present a database of open source code that can be used by low-resource language
-% communities and developers to build digital resources. Our database is also useful to software developers
-% working with those communities and to researchers looking to describe the state of the field
-% when seeking funding for development projects.  \\
-% \newline
-% \Keywords{open source, under-resourced languages, database, endangered languages, code, computational resources}
-}
+% to be executed with: lualatex --shell-escape -synctex=1 -interaction=nonstopmode "complete_thesis_new_2".tex
+% last changed on 26.8.16 9h30
 
 \begin{document}
+
 \begin{titlepage}
-\maketitleabstract
-\tableofcontents
+	\begin{center}
+
+		% Upper part of the page. The '~' is needed because \\
+		% only works if a paragraph has started.
+		\includegraphics[width=0.25\textwidth]{eule.png}~\\[1cm]
+
+		\textsc{\LARGE Saarland  University}\\[0.4cm]
+		\textsc{\Large Department of Computational Linguistics}\\[1.5cm]
+
+		\textsc{\LARGE Master's thesis Proposal}\vspace{0.5cm}
+
+		% Title
+		\HRule \\[0.55cm]
+
+		{ \huge \bfseries Open Source Code
+
+			 and\vspace{0.2cm}
+
+			 Endangered Languages}\vspace{0.5cm}
+
+		\HRule \\[1.5cm]
+
+		% Author and supervisor
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushleft} \large
+				\emph{Author:}\\
+				Richard \textsc{Littauer}\\
+				Matriculation: 2539658
+			\end{flushleft}
+		\end{minipage}
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushright} \large
+				\emph{Supervisors:} \\
+				Dr. Dietrich \textsc{Klakow}\\
+				% \emph{Advisors:} \\
+				% Dr. Harm \textsc{Brouwer}\\
+			\end{flushright}
+		\end{minipage}
+
+		\vfill
+
+		% Bottom of the page
+		{\large \today}
+
+	\end{center}
 \end{titlepage}
+\newpage
+
+	\thispagestyle{empty}
+  \begin{abstract}
+    \setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+    % Please put \noindent before each paragraph of the abstract!
+
+    \noindent ADD MORE HERE
+
+  \end{abstract}
+  \newpage
+
+%%% Eidesstattliche Erklärung
+\thispagestyle{empty}
+\noindent\textbf{Eidesstattliche Erklärung}
+
+\noindent Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe.\\
+
+\noindent\textbf{Declaration}
+
+\noindent I hereby confirm that the thesis presented here is my own work, with all assistance acknowledged. \\
+
+\noindent\textbf{Acknowledgements}
+
+\noindent Jonathan Poitz provided formatting files, but did not advise on the content. This thesis is based on a paper presented at the LREC CCURL Workshop in July 2014 in Slovenia. Hugh Paterson III was a coauthor on that paper. All work presented here is original content.
+
+\vspace{1cm}
+
+\noindent Montr\'eal, \thedate
+
+\vspace{1.7cm}
+
+\noindent Richard Littauer
+
+%%% Eidesstattliche Erklärung End
+
+\newpage
+%
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+
+% % \listoffigures
+% % \listoftables
+% % \listoflistings
+% % \thispagestyle{empty}
+% % \newpage
+
 \setcounter{page}{1}
 
-%%%%%%%%%%
-%% Goal: Extend the LREC paper into a full-length thesis.
-%%   Give a broader overview of the state of low-resource languages in         %%   Europe (and elsewhere).
-%%%%%%%%%%
-
-\section{Introduction}
-
-At least half of the world's 7000 languages will be extinct this century \cite[p. 27]{grenoble_2011}. Just over half of these languages have writing systems.\footnote{\href{https://www.ethnologue.com/enterprise-faq/how-many-languages-world-are-unwritten-0}{https://www.ethnologue.com/enterprise-faq/how-many-languages-world-are-unwritten-0}} It is estimated that less than 5\% of the world's languages will be used online or have significant digital presence \cite{kornai2013digital}.
-
-The majority of technological infrastructure used globally has been built with English, and serves English speakers. There are a few languages - perhaps thirty - with the combination of large populations with internet access, official governmental status, and Westernised, industrial economies which affords them a foothold on the web.\footnote{\href{https://w3techs.com/technologies/history\_overview/content\_language}{https://w3techs.com/technologies/history\_overview/content\_language}}
-%TODO Include these languages later
-In part, these languages depend upon shared code. Put simply, a literacy system affords written corpora, written corpora can be used by researchers to build grammars, and grammars can be used to build tools such as spell-checkers, parsers, input systems, or later on speech recognition and generation software, semantic analyzers, machine learning and translation systems, and so on. This culturally shared body of code is most often developed in closed environments with consumer endpoints, by the military or large businesses. For instance, the World Wide Web, the largest shared corpus of written language, started with support from  Massachusetts Institute of Technology (MIT) and  Defense Advanced Research Projects Agency (DARPA). Another example would be Google Translate, which uses massive bilingual corpora to provide automatic translation services for free online, but whose code is proprietary and owned by Google.
-
-While this pathway works well for large languages where populations of speakers can be leveraged to provide funding, the majority of the world's languages are not able to develop their own computational resources - either grammars, corpora, or code. Instead, they must rely on small groups of researchers, limited funding, and a grab-bag of written resources when they have them (for instance, the most consistent translations cross-linguistically is the Christian bible, which may not the target language's culture).
-
-In this thesis, I will examine methodology that can be used by linguists, researchers, and language developers to help their languages "digitally ascend" \cite{kornai2013digital} - to bootstrap their corpora creation, write grammars, transform other language's tools and research to their own languages, and to ultimately enable their communities to speak and share their knowledge computationally. This methodology goes under the broad label of {\emph open source} software. Open source software is code which has been developed and made available for free, without concessions about how it is to be used or who uses it. This allows coders to use code which they personally haven't built without earmarking funds for it, thus freeing up significant portions of research and development costs for making tools. At present, the majority of the world's code depends on some point on open source software - for instance, UNIX, and much of the World Wide Web, depends on open source code.
-
-In the field of computational linguistics, however, there are a deficit of resources which are licensed and available as open source. This largely stems from the need to financially recoup expenses for development, on licenses mandated by research groups or military funders, and on a lack of awareness of how open source code works. Another consideration is that an open source label does not ensure that the code is worth using, maintained, relevant, or in scope for a given domain.
-
-Below, I will go into further depth about the state of linguistics and computational resources, and what different languages need in order to have digital presence. I'll define what open source is, and talk about issues relevant to open source code for under-resourced languages; specifically, data rights, liability, privacy, funding, military and industrial concerns, ethical reasons for using open source. I'll then talk about the state of open source code currently available online, in particular focusing on a database of open source code that I have built with the help of researchers around the world. Finally, I'll touch on some specific examples of languages which could benefit from open source code, focusing on Gaelic, an endangered language with tens of thousands of speakers but little online resources, and Naskapi, an endangered languages with only a thousand speakers which might be able to benefit from open source code. The Naskapi case study will be based largely on original research, as I engaged in field research at the town where most Naskapi live and talk to linguists working on literacy efforts for this language. Finally, I'll touch on further work possible to help endangered languages, and offer some concluding remarks.
-%
-% \begin{itemize}
-%   - Definition of computational linguistics, and linguistic tooling
-%   - Code as it pertains to lrl
-%   - state of the field linguistically
-%   - State of the field computationally
-% \item - Open source code
-% \item  - Longevity of linguistic scholarship and work
-% \item   - Data, rights, liability, and privacy
-% \item   - Funding
-% \item     - Institutional bottleneck
-% \item     - Linguistic colonialism-
-% \item     - Ethical and moral concerns for military usage
-% \item     - Ethical and moral concerns for big business usage
-% \item - Open Source work currently available
-% \item   - Case study on GitHub, SourceForge, some archival sites (UPenn, Max Planck, DFKI)
-% - Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
-% - Some shared code
-% \item - Case study using endangered-languages repository
-% \item   - Get diagnostics on the state of the links I've found:
-% \item     - What percentage have been updated when
-% \item     - Downloaded, etc.
-% \item   - Review Excel results
-% \item - Peer-to-peer solution for sharing code
-% \item   - Stub out example
-% \item   - Build a web searcher for automatically getting and sharing code
-% Open source data repositories (touch on), and Working with Ethnologue
-% \end{itemize}
-
-\subsubsection{The current state of language divesity}
-
-\subsubsection{Digital presence}
-
-A language's digital presence is defined by: its ability to have tools which are easily accessible to users of the language, applications build on top of that tooling, large amounts of mono- and bilingual corpora, and an active amount of speakers (generally, in the millions). Generally, this also needs official backing in the form of an official status for a language, set at a national level. For instance, English is considered the {\it de facto} national language of United States, and the overwhelming majority of language users and computational software developed in the States is in English. In Europe, the EU mandates that citizens have the right to correspond with an EU institution (and receive a response back) in any of the 24 recognized official languages of the respective member states.\footnote{\href{https://europa.eu/european-union/topics/multilingualism\_en}{https://europa.eu/european-union/topics/multilingualism\_en}} This includes relatively small languages, such as Maltese, which has a significant web presence and tooling considering there are only just under half a million speakers. \footnote{\href{https://www.ethnologue.com/language/mlt}{https://www.ethnologue.com/language/mlt}} China is estimated to have more users of the internet than Japan, India, and the United States combined.\footnote{\href{http://chinapower.csis.org/web-connectedness/}{http://chinapower.csis.org/web-connectedness/}} But while the majority of these users will be speakers of Standard Mandarin, and not English; the operating systems and infrastructural backbone will still depend upon English-language originating software (although the user interface will be in Chinese).
-
-Neither official status nor population size necessarily means that a language will have resources or a digital presence, however. Romansh, although it is an official, provincial language of Switzerland, does not enjoy the same privileges as French or German, as there are only 40,000 speakers.\footnote{\href{https://www.ethnologue.com/language/roh}{https://www.ethnologue.com/language/roh}} Min Dong, although it has over nine million speakers \footnote{\href{https://www.ethnologue.com/language/cdo}{https://www.ethnologue.com/language/cdo}}, does not afford the same privileges as Mandarin, as it is not the official language of China. It is also not true that a language needs to have a large government presence or access to military-grade technology to have digital resources - a notable example would be Haitain Creole, spoken by over ten million speakers in one of the world's poorest countries. After the 2010 earthquake, Google, Microsoft, and Carnegie Mellon collaborated to make a machine translation system, an overwhelmingly difficult achievement.\cite{Lewis:2011:CMD:2132960.2133030}
-
-\subsubsection{Interested parties for smaller languages}
-
-There are, of course, thousands of languages which could be used as examples of little to no resources, without recognition, speakers, or high literacy or computational use. The majority of languages do not have access to large financial bodies (whether military, governmental, or private) willing to invest in technical development, nor in developing large corpora which could be used to develop, bootstrap, and train computational tools. In such cases, any development work is normally undertaken by a few different groups; higher education departments or labs, native speakers with some digital ability, and missionaries, or, more usually, a combination of all three.
-
-These groups normally do not have access to large amounts of corpora, computational resources (such as servers, grids, or databanks), or, most importantly, manpower, time, and money. They are more often goal driven. For instance, Wycliffe %\TODO CITE
- translators are most interested in developing language literacy in order to translate the Bible into a language for first language speakers; they are often less interested in machine translation, Facebook groups, or developing literacy for schools unless it helps them towards this end. Native developers are normally more interested in developing apps or websites for locals, but they are often less interested in larger dictionaries, speech to text or text to speech resources, or use cases outside of their individual ken. Finally, academic staff are often forced to be myopic in scope in order to publish academically for their wider industry, and are less able to easily embark on decade-long timelines to developer singular resources. They are also often financially fragile, and depend on local investors or governmental budgets and stipends to fund their research, all of which often work on shorter timescales than missionaries or first language developers, who normally devote their entire lives to a particular language group. Finally, academics are often individual workers, working on a language family or small group at the expense of related languages, as they need are driven by the publish-or-perish academic market and do not usually have large amounts of funding for multilingual efforts.
-
-
-\subsubsection{Language research funding}
-
-\subsubsection{Open source as a solution}
-
-\subsubsection{Current Open Source resources}
-
-
-
-
-
-\section{Language Case Studies}
-
-\subsection{Metrics}
-
-There are various metrics would can be used to assess language health.
-
-% > A variety of metrics have been proposed for assessing a language?s degree of endangerment ? the UNESCO system (2003), the Graded Intergenerational Disruption Scale (GIDS; Fishman 1991), the Extended Graded Intergenerational Dis- ruption Scale (E-GIDS; Lewis & Simons 2010), and the Language Endangerment Index (LEI; Lee & Van Way 2016), among others. - yang_ogrady.pdf
-
-% Describe UNESCO
-% Describe GIDS
-% Descirbe EGIDS
-% Describe LEI
-
-However, few of these metrics take into account the level of digital literacy for a language. The possibility for a language to digitally ascend has been held up as a key component for the life of that language by Kornai. %Reword wow
-% Describe Kornai
-
-
-% Talk about BLARK
-% Describe a new metric using BLARK to judge the rate of a language's life
-
-
-% Would be good to be able to cite something here. Otherwise it is original research.
-\begin{itemize}
-\item It is spoken by living fluent speakers, including second-language learners.
-\item It is spoken by living, first-language learners.
-\item It is productive in it's morphology, growing in vocabulary, and not frozen in time.
-\item It is recorded in some form, including audio files.
-\item It has a writing system.
-\item It has a writing system that is used by modern speakers to record their own language.
-\item It has a writing system that can be used on a computer.
-\item The electronic writing system does not require excessive installation.
-\item All normal characters are available in Unicode.
-\item There is a growing corpus of written documents in the language.
-\item There are users who consistently use the language digitally.
-\item There is a formalized spelling system.
-\item There is a Bible translation. %Write about Wycliffe and SIL
-\item There are non-electronic documents.
-\item There is a dictionary.
-\item There is a machine-readable corpus.
-\item It is used on modern social media; Twitter, and so on.
-\item There is a Wikipedia entry.
-\item There are spellcheckers.
-\item There are syntactic tools.
-\item There are machine learning algorithms based on the language.
-\item There are speech-to-text or text-to-speech systems developed for the language.
-\end{itemize}
-
-To get a better idea of hose these metrics can be implemented, we can look at several different languages and how they use code to further language development.
-
-\subsection{Scottish Gaelic}
-
-Scottish Gaelic is a Celtic language spoken mainly in the United Kingdom, which UNESCO defines as {\it definitely endangered} \footnote{\href{http://www.unesco.org/languages-atlas/en/atlasmap/language-iso-gla.html}{http://www.unesco.org/languages-atlas/en/atlasmap/language-iso-gla.html}}. A large corpus compiled by the An Crub\'ad\'an project is available online \footnote{\href{http://crubadan.org/languages/gd}{http://crubadan.org/languages/gd}} \cite{scannell2007crubadan}.
-
-\subsection{Naskapi}
-
-\subsubsection{Language Background}
-
-Naskapi is a Cree language in the Algonquin family spoken in central Quebec \cite{MacKenzie-and-Jancewicz-1994}, which UNESCO defines as {\it vulnerable} \footnote{\href{http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-2354.html}{http://www.unesco.org/culture/languages-atlas/en/atlasmap/language-id-2354.html}}. Virtually the entire population of around 800 Naskapi live within the reservation Kawawachikamach, around 10 miles from Schefferville, QC. Schefferville is only accessible by train or plane, and contains another local tribe called the Innu (which has more than 17,000 members, scattered among Quebec and Labrador\footnote{https://en.wikipedia.org/wiki/Innu}), who live on their own reservation and who speak Montagnais or Innu-aimun, a related language. The two languages are similar, and the Naskapi youth are often diglossic in Montagnais (but the Innu are often not) \cite{MacKenzie-1980}.
-
-The Naskapi speak English as a first or second language, while the Innu speak French (and some speak three or all four languages). They moved to Kawawachikamach in the 1960s, after initially being resettled in Schefferville in the early 1950s. Some of the elders still remember being a nomadic people who followed caribou and were raised in the bush. However, half of the population is under the age of 16, as the First Nations population is the largest growing population in Canada.\footnote{http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/index-eng.cfm}
-
-All of the Naskapi speak their own language regularly, in all contexts. In the schools, there are Naskapi-only classes held until Grade 8 \cite{llewellyn2017oral}. While there are a few social workers, teachers, and nurses who speak solely English, most jobs in Kawawachikamach are held by Naskapi. There has been a long tradition of missionaries, and almost all of the Naskapi are Protestant. At church, they use Montagnais hymnals and an Montagnais bible.
-
-\subsubsection{Literacy Developments}
-In recent years, the Naskapi Development Council, which works with translators provided by the local tribal council (called the Band), has produced a Naskapi to English bilingual dictionary in three volumes \cite{MacKenzie-and-Jancewicz-1994}. This was produced by linguists from the Summer Institute of Linguistics, funded by Wycliffe Bible Translators \footnote{\href{https://www.wycliffe.org/}{https://www.wycliffe.org/}}.
-
-% How was the document originally made?
-Today, the SIL linguists are a team of six: two long term linguists, and two pairs of husband and wife pairs who are training how to work as bible translators in this community before moving on to working with other Cree communities in Canada. Naskapi does not have a complete bible. A new testament, started in the 70's, was recently published \cite{naskapi-new-testament}. Genesis, Exodus, and Psalms, have also been translated, and several children stories and books of oral legends from a an elder have been produced. The full-time translators are two people: a young woman in her mid-twenties, and an older gentleman of around 50 years of age. At times, elders also contribute to the bible translation effort by marking up their pre-publication drafts, which they then go over with the translators.
-
-When there is a need to come up with a new term, the elders are consulted, and they agree on an appropriate translation. For instance, "grill" is translated as "metal-net". A grill is not a pre-existing word in Naskapi, but net is, and it is easy to imagine the metaphor of a grill on which you braise meat as being a metal net. However, these decisions are not replicated outside of the bible. Likewise, when there is a term which needs to be invented at the school, the teachers there decide on an appropriate term - for instance, for situations like Halloween, where "Frankenstein" may need to be translated into a local alternative. These decisions are largely one-off, although they may be used year to year, and informally recorded in their respective domains.
-
-The linguists use the Fieldworks Language Explorer (FLEx) \footnote{\href{https://software.sil.org/fieldworks/}{https://software.sil.org/fieldworks/}} to document new linguistic terms. FLEx was developed by SIL International, and provides linguists with an out-of-the-box solution for recording linguistics terms using interlinear glossed text. It is also open source, and available on GitHub \footnote{\href{https://github.com/sillsdev/FieldWorks}{https://github.com/sillsdev/FieldWorks}}. Users can export as a PDF (among other file formats), or export words to an online interface known as Webonary \footnote{\href{https://www.webonary.org/configuring-the-dictionary-in-flex/}{https://www.webonary.org/configuring-the-dictionary-in-flex/}}.
-This allows language workers to automatically create a useable, free dictionary for members of the community.
-
-Naskapi uses the Innuit syllabics spelling system \cite{wals-141},
-as well as two other roman-based systems with only minor differences. For instance, a macron, such as \^u is used in place of a double \emph{uu} to indicate vowel length. Computational writing using the syllabic system is possible by using Keyman \footnote{\href{https://keyman.com/}{https://keyman.com/}}, (free, open source software available on GitHub \footnote{\href{https://github.com/keymanapp}{https://github.com/keymanapp}})
-which must be installed manually on a computer. It allows a user to type roman letters which are converted to the right syllabic phrase, and is forgiving for phonemic variants. For instance, "ju", "chu", "tchu" and so on might all be interpreted and replaced by the appropriate syllabic. %Add syllabic
-%% Is this even possible in LaTeX
-% Yes, it is, but it is fairly complicated. Use package `casyl`.
-
-Currently, the school has a computer lab with over a dozen computers, but no in-house computer technician. One of the Wycliffe translators needed to visit the school to check on Keyman updates, and the students are not regularly trained in how to set up Keyman on their own, or how to set it up on their phones or other portable devices. While Facebook and other online platforms are increasingly popular, the majority of talking takes place in Naskapi written in local characters, or in English.
-
-\subsubsection{Computational Tools}
-There are no spell checkers, word lists, or large corpora available digitally except for the dictionary. As well as the SIL-sponsored Webonary, there is also work done by atlas-ling.ca, which is a Canadian government-backed venture, originally cofounded by MacKenzie, who also worked on the Naskapi dictionary \footnote{\href{http://atlas-ling.ca/}{http://atlas-ling.ca/}}.
-This website also has some options for looking at languages, but does not seem to be updated by local translators from the community. It is sourced from the previously published dictionary, which the SIL linguists have indicated is not up to date and has insufficient English to Naskapi translations. These are insufficient because of the nature of Naskapi; a root word is used with a slot system, and any word which mentions water is included under the English heading. This makes translating something as simple as "the mug is red" difficult, as you need to know to look for "red" as a root word, and then to find the appropriate example from which you can extrapolate the correct form for translation.
-
-There is a potentially large corpus of spoken language in Naskapi from the local radio station, but this is not linguistically digested. There does not appear to be any adult-level secular written corpora which could be utilized to jump-start a corpus. The Band employs translators (who generally have other jobs - one this author interviewed was a band Councilman, one of four elected officials underneath the Chief) who may be able to provide bilingual texts in English, French, or Innu.
-
-All told, computational work is exceedingly limited. There are some websites in Naskapi, which could be used to make a small corpus, but there are no currently active projects working on collecting corpora for the purpose of linguistic study, and neither is there an active academic community working on Naskapi outside of the SIL translators, who may occasionally publish a paper (or, of course, a dictionary or physical book).
-
-While FLEx is open source, none of the linguists edit the code for it or use the codebase, depending on SIL International to keep the product up to date. Keymap is likewise not edited, although it is installed on local computers. There have been at least one Naskapi speaker who found and used a syllabic keyboard, but there has been no effort to standardise the syllabics in the schools or with other speakers, and the relevant code has not been shared in any official capacity by any party in the language community.
-
-\section{Open Source Code}
-
-\subsection{Defining {\it Open Source}}
-
-{\it Open Source} is a complex term which refers to any code, not just code related to computational linguistics. At its core, {\it open source} refers to code which has a license which allows it to be available to freely inspect, use, or modify by anyone. It was introduced in 1998 by some programmers, in response to the Netscape browser's code being openly licensed and made available. {\it Open source} is one of many terms which can be used to differentiate code which is either available or licensed permissively for re-use; other terms include {\it free software} and {\it libre software}, or the combination, {\it FLOSS} (free and and libre open source software). There is no standard definition of open source that is universally accepted.
-
-Nor will universal acceptance be forthcoming. The issue regarding reconciliation between open source, free software, and the rest of the terms stems largely from a difference of opinion between what constitutes open software. For some adherents, software itself ought to be free, as it is a result of human labour and because it is maximally helpful for others to never have to code that again. This idea contains within it the seed of the digital commons: like the commons in philosophical and economic literature, code can be viewed as a resource that belongs to humanity as a whole, and not the creators who initially fashioned it. In this sense, open source is a more of a philosophical theme than a technical term.
-
-\begin{quote}
-Open source is a development methodology; free software is a social movement. For the free software movement, free software is an ethical imperative, essential respect for the users' freedom. By contrast, the philosophy of open source considers issues in terms of how to make software  "better" - in a practical sense only. It says that nonfree software is an inferior solution to the practical problem at hand.
-\signed Richard Stallman (Founder of GNU/Linux)\footnote{\href{https://www.gnu.org/philosophy/open-source-misses-the-point.html}{https://www.gnu.org/philosophy/open-source-misses-the-point.html}}
-\end{quote}
-
-Before continuing, a quick word on licenses. Licenses determine the legal rights to sharing code. A piece of code which is taken from a proprietary server and published on the internet is not necessarily open source. In this instance, the code may have been illegally copied and shared, but it is not licensed for free usage. Under no definitions is this considered open source. Indeed, this touches upon issues of digital copytheft and "piracy", which is a standard term used frequently in the media and in legal proceedings to attach a sense that copying code is the same as larceny or theft on the high seas. Avoiding the question of the validity of this viewpoint, it is important to focus on the license as the differentiating factor between code which has been released legally under an "open" definition or not.
-
-There are many licenses which are considered to be open source, and there are several arbiters available which judge the validity of open source licensing. The Open Source Initiative maintains a list of approved licenses on their website: \href{https://opensource.org/licenses}{https://opensource.org/licenses}.
-
-Open source, on the other hand, under most definitions, does pertain to ethical concerns about the software's usage, but rather simply refers to whether or not it is permissively licensed and available for users.
-
-
-The Open Source Institute, which originally coined the term {\it open source}, has several parameters by which open source software can be judge as being 'open' or 'closed' (that is, proprietary, non-permissively licensed, non-reusable, limited in usage to a set amount of people, and so on). It may be useful to list these terms directly below, as they are instructive about how open source can be a nuanced term. These terms are from the OSI's website \footnote{\href{https://opensource.org/osd}{https://opensource.org/osd}}.
-
-\begin{enumerate}
-
-\item{Free Redistribution}. The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
-
-\item{Source Code}. The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
-
-\item{Derived Works}. The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
-
-\item{Integrity of The Author's Source Code}.
-  The license may restrict source-code from being distributed in modified form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.
-
-\item{No Discrimination Against Persons or Groups}.
-  The license must not discriminate against any person or group of persons.
-
-\item{No Discrimination Against Fields of Endeavor}.
-  The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
-
-\item{Distribution of License}.
-  The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
-
-\item{License Must Not Be Specific to a Product}.
-  The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.
-
-\item{License Must Not Restrict Other Software}.
-  The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.
-
-\item{License Must Be Technology-Neutral}.
-  No provision of the license may be predicated on any individual technology or style of interface.
-\end{enumerate}
-
-\subsection{Open Source}
-
-What it is, the history of it in Computational Linguistics and elsewhere, and various incentive models for using open source methods
-
-% Other stuff
-Not all research that is code based can be easily quantified as open source. For instance, [Afranaph](http://www.africananaphora.rutgers.edu/home-mainmenu-1) is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, [TransNewGuinea](http://transnewguinea.org/about) has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite.
-
-Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
-
-\section{Data and privacy}
-
-Whether it makes sense to decouple code from data, especially in cases of low resource languages, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
-
-% From Chiarcos:
-
-% a few years back, I compiled a massive corpus of Bibles and related texts
-%in a CES-conformant XML format (following Resnik 1996), some also with
-%annotations. For the most part, distributing this corpus would be illegal
-%under European copyright law (and that's why you haven't heard about it),
-%but I realized that there are circumstances which could allow
-%dissemination of a great part of it under an academic license.
-
-% Compiling and distributing a web corpus is basically illegal in Europe
-%unless explicitly permitted by an accompanying license. However, US law
-%has the concept of fair use, and if a data provider declares US
-%legislation to apply (e.g., that "[t]hese Terms and Conditions ... are
-%governed by the laws of the State of New York"), we Europeans can rely on
-%the principle of fair use, as well.
-%
-%% According to 17 U.S.C. § 107, "the fair use of a copyrighted work,
-%including such use by reproduction in copies or phonorecords or by any
-%other means specified by that section, for purposes such as criticism,
-%comment, news reporting, teaching (including multiple copies for classroom
-%use), scholarship, or research, is not an infringement of copyright." The
-%intended use is for NLP research, DH scholarship and classroom use, so
-%that would probably not an issue -- and in fact, there is no financial
-%damage whatsoever as this data is freely and redundantly available from
-%the web.
-%
-%% However, am I allowed to distribute this corpus with an explicit license
-%statement? I think CC-BY-NC should protect the intellectual and commercial
-%interests of the creator of the electronic edition and be roughly in the
-%spirit of an academic license, but of course, I'm not the actual owner of
-%the data, but only responsible for its transformation and annotation. I am
-%wondering about the consequences if someone eventually creates an NLP tool
-%chain from this data and uses any models trained on the data in a
-%commercial application. As the original copyright extends to derived
-%works, this would be a clear violation of my license statement, of course,
-%but I would be responsible as I redistributed the data and by transforming
-%it from messy HTML to proper markup, I actually enabled this violation.
-
-
-\section{Funding}
-
-IARPA and DARPA both are involved with low resource languages and both of them may have their own institutional values that are probably at ends with independent researchers, commercial consumers, and language communities. Does working on sparse data openly bring along with it ethical or moral concerns; if so, how can these be adequately explained, breached, and talked about? How can they be worked around or be part of the conversation? Note that DARPA and the like also use humanitarian reasons as their primary stated aim for work on sparse languages, which may be contrary to their military needs. There is already an extensive literature on moral uses of data -- I could summarize that, and apply it specifically to low resource languages, which is something I do not think has yet been published.
-
-% Darpa: http://www.darpa.mil/program/low-resource-languages-for-emergent-incidents
-% IARPA: http://www.iarpa.gov/index.php/research-programs/babel
-
-\section{Digital Permanence and Storage}
-
-Universities and institutions have short timelines and are largely dependent on specific, allocated, and thus finite funding. What other models are there for data storage? What concerns are there?
-
-\section{Choosing Repositories}
-
-Longer term plans for open source repositories; GitHub is useful currently, but it also a business, and as such its aims may not be aligned with its users. I would like to talk about building a database of open source repositories on a secure, permanent, peer-to-peer network. This is something I am actively involved in professionally (I currently work at IPFS, which is building such a network). I would like to talk about linguistic and scientific applications of using versioned, p2p, and distributed systems for storing both open source code related to low resource languages as well as language data.
-
-\section{Language Specific Needs}
-
-- Disambiguate low-resource language, minority languages, endangered languages, and sparse languages (among others) are used often synonymously, but are distinct and come along with different stakeholders and communities, which means different values, methods, and goals.
-- A review of low resource language resources and their target communities and languages, in general; a state of the field for the issue.
-- Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
-
-\subsection{Some Thoughts on NLTK}
-
-\href{NLTK (Natural Language Toolkit)}{http://nltk.org/} is an free and open source library which uses the Python language, and enables users to interface with over fifty different corpora and lexical resources. A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command `git authors` % TODO Explain
-). Some of the resources within NLTK have to do with low resource languages. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
-
-By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports.
-% TODO cite.
-One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
-
-\section{Example Use Case}
-
-I propose a study of RichardLitt/endangered-languages:
-- It's uses (specifically)
-- Current considerations in it's planning
-- reception
-  - User evaluations from other open source scientists
-- Future goals
-
-\section{Tool}
-
-Build a web-application tool for serving a decentralized data store for endangered language tools and data
-
-Example:
-
-I have already put a subset of repositories listed on endangered-languages into IPFS, a p2p resource for storing and disseminating data in a decentralized and persistent fashion.
-
-Process:
-
-1. `cat` the endangered-languages README.md, then `grep` for `/.*(//github\.com/.*?/[a-zA-Z0-9-]*).*/` (all github.com repos).
-2. Output list into separate file.
-3. `awk` the first few repos, until a random divider, and clone the git repos: `awk '1;/kuromoji-server/{exit}' ../githublist.md | xargs -n1 git clone`
-4. `ipfs add -r repos`
-5. `ipfs pin add repos`
-
-\section{Further Work}
-
-\section{Conclusion}
-
-\section{References}
-%\label{main:ref}
-%
-\bibliographystyle{./LREC2016/lrec2016}
+\input{introduction}
+\input{the_rest}
+
+% % \input{background}
+% % \input{definition}
+% % \input{composition}
+% % \input{discussion}
+% % \input{conclusion}
+
+% Used by Jonathan, may not be needed
+% \newpage
+% \appendix
+% \input{appendix}
+
+\newpage
+
+% The LREC method
+% \section{References}
+% \label{main:ref}
+% \bibliographystyle{./LREC2016/lrec2016}
+% \bibliography{references}
+
+\bibliographystyle{apalike}
 \bibliography{references}
-
-
-%\section{Language Resource References}
-%\label{lr:ref}
-%\bibliographystylelanguageresource{lrec2016}
-%\bibliographylanguageresource{references.bib}
 
 \end{document}

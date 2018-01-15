@@ -1,0 +1,260 @@
+%\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[pdftex]{graphicx}
+
+% for tikz labels with line breaks
+\usepackage{makecell}
+
+% to increase line spacing
+\usepackage{setspace}
+
+\usepackage{longtable}
+\usepackage{multicol}
+
+
+%to continue floats over several pages
+\usepackage{subcaption}
+
+% to change float numbering in appendix to A.1.1, A.1.2, but A.2.1. etc
+\usepackage{chngcntr}
+
+\usepackage{url}
+
+%increase space for list of figures and tables (and long appendix numbering)
+\usepackage{tocloft}
+\setlength{\cftfignumwidth}{2.7em}
+\setlength{\cfttabnumwidth}{2.7em}
+
+% to annotate comments with ifdraft and to switch them off at once
+\newif\ifdraft
+
+% to make clickable links?
+\usepackage[hidelinks]{hyperref}
+
+%\usepackage{transparent}%for being able to extract a tikz drawing with transparent background
+
+% to resize a table by contents, also as key for includegraphics
+\usepackage[export]{adjustbox}
+
+
+% \usepackage{minted}
+% to change the labels around the listing env (which wraps minted to be able to float)
+%\renewcommand{\listoflistingscaption}{List of Source code}
+%\renewcommand{\listingscaption}{Source code}
+
+% to be able to print special symbols in minted (e.g. SDRS/DRS boxes), causes problems with texsc
+%\usepackage{fontspec}
+%\setmonofont{FreeMono}
+
+% to switch standard computer modern to cm-super
+\usepackage[T1]{fontenc}
+
+\newtheoremstyle{thesisdef}{10pt}{10pt}{\normalfont \footnotesize}{}{\bfseries}{}{\newline}{}
+%\newtheoremstyle{stylename}{spaceabove}{spacebelow}{bodyfont}{indentamt}{headfont}{headpunct}{headspace}{headspec}
+\theoremstyle{thesisdef}
+% for the definition envirnoment
+\newtheorem{definition}{Definition}
+
+\usepackage{sepfootnotes}
+
+% for appropriate backticks and single quotes in verbatim env (minted here)
+\usepackage{upquote}
+
+% For linguistic examples
+\usepackage{linguex}
+% and suppress first dash in reference
+\renewcommand{\firstrefdash}{}
+\renewcommand{\SubExRBr}{.}
+%\renewcommand{\ExLBr}{}
+%\renewcommand{\ExRBr}{.}
+
+% to be able to put footnotes in tables
+%\usepackage{tablefootnote}
+
+%\usepackage{sdrt}
+%\usepackage{wasysym}
+%\usepackage{xytree}
+
+% used to avoid printing of bibliography at the end with \nobibliography{...}
+% \usepackage{bibentry}
+
+% Sophisticated citation.
+% Check out: http://merkel.zoneo.net/Latex/natbib.php
+\usepackage{natbib}
+
+\usepackage{caption}
+
+\usepackage{array}
+
+% A horizontal rule for the title page
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%punish widows and orphans
+\widowpenalty10000
+\clubpenalty10000
+
+% PROF PINKAL CONSTRAINTS START
+%
+%% Paragraph and indent (as required by Prof. Dr. Pinkal)
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+%
+%% Zeilenabstand 1.25 %
+%\linespread{1.2}
+%
+%% Adjust margin of paper. -> needed for pinkal?
+\usepackage[footskip=1in]{geometry}
+%\geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=25mm}
+\geometry{a4paper}
+% PROF PINKAL CONSTRAINTS END
+
+%OWN COMMANDS START
+\newcommand{\drt}{\textsc{drt}}
+\newcommand{\sdrt}{\textsc{sdrt}}
+\newcommand{\pdrt}{\textsc{pdrt}}
+\newcommand{\drs}{\textsc{drs}}
+\newcommand{\sdrs}{\textsc{sdrs}}
+\newcommand{\sdrsf}{\textsc{sdrs}-formula}
+\newcommand{\pdrs}{\textsc{pdrs}}
+\newcommand{\du}{\textsc{du}}
+\newcommand{\edu}{\textsc{edu}}
+\newcommand{\cdu}{\textsc{cdu}}
+\newcommand{\rfc}{\textsc{rfc}}
+\newcommand{\nlp}{\textsc{nlp}}
+\newcommand{\fol}{\textsc{fol}}
+\newcommand{\pdtb}{\textsc{pdtb}}
+\newcommand{\rst}{\textsc{rst}}
+\newcommand{\dltag}{\textsc{d-ltag}}
+\newcommand{\pdrts}{\textsc{pdrt-sandbox}}
+\newcommand{\sdrts}{\textsc{sdrt-sandbox}}
+\newcommand{\setf}{\ensuremath{\mathcal{F}}}
+\newcommand{\seta}{\ensuremath{A}}
+% suppress hyphenation for haskell words
+\let\temptt\texttt
+\renewcommand\texttt[1]{\mbox{\temptt{#1}}}
+\newcommand{\has}[1]{\texttt{#1}}
+\newcommand{\al}{\smaller{AL03}}
+
+\newcommand{\rar}{\ensuremath{\rightarrow}}
+\newcommand{\Rar}{\ensuremath{\Rightarrow}}
+\newcommand{\lar}{\ensuremath{\leftarrow}}
+\newcommand{\Lar}{\ensuremath{\Leftarrow}}
+%%%%%% adapted from sdrt.sty
+
+
+% to switch between pi notation and simple number notation
+% with pi:
+\newcommand{\pie}[2][]{\ensuremath{\pi#1_{#2}}}
+\newcommand{\pione}{\ensuremath{\pie{1}}}
+\newcommand{\pitwo}{\ensuremath{\pie{2}}}
+\newcommand{\pithree}{\ensuremath{\pie{3}}}
+\newcommand{\pifour}{\ensuremath{\pie{4}}}
+\newcommand{\pifive}{\ensuremath{\pie{5}}}
+\newcommand{\pisix}{\ensuremath{\pie{6}}}
+\newcommand{\piseven}{\ensuremath{\pie{7}}}
+\newcommand{\pieight}{\ensuremath{\pie{8}}}
+\newcommand{\pinine}{\ensuremath{\pie{9}}}
+\newcommand{\pizero}{\ensuremath{\pie{0}}}
+\newcommand{\pifirst}{\ensuremath{\pie[']{}}}
+\newcommand{\pisecond}{\ensuremath{\pie['']{}}}
+\newcommand{\pithird}{\ensuremath{\pie[''']{}}}
+\newcommand{\pifourth}{\ensuremath{\pie['''']{}}}
+
+% without pi:
+%\newcommand{\pione}{1}
+%\newcommand{\pitwo}{2}
+%\newcommand{\pithree}{3}
+%\newcommand{\pifour}{4}
+%\newcommand{\pifive}{5}
+%\newcommand{\pisix}{6}
+%\newcommand{\piseven}{7}
+%\newcommand{\pieight}{8}
+%\newcommand{\pinine}{9}
+%\newcommand{\pizero}{0}
+
+%%%%%% until here from sdrt.sty
+
+\newcommand{\la}{\ensuremath{\lambda}}
+
+	% modular references
+\newcommand{\eref}[2][]{Example~\ref{ex:#2}#1} %examples
+%\newcommand{\aref}[3][]{(\ref{ex:#2}#1#3)} %examples
+\newcommand{\cref}[1]{Chapter~\ref{chapter:#1}} % chapters
+\newcommand{\dref}[1]{Definition~\ref{def:#1}} % definitions
+\newcommand{\tref}[1]{Table~\ref{table:#1}} % tables
+\newcommand{\fref}[1]{Figure~\ref{fig:#1}} % figures
+\newcommand{\sref}[1]{Sec.~\ref{sec:#1}} %sections
+\newcommand{\commentfn}[2]{\footnote{\textbf{#1}: #2}}
+\newcommand{\jpfn}[1]{\commentfn{Jonathan}{#1}}
+
+% to scale small caps such that numbers are also small (seems not to work with textsc
+\usepackage{scalefnt}
+\newcommand{\smaller}[2][0.85]{{\scalefont{#1}#2}}
+\newcommand{\bigger}[2][1.15]{{\scalefont{#1}#2}}
+
+% there are issues with fontsize when boxdrs is used for modeling an embedded box. thus, the outermost box (irr. of beign sdrs or drs) should use boxdrsglob (in order to set the fontsize back to normal after the box), and the local boxes should use boxdrs
+\newcommand{\boxdrsglob}[2]
+{\footnotesize\begin{tabular}{c}
+		\noalign{\smallskip}
+		\begin{tabular}{ | l | }
+			\hline #1\\ \hline #2\\ \hline
+		\end{tabular}
+		\smallskip
+	\end{tabular}
+	\normalsize}
+
+\newcommand{\boxdrs}[2]
+{\footnotesize\begin{tabular}{c}
+		\noalign{\smallskip}
+		\begin{tabular}{ | l | }
+			\hline #1\\ \hline #2\\ \hline
+		\end{tabular}
+		\smallskip
+	\end{tabular}}
+
+%\newcommand{\boxdrsaux}[2]
+%{\footnotesize\begin{tabular}{c}
+%    \noalign{\smallskip}
+%    \begin{tabular}{ : l : }
+%      \hdashline #1\\ \hdashline #2\\ \hdashline
+%    \end{tabular}
+%    \smallskip
+%  \end{tabular}
+%  \normalsize}
+
+\newcommand{\flatdrs}[2]
+{
+	\hspace{-8pt}
+	\begin{tabular}[t]{l}
+		[#1~$|$~#2]
+	\end{tabular}\hspace{-8pt}
+}
+
+%line break in tabular cell
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[c]{@{}#1@{}}#2\end{tabular}}
+%OWN COMMANDS END
+
+% to be able to place figures at place of creation
+\usepackage{here}
+
+%to specify desired hyphenation
+\hyphenation{sdrs-formula}
+\hyphenation{sdrs-formulae}
+
+% dashed hline in tabular, ADD LAST, CONFLICT WITH OTHER THINGS
+%\usepackage{arydshln}
+
+\def\signed #1 (#2){{\unskip\nobreak\hfil\penalty50
+    \hskip2em\hbox{}\nobreak\hfil\sl#1\/ \rm(#2)
+    \parfillskip=0pt \finalhyphendemerits=0 \par}}
+\usepackage{multibib, url, hyperref}
+\newcites{languageresource}{Language Resources}
+\usepackage{graphicx}
+% \usepackage{casyl} for syllabics
+% for eps graphics
+
+\newcommand{\thedate}{\today}

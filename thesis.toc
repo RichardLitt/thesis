@@ -1,28 +1,27 @@
-\contentsline {section}{\numberline {1.}Introduction}{1}{section.1}
-\contentsline {subsubsection}{\numberline {1.0.1.}The current state of language divesity}{1}{subsubsection.1.0.1}
-\contentsline {subsubsection}{\numberline {1.0.2.}Digital presence}{1}{subsubsection.1.0.2}
-\contentsline {subsubsection}{\numberline {1.0.3.}Interested parties for smaller languages}{2}{subsubsection.1.0.3}
-\contentsline {subsubsection}{\numberline {1.0.4.}Language research funding}{2}{subsubsection.1.0.4}
-\contentsline {subsubsection}{\numberline {1.0.5.}Open source as a solution}{2}{subsubsection.1.0.5}
-\contentsline {subsubsection}{\numberline {1.0.6.}Current Open Source resources}{2}{subsubsection.1.0.6}
-\contentsline {section}{\numberline {2.}Language Case Studies}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1.}Metrics}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2.}Scottish Gaelic}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3.}Naskapi}{3}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1.}Language Background}{3}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2.}Literacy Developments}{3}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3.}Computational Tools}{4}{subsubsection.2.3.3}
-\contentsline {section}{\numberline {3.}Open Source Code}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1.}Defining {\it Open Source}}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2.}Open Source}{5}{subsection.3.2}
-\contentsline {section}{\numberline {4.}Data and privacy}{5}{section.4}
-\contentsline {section}{\numberline {5.}Funding}{5}{section.5}
-\contentsline {section}{\numberline {6.}Digital Permanence and Storage}{6}{section.6}
-\contentsline {section}{\numberline {7.}Choosing Repositories}{6}{section.7}
-\contentsline {section}{\numberline {8.}Language Specific Needs}{6}{section.8}
-\contentsline {subsection}{\numberline {8.1.}Some Thoughts on NLTK}{6}{subsection.8.1}
-\contentsline {section}{\numberline {9.}Example Use Case}{6}{section.9}
-\contentsline {section}{\numberline {10.}Tool}{6}{section.10}
-\contentsline {section}{\numberline {11.}Further Work}{6}{section.11}
-\contentsline {section}{\numberline {12.}Conclusion}{6}{section.12}
-\contentsline {section}{\numberline {13.}References}{6}{section.13}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsubsection}{\numberline {1.0.1}The current state of language divesity}{2}{subsubsection.1.0.1}
+\contentsline {subsubsection}{\numberline {1.0.2}Digital presence}{2}{subsubsection.1.0.2}
+\contentsline {subsubsection}{\numberline {1.0.3}Interested parties for smaller languages}{3}{subsubsection.1.0.3}
+\contentsline {subsubsection}{\numberline {1.0.4}Language research funding}{4}{subsubsection.1.0.4}
+\contentsline {subsubsection}{\numberline {1.0.5}Open source as a solution}{4}{subsubsection.1.0.5}
+\contentsline {subsubsection}{\numberline {1.0.6}Current Open Source resources}{4}{subsubsection.1.0.6}
+\contentsline {section}{\numberline {2}Language Case Studies}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Metrics}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Scottish Gaelic}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Naskapi}{6}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Language Background}{6}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Literacy Developments}{6}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Computational Tools}{8}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Open Source Code}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Open Source}{11}{subsection.3.2}
+\contentsline {section}{\numberline {4}Data and privacy}{12}{section.4}
+\contentsline {section}{\numberline {5}Funding}{12}{section.5}
+\contentsline {section}{\numberline {6}Digital Permanence and Storage}{12}{section.6}
+\contentsline {section}{\numberline {7}Choosing Repositories}{12}{section.7}
+\contentsline {section}{\numberline {8}Language Specific Needs}{13}{section.8}
+\contentsline {subsection}{\numberline {8.1}Some Thoughts on NLTK}{13}{subsection.8.1}
+\contentsline {section}{\numberline {9}Example Use Case}{13}{section.9}
+\contentsline {section}{\numberline {10}Tool}{14}{section.10}
+\contentsline {section}{\numberline {11}Further Work}{14}{section.11}
+\contentsline {section}{\numberline {12}Conclusion}{14}{section.12}
