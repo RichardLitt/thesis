@@ -1,27 +1,36 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {subsubsection}{\numberline {1.0.1}The current state of language divesity}{2}{subsubsection.1.0.1}
-\contentsline {subsubsection}{\numberline {1.0.2}Digital presence}{2}{subsubsection.1.0.2}
-\contentsline {subsubsection}{\numberline {1.0.3}Interested parties for smaller languages}{3}{subsubsection.1.0.3}
-\contentsline {subsubsection}{\numberline {1.0.4}Language research funding}{4}{subsubsection.1.0.4}
-\contentsline {subsubsection}{\numberline {1.0.5}Open source as a solution}{4}{subsubsection.1.0.5}
-\contentsline {subsubsection}{\numberline {1.0.6}Current Open Source resources}{4}{subsubsection.1.0.6}
-\contentsline {section}{\numberline {2}Language Case Studies}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Metrics}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Scottish Gaelic}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Naskapi}{6}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Language Background}{6}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Literacy Developments}{6}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}Computational Tools}{8}{subsubsection.2.3.3}
-\contentsline {section}{\numberline {3}Open Source Code}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Open Source}{11}{subsection.3.2}
-\contentsline {section}{\numberline {4}Data and privacy}{12}{section.4}
-\contentsline {section}{\numberline {5}Funding}{12}{section.5}
-\contentsline {section}{\numberline {6}Digital Permanence and Storage}{12}{section.6}
-\contentsline {section}{\numberline {7}Choosing Repositories}{12}{section.7}
-\contentsline {section}{\numberline {8}Language Specific Needs}{13}{section.8}
-\contentsline {subsection}{\numberline {8.1}Some Thoughts on NLTK}{13}{subsection.8.1}
-\contentsline {section}{\numberline {9}Example Use Case}{13}{section.9}
-\contentsline {section}{\numberline {10}Tool}{14}{section.10}
-\contentsline {section}{\numberline {11}Further Work}{14}{section.11}
-\contentsline {section}{\numberline {12}Conclusion}{14}{section.12}
+\contentsline {section}{\numberline {2}The State of endangered languages}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Definining Endangered Languages}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}What are computational resources}{3}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}The current state of language divesity}{3}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Digital presence}{3}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Interested parties for smaller languages}{4}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Language research funding}{5}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Open source as a solution}{5}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}Current Open Source resources}{5}{subsubsection.2.2.6}
+\contentsline {subsection}{\numberline {2.3}Metrics}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Open Source Code}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Digital Permanence and Storage}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Choosing Repositories}{9}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Data and privacy}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Liability}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Funding}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Military and enterprise solutions}{10}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Ethical reasons for using open source}{10}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Open Source}{10}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Language Specific Needs}{11}{subsection.3.9}
+\contentsline {section}{\numberline {4}Open Source Code for Endangered Languages}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}BLARK}{12}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}NLTK and other larger libraries}{12}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Other resources}{12}{subsection.4.3}
+\contentsline {section}{\numberline {5}A Database for Open Source Code}{12}{section.5}
+\contentsline {section}{\numberline {6}Case Studies}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{13}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Language Background}{13}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Literacy Developments}{14}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Computational Tools}{15}{subsubsection.6.2.3}
+\contentsline {section}{\numberline {7}Future Work}{17}{section.7}
+\contentsline {subsection}{\numberline {7.1}Storage on a p2p network}{17}{subsection.7.1}
+\contentsline {section}{\numberline {8}Conclusion}{17}{section.8}

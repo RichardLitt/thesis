@@ -1,0 +1,145 @@
+\section{Open Source Code}\label{sec:open-source}
+
+\subsection{Defining {\it Open Source}}
+
+{\it Open Source} is a complex term which refers to any code, not just code related to computational linguistics. At its core, {\it open source} refers to code which has a license which allows it to be available to freely inspect, use, or modify by anyone. It was introduced in 1998 by some programmers, in response to the Netscape browser's code being openly licensed and made available. {\it Open source} is one of many terms which can be used to differentiate code which is either available or licensed permissively for re-use; other terms include {\it free software} and {\it libre software}, or the combination, {\it FLOSS} (free and and libre open source software). There is no standard definition of open source that is universally accepted.
+
+Nor will universal acceptance be forthcoming. The issue regarding reconciliation between open source, free software, and the rest of the terms stems largely from a difference of opinion between what constitutes open software. For some adherents, software itself ought to be free, as it is a result of human labour and because it is maximally helpful for others to never have to code that again. This idea contains within it the seed of the digital commons: like the commons in philosophical and economic literature, code can be viewed as a resource that belongs to humanity as a whole, and not the creators who initially fashioned it. In this sense, open source is a more of a philosophical theme than a technical term.
+
+\begin{quote}
+Open source is a development methodology; free software is a social movement. For the free software movement, free software is an ethical imperative, essential respect for the users' freedom. By contrast, the philosophy of open source considers issues in terms of how to make software  "better" - in a practical sense only. It says that nonfree software is an inferior solution to the practical problem at hand.
+\signed Richard Stallman (Founder of GNU\/Linux)\footnote{\href{https://www.gnu.org/philosophy/open-source-misses-the-point.html}{https://www.gnu.org/philosophy/open-source-misses-the-point.html}}
+\end{quote}
+
+Before continuing, a quick word on licenses. Licenses determine the legal rights to sharing code. A piece of code which is taken from a proprietary server and published on the internet is not necessarily open source. In this instance, the code may have been illegally copied and shared, but it is not licensed for free usage. Under no definitions is this considered open source. Indeed, this touches upon issues of digital copytheft and "piracy", which is a standard term used frequently in the media and in legal proceedings to attach a sense that copying code is the same as larceny or theft on the high seas. Avoiding the question of the validity of this viewpoint, it is important to focus on the license as the differentiating factor between code which has been released legally under an "open" definition or not.
+
+There are many licenses which are considered to be open source, and there are several arbiters available which judge the validity of open source licensing. The Open Source Initiative maintains a list of approved licenses on their website: \href{https://opensource.org/licenses}{https://opensource.org/licenses}.
+
+Open source, on the other hand, under most definitions, does pertain to ethical concerns about the software's usage, but rather simply refers to whether or not it is permissively licensed and available for users.
+
+
+The Open Source Institute, which originally coined the term {\it open source}, has several parameters by which open source software can be judge as being 'open' or 'closed' (that is, proprietary, non-permissively licensed, non-reusable, limited in usage to a set amount of people, and so on). It may be useful to list these terms directly below, as they are instructive about how open source can be a nuanced term. These terms are from the OSI's website \footnote{\href{https://opensource.org/osd}{https://opensource.org/osd}}.
+
+\begin{enumerate}
+
+\item{Free Redistribution}. The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
+
+\item{Source Code}. The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
+
+\item{Derived Works}. The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
+
+\item{Integrity of The Author's Source Code}.
+  The license may restrict source-code from being distributed in modified form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.
+
+\item{No Discrimination Against Persons or Groups}.
+  The license must not discriminate against any person or group of persons.
+
+\item{No Discrimination Against Fields of Endeavor}.
+  The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
+
+\item{Distribution of License}.
+  The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
+
+\item{License Must Not Be Specific to a Product}.
+  The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.
+
+\item{License Must Not Restrict Other Software}.
+  The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.
+
+\item{License Must Be Technology-Neutral}.
+  No provision of the license may be predicated on any individual technology or style of interface.
+\end{enumerate}
+
+
+\subsection{Where is open source code?}
+
+Case study on GitHub, SourceForge, some archival sites (UPenn, Max Planck, DFKI)
+
+\subsection{Digital Permanence and Storage}
+
+Universities and institutions have short timelines and are largely dependent on specific, allocated, and thus finite funding. What other models are there for data storage? What concerns are there?
+
+\subsubsection{Choosing Repositories}
+
+Longer term plans for open source repositories; GitHub is useful currently, but it also a business, and as such its aims may not be aligned with its users. I would like to talk about building a database of open source repositories on a secure, permanent, peer-to-peer network. This is something I am actively involved in professionally (I currently work at IPFS, which is building such a network). I would like to talk about linguistic and scientific applications of using versioned, p2p, and distributed systems for storing both open source code related to low resource languages as well as language data.
+
+\subsection{Data and privacy}
+
+Whether it makes sense to decouple code from data, especially in cases of low resource languages, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
+
+% From Chiarcos:
+
+% a few years back, I compiled a massive corpus of Bibles and related texts
+%in a CES-conformant XML format (following Resnik 1996), some also with
+%annotations. For the most part, distributing this corpus would be illegal
+%under European copyright law (and that's why you haven't heard about it),
+%but I realized that there are circumstances which could allow
+%dissemination of a great part of it under an academic license.
+
+% Compiling and distributing a web corpus is basically illegal in Europe
+%unless explicitly permitted by an accompanying license. However, US law
+%has the concept of fair use, and if a data provider declares US
+%legislation to apply (e.g., that "[t]hese Terms and Conditions ... are
+%governed by the laws of the State of New York"), we Europeans can rely on
+%the principle of fair use, as well.
+%
+%% According to 17 U.S.C. § 107, "the fair use of a copyrighted work,
+%including such use by reproduction in copies or phonorecords or by any
+%other means specified by that section, for purposes such as criticism,
+%comment, news reporting, teaching (including multiple copies for classroom
+%use), scholarship, or research, is not an infringement of copyright." The
+%intended use is for NLP research, DH scholarship and classroom use, so
+%that would probably not an issue -- and in fact, there is no financial
+%damage whatsoever as this data is freely and redundantly available from
+%the web.
+%
+%% However, am I allowed to distribute this corpus with an explicit license
+%statement? I think CC-BY-NC should protect the intellectual and commercial
+%interests of the creator of the electronic edition and be roughly in the
+%spirit of an academic license, but of course, I'm not the actual owner of
+%the data, but only responsible for its transformation and annotation. I am
+%wondering about the consequences if someone eventually creates an NLP tool
+%chain from this data and uses any models trained on the data in a
+%commercial application. As the original copyright extends to derived
+%works, this would be a clear violation of my license statement, of course,
+%but I would be responsible as I redistributed the data and by transforming
+%it from messy HTML to proper markup, I actually enabled this violation.
+
+
+\subsection{Legal rights}
+
+\subsection{Liability}
+\subsection{Funding}
+
+IARPA and DARPA both are involved with low resource languages and both of them may have their own institutional values that are probably at ends with independent researchers, commercial consumers, and language communities. Does working on sparse data openly bring along with it ethical or moral concerns; if so, how can these be adequately explained, breached, and talked about? How can they be worked around or be part of the conversation? Note that DARPA and the like also use humanitarian reasons as their primary stated aim for work on sparse languages, which may be contrary to their military needs. There is already an extensive literature on moral uses of data -- I could summarize that, and apply it specifically to low resource languages, which is something I do not think has yet been published.
+
+% Darpa: http://www.darpa.mil/program/low-resource-languages-for-emergent-incidents
+% IARPA: http://www.iarpa.gov/index.php/research-programs/babel
+
+% - Institutional bottleneck
+% - Linguistic colonialism
+% - Ethical and moral concerns for military usage
+% - Ethical and moral concerns for big business usage
+
+
+\subsection{Military and enterprise solutions}
+\subsection{Ethical reasons for using open source}
+
+
+\subsection{Open Source}
+
+What it is, the history of it in Computational Linguistics and elsewhere, and various incentive models for using open source methods
+
+% Other stuff
+Not all research that is code based can be easily quantified as open source. For instance, [Afranaph](http://www.africananaphora.rutgers.edu/home-mainmenu-1) is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, [TransNewGuinea](http://transnewguinea.org/about) has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite.
+
+Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
+
+- Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
+
+
+\subsection{Language Specific Needs}
+
+- Disambiguate low-resource language, minority languages, endangered languages, and sparse languages (among others) are used often synonymously, but are distinct and come along with different stakeholders and communities, which means different values, methods, and goals.
+- A review of low resource language resources and their target communities and languages, in general; a state of the field for the issue.
+- Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
