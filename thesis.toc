@@ -11,19 +11,22 @@
 \contentsline {subsection}{\numberline {2.3}Metrics}{5}{subsection.2.3}
 \contentsline {section}{\numberline {3}Open Source Code}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Digital Permanence and Storage}{9}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Choosing Repositories}{9}{subsubsection.3.2.1}
-\contentsline {subsection}{\numberline {3.3}Data and privacy}{10}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Liability}{10}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Funding}{10}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Military and enterprise solutions}{10}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Ethical reasons for using open source}{10}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Open Source}{10}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Language Specific Needs}{11}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.2}Where is open source code?}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Digital Permanence and Storage}{9}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Choosing Repositories}{9}{subsubsection.3.3.1}
+\contentsline {subsection}{\numberline {3.4}Data and privacy}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Legal rights}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Liability}{10}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Funding}{10}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Military and enterprise solutions}{11}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Ethical reasons for using open source}{11}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Open Source}{11}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}Language Specific Needs}{11}{subsection.3.11}
 \contentsline {section}{\numberline {4}Open Source Code for Endangered Languages}{12}{section.4}
 \contentsline {subsection}{\numberline {4.1}BLARK}{12}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}NLTK and other larger libraries}{12}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Other resources}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Why isn't more code open?}{12}{subsection.4.4}
 \contentsline {section}{\numberline {5}A Database for Open Source Code}{12}{section.5}
 \contentsline {section}{\numberline {6}Case Studies}{13}{section.6}
 \contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{13}{subsection.6.1}
