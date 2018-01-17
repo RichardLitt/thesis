@@ -1,43 +1,66 @@
-\section{Open Source Code for Endangered Languages}\label{sec:endlangcode}
+\section{Open Source Code for Low Resource Languages}\label{sec:endlangcode}
 % Open Source code for endangered languages
-\subsection{BLARK}
-\subsection{NLTK and other larger libraries}
 
-\href{NLTK (Natural Language Toolkit)}{http://nltk.org/} is an free and open source library which uses the Python language, and enables users to interface with over fifty different corpora and lexical resources. A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command `git authors` % TODO Explain
-). Some of the resources within NLTK have to do with low resource languages. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
+In this section, I'll move on to the real meat of this thesis; how is open source code used for computational linguistics, and specifically for LRLs.
 
-By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports.
-% TODO cite.
-One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
+\subsection{BLARK and beyond}
 
-\subsection{Other resources}
+First, I am going to talk about BLARK - the Basic LAnguage Resource Kit proposed by \citet{krauwer2003basic} - and what a language needs digitally as a base layer to digitally ascend. I haven't talked specifically about how computational linguistics addresses low resource languages yet - the preceding sections have largely been showing the state of the field and what open source is. We'll get to open source eventually, but here I want to cover the tools needed for a language.
 
-\subsection{Why isn't more code open?}
+I'll then mention tools here that can be used after a language has some digital presence - basically, what makes an LRL a resourced language.
 
-- Longevity of linguistic scholarship and work
+\subsection{NLTK and other open source libraries}
 
-\section{A Database for Open Source Code}\label{sec:solutions}
+Here, I'll explain some open source resources that can be used to bootstrap development; for instance, \href{NLTK (Natural Language Toolkit)}{http://nltk.org/}, a free and open source library which uses the Python language by \citet{bird2006nltk}, and enables users to interface with over fifty different corpora and lexical resources.
 
-I propose a study of RichardLitt/endangered-languages:
-- It's uses (specifically)
-- Current considerations in it's planning
-- reception
-  - User evaluations from other open source scientists
-- Future goals
+% A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command `git authors` % TODO Explain
+% ). Some of the resources within NLTK have to do with low resource languages. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
+
+% By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports.
+% % TODO cite.
+% One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
+
+% \subsection{Other resources}
+
+% % Other stuff
+% Not all research that is code based can be easily quantified as open source. For instance, [Afranaph](http://www.africananaphora.rutgers.edu/home-mainmenu-1) is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, [TransNewGuinea](http://transnewguinea.org/about) has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite.
+%
+% Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
+%
+% - Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
+
+% - Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
+
+\subsection{A Database for Open Source Code}\label{sec:solutions}
+
+Here, I'll talk about a database of open source code. Specifically, I'll mention my own work building \href{https://github.com/RichardLitt/endangered-languages}{https://github.com/RichardLitt/endangered-languages}, described first in \citet{CCURL}, and what it contains and who has worked on it with me. I'll cover the main tools, what kind of tools were included, and why I built the database on GitHub in this way.
+
+I'll also include diagnostics on how it has been used and how the tools it mentions have been used - what percentage have been downloaded, and so on.
+
+\subsection{Linked Data}
+
+Here, I'll briefly talk about related efforts with the Open Linguistics Working Group's \citep{chiarcos2012open} work on open source data reflected on the semantic web.\citep{chiarcos2013building}
 
 
-- Case study using endangered-languages repository
-  - Clean up resource
-    - Add all listed resources in issues
-    - Contact and create the LSA CELP Technology Subcommittee
-    - Clone all SourceForge repositories
-    - Rename to low-resource-languages
-    - "List quality"
-    - "the pages and subpages are often dead"
-  - Get diagnostics on the state of the links I've found:
-    - What percentage have been updated when
-    - Downloaded, etc.
-  - Review Excel results
+% - Its uses (specifically)
+% - Current considerations in its planning
+% - reception
+%   - User evaluations from other open source scientists
+% - Future goals
+
+%
+% - Case study using endangered-languages repository
+%   - Clean up resource
+%     - Add all listed resources in issues
+%     - Contact and create the LSA CELP Technology Subcommittee
+%     - Clone all SourceForge repositories
+%     - Rename to low-resource-languages
+%     - "List quality"
+%     - "the pages and subpages are often dead"
+%   - Get diagnostics on the state of the links I've found:
+%     - What percentage have been updated when
+%     - Downloaded, etc.
+%   - Review Excel results
 
 % Other resources
 % http://www.elda.org/en/catalogues/language-resources-announcements/
