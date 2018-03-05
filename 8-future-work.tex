@@ -1,0 +1,36 @@
+\section{Future Work}\label{sec:future-work}
+
+Here, I'll talk about where to go next.
+
+\subsection{Beyond Wikipedia and Ethnologue}
+
+I'll talk about the shortcomings of both Wikipedia as a service, and Ethnologue as a provider of language data. Specifically, I want to draw attention to how Wikipedia treats its long-term contributors, and how Ethnologue charges exorbitant fees for using its data, and what we can do to improve this.
+
+% \subsection{An Open Data Repository}
+
+% I'll spec out the plans for an open data repository that could be used to share data.
+
+% - Peer-to-peer solution for sharing code
+%   - Stub out example
+%   - Build a web searcher for automatically getting and sharing code
+%     Further Work:
+%   - Open source data repositories (touch on)
+%   - Working with Ethnologue
+
+
+% \subsection{Storage on a p2p network}
+%
+% Build a web-application tool for serving a decentralized data store for endangered language tools and data
+%
+% Example:
+%
+% I have already put a subset of repositories listed on endangered-languages into IPFS, a p2p resource for storing and disseminating data in a decentralized and persistent fashion.
+%
+% Process:
+%
+% 1. `cat` the endangered-languages README.md, then `grep` for `/.*(//github\.com/.*?/[a-zA-Z0-9-]*).*/` (all github.com repos).
+% 2. Output list into separate file.
+% 3. `awk` the first few repos, until a random divider, and clone the git repos: `awk '1;/kuromoji-server/{exit}' ../githublist.md | xargs -n1 git clone`
+% 4. `ipfs add -r repos`
+% 5. `ipfs pin add repos`
+
