@@ -25,13 +25,13 @@
 
 > Storage uses a hierarchical file structure and plain text metadata formats which can be easily accessed directly using command-line tools. Files are shared using FTP. Transcripts are stored using the plain text NIST HUB-4 transcription format and can be exported in Elan format.
 
-> Aikuma incorporates a webserver and clients can connect using the phone’s WiFi, Bluetooth, or USB interfaces. The app provides a browser-based transcription tool that displays the waveform for a recording along with the spoken annotations.
+> Aikuma incorporates a webserver and clients can connect using the phone's WiFi, Bluetooth, or USB interfaces. The app provides a browser-based transcription tool that displays the waveform for a recording along with the spoken annotations.
 
 ### Too much data
 
 > some have argued that it is not effective to collect large quantities of primary recordings because there is not the time to transcribe it.
 
-- [ ] Read E.g. Paul Newman’s 2013 seminar The Law of Un- intended Consequences: How the Endangered Languages Movement Undermines Field Linguistics as a Scientific Enterprise, https://www.youtube.com/watch?v= xziE08ozQok
+- [ ] Read E.g. Paul Newman's 2013 seminar The Law of Un- intended Consequences: How the Endangered Languages Movement Undermines Field Linguistics as a Scientific Enterprise, https://www.youtube.com/watch?v= xziE08ozQok
 
 ## Notes
 
