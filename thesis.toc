@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2}Low Resource Languages: An Overview}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Definitions}{4}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Endangered, revitalised, and extinct languages}{4}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Official, de facto, de jure, majority, and minority languages}{8}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2}Official, \textit {de facto}, \textit {de jure}, majority, and minority languages}{8}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Low resource, under resourced and incident languages}{9}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Computational languages}{9}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Metrics}{9}{subsection.2.4}
