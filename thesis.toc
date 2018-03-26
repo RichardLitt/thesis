@@ -5,39 +5,40 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Endangered, revitalised, and extinct languages}{4}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Official, \textit {de facto}, \textit {de jure}, majority, and minority languages}{8}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Low resource, under resourced and incident languages}{9}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Computational languages}{9}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Metrics}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Digital presence}{10}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}The current state of language diversity}{10}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Who makes resources for LRLs?}{10}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Language research funding}{10}{subsection.2.8}
-\contentsline {section}{\numberline {3}Open Source Code}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Where is open source code?}{13}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Digital Permanence and Storage}{14}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Data and privacy}{14}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Legal rights and liability}{14}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Military and enterprise solutions}{14}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Funding}{14}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Ethical reasons for using open source}{15}{subsection.3.8}
-\contentsline {section}{\numberline {4}Open Source Code for Low Resource Languages}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}BLARK and beyond}{16}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}NLTK and other open source libraries}{16}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}A Database for Open Source Code}{16}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Linked Data}{16}{subsection.4.4}
-\contentsline {section}{\numberline {5}Case Studies}{17}{section.5}
-\contentsline {subsection}{\numberline {5.1}Scottish Gaelic}{17}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Naskapi}{17}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Literacy Developments}{18}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Computational Tools}{19}{subsubsection.5.2.2}
-\contentsline {section}{\numberline {6}Methods}{21}{section.6}
-\contentsline {subsection}{\numberline {6.1}Choosing a license}{21}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Choosing repositories}{21}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Sharing code without a platform}{21}{subsection.6.3}
-\contentsline {section}{\numberline {7}Discussion}{22}{section.7}
-\contentsline {subsection}{\numberline {7.1}Why isn't more code open?}{22}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}How does open source demonstrably help?}{22}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Deep ecology and biocultural sustainability}{22}{subsection.7.3}
-\contentsline {section}{\numberline {8}Future Work}{23}{section.8}
-\contentsline {subsection}{\numberline {8.1}Beyond Wikipedia and Ethnologue}{23}{subsection.8.1}
-\contentsline {section}{\numberline {9}Conclusion}{24}{section.9}
+\contentsline {subsection}{\numberline {2.3}Computational languages}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Metrics}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Digital presence}{11}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}The current state of language diversity}{11}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Who makes resources for LRLs?}{11}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Language research funding}{11}{subsection.2.8}
+\contentsline {section}{\numberline {3}Open Source Code}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Where is open source code?}{14}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Digital Permanence and Storage}{15}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Data and privacy}{15}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Legal rights and liability}{15}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Military and enterprise solutions}{15}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Funding}{15}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Ethical reasons for using open source}{16}{subsection.3.8}
+\contentsline {section}{\numberline {4}Open Source Code for Low Resource Languages}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}BLARK and beyond}{17}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}NLTK and other open source libraries}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Data permanence and interoperability}{17}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}A Database for Open Source Code}{17}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Linked Data}{18}{subsection.4.5}
+\contentsline {section}{\numberline {5}Case Studies}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Scottish Gaelic}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Naskapi}{19}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Literacy Developments}{20}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Computational Tools}{21}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Methods}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Choosing a license}{23}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Choosing repositories}{23}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Sharing code without a platform}{23}{subsection.6.3}
+\contentsline {section}{\numberline {7}Discussion}{24}{section.7}
+\contentsline {subsection}{\numberline {7.1}Why isn't more code open?}{24}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}How does open source demonstrably help?}{24}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Deep ecology and biocultural sustainability}{24}{subsection.7.3}
+\contentsline {section}{\numberline {8}Future Work}{25}{section.8}
+\contentsline {subsection}{\numberline {8.1}Beyond Wikipedia and Ethnologue}{25}{subsection.8.1}
+\contentsline {section}{\numberline {9}Conclusion}{26}{section.9}
