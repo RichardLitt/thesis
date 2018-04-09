@@ -13,8 +13,8 @@
 \contentsline {subsubsection}{\numberline {2.2.4}The Language Endangerment Index (LEI)}{17}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}A response to qualitative metrics}{18}{subsubsection.2.2.5}
 \contentsline {subsection}{\numberline {2.3}Digital presence}{20}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}The current state of language diversity}{20}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Who makes resources for LRLs?}{20}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.4}The current state of language diversity}{21}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Who makes resources for LRLs?}{21}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Language research funding}{21}{subsection.2.6}
 \contentsline {section}{\numberline {3}Open Source Code}{22}{section.3}
 \contentsline {subsection}{\numberline {3.1}Defining {\it Open Source}}{22}{subsection.3.1}
