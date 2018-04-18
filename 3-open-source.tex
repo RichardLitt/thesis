@@ -1,61 +1,67 @@
 % !TEX root = thesis.tex
 \section{Open Source Code}\label{sec:open-source}
 
-Changing tack, here I will talk about what \emph{open source} means. This is important - otherwise, this thesis is just a rehash of current existing computational work on LRLs.
+% Changing tack, here I will talk about what \emph{open source} means. This is important - otherwise, this thesis is just a rehash of current existing computational work on LRLs.
 
 \subsection{Defining {\it Open Source}}
 
-{\it Open Source} is a complex term which refers to any code, not just code related to computational linguistics.
+{\it Open Source} is a complex term which refers to any code, not just code related to computational linguistics. Here, I'll define what I mean by Open Source. This will largely inform the next section where I talk about its use for low resource languages.
 
-Here, I'll define what I mean by Open Source. This will largely inform the next section where I talk about its use for LRLs.
+At its core, {\it open source} refers to code which has a license which allows it to be available to freely inspect, use, or modify by anyone. It was introduced in 1998 by Linux programmers such as Eric Raymond, author of {\it The Cathedral and the Bazaar}\footnote{\href{http://www.catb.org/~esr/writings/cathedral-bazaar}{http://www.catb.org/~esr/writings/cathedral-bazaar}}\citep{raymond1999cathedral}; Linus Torvalds, author of the Linux kernel\footnote{\href{https://www.kernel.org/}{https://www.kernel.org/}} and Git\footnote{\href{https://git-scm.com/}{https://git-scm.com/}}; Richard Stallman, founder of the GNU project\footnote{\href{https://www.gnu.org/}{https://www.gnu.org/}} and the Free Software Foundation\footnote{\href{https://www.fsf.org/}{https://www.fsf.org/}}; and others in response to the Netscape browser's code being openly licensed and made available.
 
-At its core, {\it open source} refers to code which has a license which allows it to be available to freely inspect, use, or modify by anyone. It was introduced in 1998 by some programmers, in response to the Netscape browser's code being openly licensed and made available. {\it Open source} is one of many terms which can be used to differentiate code which is either available or licensed permissively for re-use; other terms include {\it free software} and {\it libre software}, or the combination, {\it FLOSS} (free and and libre open source software). There is no standard definition of open source that is universally accepted.
+{\it Open source} is one of many terms which can be used to differentiate code which is either available or licensed permissively for re-use; other terms include {\it free} and {\it libre} software. There is no standard definition of open source that is universally accepted.
 
-Nor will universal acceptance be forthcoming. The issue regarding reconciliation between open source, free software, and the rest of the terms stems largely from a difference of opinion between what constitutes open software. For some adherents, software itself ought to be free, as it is a result of human labour and because it is maximally helpful for others to never have to code that again. This idea contains within it the seed of the digital commons: like the commons in philosophical and economic literature, code can be viewed as a resource that belongs to humanity as a whole, and not the creators who initially fashioned it. In this sense, open source is a more of a philosophical theme than a technical term.
+Nor will universal acceptance be forthcoming. The issue regarding reconciliation between open source, free software, and the rest of the terms stems largely from a difference of opinion between what constitutes open software, and what free and open means. An oft-used expression is "free as in beer"as opposed to "free as in speech", where the first is used for gratis software which has no monetary price set on it, as opposed to software which is written without restriction. The term {\it libre} is most often used for the second, to differentiate the two meanings in English. Occasionally, the acronym FLOSS is used in open source parlance to refer to Free Libre Open Source Software, which is both gratis and libre software.
+
+For some adherents, software ought to be free (gratis), as it is a result of human labour and because opening it up without cost maximises the utility function of that code, and minimises duplicated effort. This idea contains within it the seed of the digital commons: like the commons in philosophical and economic literature, code can be viewed as a resource that belongs to humanity as a whole, and not the creators who initially fashioned it. In this sense, open source is a more of a philosophical theme than a technical term.
 
 \begin{quote}
 Open source is a development methodology; free software is a social movement. For the free software movement, free software is an ethical imperative, essential respect for the users' freedom. By contrast, the philosophy of open source considers issues in terms of how to make software  "better" - in a practical sense only. It says that nonfree software is an inferior solution to the practical problem at hand.\footnote{\href{https://www.gnu.org/philosophy/open-source-misses-the-point.html}{https://www.gnu.org/philosophy/open-source-misses-the-point.html}}
 \signed Richard Stallman (Founder of GNU\/Linux)
 \end{quote}
 
-Before continuing, a quick word on licenses. Licenses determine the legal rights to sharing code. A piece of code which is taken from a proprietary server and published on the internet is not necessarily open source. In this instance, the code may have been illegally copied and shared, but it is not licensed for free usage. Under no definitions is this considered open source. Indeed, this touches upon issues of digital copytheft and "piracy", which is a standard term used frequently in the media and in legal proceedings to attach a sense that copying code is the same as larceny or theft on the high seas. Avoiding the question of the validity of this viewpoint, it is important to focus on the license as the differentiating factor between code which has been released legally under an "open" definition or not.
+However, for the most part, "open source" isn't disambiguated as a term, because authority for this task is relegated to the license put on a piece of software, which determines the legality and potential use. Licenses determine the legal rights to sharing code. A piece of code which is taken from a proprietary server and published on the internet is not necessarily open source. In this instance, the code may have been illegally copied and shared, but it is not licensed for free usage. Under no definitions is this considered open source. Indeed, this touches upon issues of digital copytheft and "piracy", which is a standard term used frequently in the media and in legal proceedings to attach a sense that copying code is the same as larceny or theft on the high seas. Avoiding the question of the validity of this viewpoint, it is important to focus on the license as the differentiating factor between code which has been released legally under an "open" definition or not. The term 'open source' under most definitions doesn't pertain to ethical concerns about the software's usage, but rather simply refers to whether or not it is permissively licensed and available for users.
 
-There are many licenses which are considered to be open source, and there are several arbiters available which judge the validity of open source licensing. The Open Source Initiative maintains a list of approved licenses on their website: \href{https://opensource.org/licenses}{https://opensource.org/licenses}.
+For that matter, work published without a license on a public repository site, such as on GitHub\footnote{\href{https://github.com}{https://github.com}}, is not technically open source, either. When software is not licensed, it by default reverts to copyright where{\it all rights are reserved}, which is by definition not FLOSS. For this reason, it's important to add a license to code if it is in your purview to do so, and if you wish to follow the open source methodology. There are many licenses which are considered to be open source, and there are several arbiters available which judge the validity of open source licensing. The Open Source Initiative maintains a list of approved licenses on their website\footnote{\href{https://opensource.org/licenses}{https://opensource.org/licenses}}.
 
-Open source, on the other hand, under most definitions, does pertain to ethical concerns about the software's usage, but rather simply refers to whether or not it is permissively licensed and available for users.
-
-
-The Open Source Institute, which originally coined the term {\it open source}, has several parameters by which open source software can be judge as being 'open' or 'closed' (that is, proprietary, non-permissively licensed, non-reusable, limited in usage to a set amount of people, and so on). It may be useful to list these terms directly below, as they are instructive about how open source can be a nuanced term. These terms are from the OSI's website \footnote{\href{https://opensource.org/osd}{https://opensource.org/osd}}.
+The Open Source Institute (OSI), whose founders were one of the original coiners of the term {\it open source}, has several parameters by which open source software can be judge as being 'open' or 'closed' (that is, proprietary, non-permissively licensed, non-reusable, limited in usage to a set amount of people, and so on). It may be useful to list these terms directly below, as they are instructive about how open source can be a nuanced term. These terms and their definitions are from the OSI's website \footnote{\href{https://opensource.org/osd}{https://opensource.org/osd}}, and are repeated below verbatim.
 
 \begin{enumerate}
-
 \item{Free Redistribution}. The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
-
 \item{Source Code}. The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
-
 \item{Derived Works}. The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
-
 \item{Integrity of The Author's Source Code}.
   The license may restrict source-code from being distributed in modified form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.
-
 \item{No Discrimination Against Persons or Groups}.
   The license must not discriminate against any person or group of persons.
-
 \item{No Discrimination Against Fields of Endeavor}.
   The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
-
 \item{Distribution of License}.
   The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
-
 \item{License Must Not Be Specific to a Product}.
   The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.
-
 \item{License Must Not Restrict Other Software}.
   The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.
-
 \item{License Must Be Technology-Neutral}.
   No provision of the license may be predicated on any individual technology or style of interface.
 \end{enumerate}
+
+These different terms and conditions are often conflated, and a legally-valid license which satisfies all of them is difficult to write on an {\it ad hoc} basis. For this reason most open source programming relies on using existing licenses, and copying them for specific projects. There are tools today to help make licensing more clear to na�ve users, such as \href{https://choosealicense.com}{choosealicense.com}, \href{https://tldrlegal.com}{tldrlegal.com}, and so on.
+
+Some of the main licenses used in the wild are as follows:
+
+\begin{itemize}
+\item The MIT license, developed at MIT, is the most popular license on GitHub, the world's largest repository of code, used in over 40\% of the projects licensed there as of March 2015.\footnote{\href{https://blog.github.com/2015-03-09-open-source-license-usage-on-github-com/}{https://blog.github.com/2015-03-09-open-source-license-usage-on-github-com/}} It is a a very permissive license, which allows commercial use, modification, distribution, sublicensing, and private use of any code so licensed. It also waives liability for the authors of the code, saving them from needing to worry about lawsuits in cases where their code would otherwise be liable - the code is granted as is, and what the user does with it is not the author's fault. The only restriction is that you need to include the license in any software which uses it.
+\item The Apache License 2.0, developed by the Apache Software Foundation\footnote{\href{https://www.apache.org/licenses/}{https://www.apache.org/licenses/}}, is similar, but disallows users from trademarking code with the license, requires a few smaller modifications like stating code changes and adding a NOTICE file if one exists to derivational code, and also adds a patents clause for contributors.
+\item BSD 3-Clause "New" or "Revised" license
+\item BSD 2-Clause "Simplified" or "FreeBSD"
+\item GNU General Public License (GPL)
+\item GNU Library or "Lesser" General Public License (LGPL)
+\item Mozilla Public License 2.
+\item Common Development and Distribution
+\item Creative Commons licenses
+\end{itemize}
+
 
 
 \subsection{Where is open source code?}
