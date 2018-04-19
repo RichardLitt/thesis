@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {3.3}Where is open source code?}{39}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Digital permanence and storage}{41}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Funding}{43}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Ethical reasons for using open source}{45}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.6}Ethics and open source}{45}{subsection.3.6}
 \contentsline {section}{\numberline {4}Open Source Code for Low Resource Languages}{46}{section.4}
 \contentsline {subsection}{\numberline {4.1}BLARK and beyond}{46}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}NLTK and other open source libraries}{46}{subsection.4.2}
