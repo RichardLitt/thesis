@@ -47,6 +47,51 @@ Here, I'll explain some open source resources that can be used to bootstrap deve
 
 Here I'll talk about the inextricable nature of linguistics data and code, and how they are linked.
 
+\subsection{Data and privacy}
+\label{subsec:data-and-privacy}
+
+Here, I'll talk specifically about data rights and privacy, in regards to whether it makes sense to decouple code from data, especially in cases of low resource languages, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
+
+% From Chiarcos:
+
+% a few years back, I compiled a massive corpus of Bibles and related texts
+%in a CES-conformant XML format (following Resnik 1996), some also with
+%annotations. For the most part, distributing this corpus would be illegal
+%under European copyright law (and that's why you haven't heard about it),
+%but I realized that there are circumstances which could allow
+%dissemination of a great part of it under an academic license.
+
+% Compiling and distributing a web corpus is basically illegal in Europe
+%unless explicitly permitted by an accompanying license. However, US law
+%has the concept of fair use, and if a data provider declares US
+%legislation to apply (e.g., that "[t]hese Terms and Conditions ... are
+%governed by the laws of the State of New York"), we Europeans can rely on
+%the principle of fair use, as well.
+%
+%% According to 17 U.S.C. § 107, "the fair use of a copyrighted work,
+%including such use by reproduction in copies or phonorecords or by any
+%other means specified by that section, for purposes such as criticism,
+%comment, news reporting, teaching (including multiple copies for classroom
+%use), scholarship, or research, is not an infringement of copyright." The
+%intended use is for NLP research, DH scholarship and classroom use, so
+%that would probably not an issue -- and in fact, there is no financial
+%damage whatsoever as this data is freely and redundantly available from
+%the web.
+%
+%% However, am I allowed to distribute this corpus with an explicit license
+%statement? I think CC-BY-NC should protect the intellectual and commercial
+%interests of the creator of the electronic edition and be roughly in the
+%spirit of an academic license, but of course, I'm not the actual owner of
+%the data, but only responsible for its transformation and annotation. I am
+%wondering about the consequences if someone eventually creates an NLP tool
+%chain from this data and uses any models trained on the data in a
+%commercial application. As the original copyright extends to derived
+%works, this would be a clear violation of my license statement, of course,
+%but I would be responsible as I redistributed the data and by transforming
+%it from messy HTML to proper markup, I actually enabled this violation.
+
+
+
 \subsection{A database for open source code}\label{sec:solutions}
 
 Here, I'll talk about a database of open source code. Specifically, I'll mention my own work building \href{https://github.com/RichardLitt/endangered-languages}{https://github.com/RichardLitt/endangered-languages}, described first in \citet{CCURL}, and what it contains and who has worked on it with me. I'll cover the main tools, what kind of tools were included, and why I built the database on GitHub in this way.
