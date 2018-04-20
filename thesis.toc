@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {4.3}Data permanence and interoperability}{46}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Data and privacy}{46}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}A database for open source code}{47}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Linked data}{47}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Linked open data}{47}{subsection.4.6}
 \contentsline {section}{\numberline {5}Case Studies}{48}{section.5}
 \contentsline {subsection}{\numberline {5.1}Scottish Gaelic}{48}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Naskapi}{48}{subsection.5.2}
