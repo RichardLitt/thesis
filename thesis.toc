@@ -33,8 +33,8 @@
 \contentsline {subsection}{\numberline {5.2}Popular open source libraries}{53}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}The Natural Language Toolkit}{53}{subsubsection.5.2.1}
 \contentsline {subsection}{\numberline {5.3}Other resources}{54}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}i18n documentation for larger open source tools}{54}{subsubsection.5.3.1}
-\contentsline {subsection}{\numberline {5.4}Data and privacy}{54}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.3.1}i18n documentation for larger open source tools}{55}{subsubsection.5.3.1}
+\contentsline {subsection}{\numberline {5.4}Data and privacy}{55}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}Linked open data}{55}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}A database for open source code}{55}{subsection.5.6}
 \contentsline {section}{\numberline {6}Case Studies}{56}{section.6}
@@ -42,6 +42,7 @@
 \contentsline {subsection}{\numberline {6.2}Naskapi}{56}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{57}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{58}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Resources on the web}{59}{subsubsection.6.2.3}
 \contentsline {section}{\numberline {7}Methods}{60}{section.7}
 \contentsline {subsection}{\numberline {7.1}Choosing a license}{60}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Choosing repositories}{60}{subsection.7.2}

@@ -13,7 +13,11 @@ Unfortunately, due to the decentralised nature of open source, this is an inhere
 \subsection{Low resource language NLP available through data providers}
 \label{subsec:lrl-nlp-through-providers}
 
-Starting with the lower end of the language resource pyramid, CLDR has instructions on checking out their open source subversion repository 
+The first resource aggregator listed in Section~\ref{subsec:resource-aggregators} starts on the lower end of the language resource pyramid: Unicode's CLDR resources. Unicode is often the first port-of-call for a language team working on developing scripts for their language, unless the script is already using some pre-existing format (such as the Roman alphabet). CLDR has instructions on checking out their open source subversion repository online.\footnote{\href{http://cldr.unicode.org/index/downloads}{http://cldr.unicode.org/index/downloads. Last accessed on April~24, 2018.}} They also have a GitHub repository\footnote{\href{https://github.com/unicode-cldr/cldr-json}{https://github.com/unicode-cldr/cldr-json. Last accessed on April~24, 2018.}} and organisation with code for digesting the normally XML representation in JSON, the notation format used most often by JavaScript developers. However, CLDR isn't an aggregator - it's more of a suite of tools under one umbrella, as the scope is limited to working with the Unicode format. 
+
+Finding resources isn't easy. The Endangered Languages Project, for instance, contains information on over 3000 languages, and has 6830 languages.\footnote{\href{http://www.endangeredlanguages.com/resources/}{http://www.endangeredlanguages.com/resources. Last accessed on April~24, 2018.}} None of these resources are code: the searchable formats are: Format, Image, Video, Document, Audio, Link, Guide. Glottolog only has academic references, and ODIN only has interlinear glossed text (IGT) corpora. Omniglot describes alphabets but doesn't index tooling for them. CLARIN has thousands of resources - but none of them are code, and you need to be an accredited researcher from a European institution to access them. The LDC has a tool page, where it notes five tools that may be useful for researchers using its data. The ELRA site provides hundreds of resources - mostly corpora - for purchase.
+
+% TODO: Pick up at FLOSS LRL LR aggregators tabs
 
 % http://www.elda.org/en/catalogues/language-resources-announcements/
 % http://www.elsnet.org/
