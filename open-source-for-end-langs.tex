@@ -2,57 +2,57 @@
 \section{Open Source Code for Low Resource Languages}
 \label{sec:endlangcode}
 
-Now that low resource languages have been described, and now that there has been a brief overview of open source as a software methodology, the reader will doubtless wonder two things: what resources are directly needed for low resource languages to become high resource languages, and what is the state of open source code that can be used today by language communities without needing large amounts of funding. Put another way: what does the field of computational linguistics and the current ecosystem of globally shared coded offer developing languages?
+Now that low resource languages have been described, and now that there has been a brief overview of open source as a software methodology, the reader will doubtless wonder - what is the state of open source code that can be used today by language communities? 
 
+% Removed as we've covered this in the Resources chapter, enough
+% \subsection{BLARK and beyond}
+% \label{subsec:blark-and-beyond}
 
-\subsection{BLARK and beyond}
-\label{subsec:blark-and-beyond}
+Unfortunately, due to the decentralised nature of open source, this is an inherently difficult question to answer. In the ecosystem, there are a few strategies that can be used to inform an answer: look at what resources are available from any of the main large data aggregators mentioned in Section~\ref{subsec:resource-aggregators}, take a screenshot of the ecosystem based on some of the more-cited open source tool used for low resource language NLP, examine linked open data databases, and sample relevant work on GitHub through an manually collated list of resources. Each of these strategies is employed in a subsection, below.
 
-First, I am going to talk about BLARK - the Basic LAnguage Resource Kit proposed by \citet{krauwer2003basic} - and what a language needs digitally as a base layer to digitally ascend. I haven't talked specifically about how computational linguistics addresses low resource languages yet - the preceding sections have largely been showing the state of the field and what open source is. We'll get to open source eventually, but here I want to cover the tools needed for a language.
+\subsection{Low resource language NLP available through data providers}
+\label{subsec:lrl-nlp-through-providers}
 
-I'll then mention tools here that can be used after a language has some digital presence - basically, what makes an LRL a resourced language.
+Starting with the lower end of the language resource pyramid, CLDR has instructions on checking out their open source subversion repository 
 
-%% http://www.blark.org/
-%% Blark:  The BLARK concept was defined in a joint initiative between ELSNET (European Network of Excellence in Language and Speech) and ELRA (European Language Resources Association) [Krauwer, 1998] and first launched with a Dutch initiative called Dutch Human Language Technologies Platform that was initiated in April 1999. Then, in the framework of the ENABLER thematic network (European National Activities for Basic Language Resources -Action Line: IST-2000-3.5.1), ELDA elaborated a report defining a (minimal) set of LRs to be made available for as many languages as possible and mapping the actual gaps that should be filled in so as to meet the needs of the HLT field.
+% http://www.elda.org/en/catalogues/language-resources-announcements/
+% http://www.elsnet.org/
 
-%% http://www.elsnet.org/dox/blark.html
+\subsection{Popular open source libraries}
+\label{subsec:popular-open-source-libraries}
 
-%% Quote some BLARK papers from various languages - relatively easy to find papers.
-
-
-\subsection{NLTK and other open source libraries}
-\label{subsec:nltk}
-
+\subsubsection{The Natural Language Toolkit}
 Here, I'll explain some open source resources that can be used to bootstrap development; for instance, \href{NLTK (Natural Language Toolkit)}{http://nltk.org/}, a free and open source library which uses the Python language by \citet{bird2006nltk}, and enables users to interface with over fifty different corpora and lexical resources.
 
-% A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command `git authors` % TODO Explain
-% ). Some of the resources within NLTK have to do with low resource languages. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
+A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command {\tt git authors}).% TODO Explain
+Some of the resources within NLTK have to do with low resource languages. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
 
-% By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports.
-% % TODO cite.
-% One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
+By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports. % TODO cite.
+One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
 
-% \subsection{Other resources}
+\subsection{Other resources}
 
 % % Other stuff
-% Not all research that is code based can be easily quantified as open source. For instance, [Afranaph](http://www.africananaphora.rutgers.edu/home-mainmenu-1) is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, [TransNewGuinea](http://transnewguinea.org/about) has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite.
+Not all research that is code based can be easily quantified as open source. For instance, Afranaph\footnote{\href{http://www.africananaphora.rutgers.edu/home-mainmenu-1}{http://www.africananaphora.rutgers.edu/home-mainmenu-1}} is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, TransNewGuinea\footnote{\href{http://transnewguinea.org/about}{http://transnewguinea.org/about}} has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite.
+
+Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
+
+Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
+
+Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
+
+\subsubsection{i18n documentation for larger open source tools}
+
+In some cases, tools themselves may canonically be used for NLP, but may also be translated into LRLs, thus allowing low resource language developers to use the code themselves for bootstrapping their tools. For example, Node has an i18n and l10n committee that works to translate tools - and there is some interested in working with LRLs. % Blah blah blah maybe this is a stretch? 
+Another instance would be code which has been ported into rare languages % cite uspanteko work in java
+
+% Removed as we cover this, basically, in Open Source
+%\subsection{Data permanence and interoperability}
+%\label{subsec:data-permanence-and-interoperability}
 %
-% Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
+%Here I'll talk about the inextricable nature of linguistics data and code, and how they are linked.
 %
-% - Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
-
-% - Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
-
-%% Mention LoReHLT https://www.nist.gov/itl/iad/mig/lorehlt-evaluations
-%% The tools used here are permissively licenses and publicly available.
-
-\subsection{Data permanence and interoperability}
-\label{subsec:data-permanence-and-interoperability}
-
-
-Here I'll talk about the inextricable nature of linguistics data and code, and how they are linked.
-
-% TODO Cite Austin Principles for Data AustinPrinciples2017
+%% TODO Cite Austin Principles for Data AustinPrinciples2017
 
 \subsection{Data and privacy}
 \label{subsec:data-and-privacy}
@@ -97,7 +97,10 @@ Here, I'll talk specifically about data rights and privacy, in regards to whethe
 %but I would be responsible as I redistributed the data and by transforming
 %it from messy HTML to proper markup, I actually enabled this violation.
 
+\subsection{Linked open data}
+\label{subsec:lod}
 
+Here, I'll briefly talk about related efforts with the Open Linguistics Working Group's \citep{chiarcos2012open} work on open source data reflected on the semantic web.\citep{chiarcos2013building}
 
 \subsection{A database for open source code}
 \label{sec:solutions}
@@ -105,11 +108,6 @@ Here, I'll talk specifically about data rights and privacy, in regards to whethe
 Here, I'll talk about a database of open source code. Specifically, I'll mention my own work building \href{https://github.com/RichardLitt/endangered-languages}{https://github.com/RichardLitt/endangered-languages}, described first in \citet{CCURL}, and what it contains and who has worked on it with me. I'll cover the main tools, what kind of tools were included, and why I built the database on GitHub in this way.
 
 I'll also include diagnostics on how it has been used and how the tools it mentions have been used - what percentage have been downloaded, and so on.
-
-\subsection{Linked open data}
-\label{subsec:lod}
-
-Here, I'll briefly talk about related efforts with the Open Linguistics Working Group's \citep{chiarcos2012open} work on open source data reflected on the semantic web.\citep{chiarcos2013building}
 
 
 % - Its uses (specifically)
@@ -132,6 +130,6 @@ Here, I'll briefly talk about related efforts with the Open Linguistics Working 
 %     - Downloaded, etc.
 %   - Review Excel results
 
-% Other resources
-% http://www.elda.org/en/catalogues/language-resources-announcements/
-% http://www.elsnet.org/
+
+% TODO Mention caballero.pdf
+% This was a linguistic fieldwork exercise; they made their own tools for resource management in ELAN https://github.com/ucsd-field-lab/kwaras In the paper, they use Word, Quicktime, ELAN, GitHub... but there's not much open source code, at all. Most of it is shimmied together.

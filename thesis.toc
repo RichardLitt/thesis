@@ -29,25 +29,27 @@
 \contentsline {subsection}{\numberline {4.5}Funding}{49}{subsection.4.5}
 \contentsline {subsection}{\numberline {4.6}Ethics and open source}{51}{subsection.4.6}
 \contentsline {section}{\numberline {5}Open Source Code for Low Resource Languages}{53}{section.5}
-\contentsline {subsection}{\numberline {5.1}BLARK and beyond}{53}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}NLTK and other open source libraries}{53}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Data permanence and interoperability}{53}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Data and privacy}{53}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A database for open source code}{54}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Linked open data}{54}{subsection.5.6}
-\contentsline {section}{\numberline {6}Case Studies}{55}{section.6}
-\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{55}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Naskapi}{55}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{56}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{57}{subsubsection.6.2.2}
-\contentsline {section}{\numberline {7}Methods}{59}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{59}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{59}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{59}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{60}{section.8}
-\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{60}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{60}{subsection.8.2}
-\contentsline {section}{\numberline {9}Future Work}{61}{section.9}
-\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{61}{subsection.9.1}
-\contentsline {section}{\numberline {10}Conclusion}{62}{section.10}
-\contentsline {section}{References}{63}{section*.12}
+\contentsline {subsection}{\numberline {5.1}Low resource language NLP available through data providers}{53}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Popular open source libraries}{53}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}The Natural Language Toolkit}{53}{subsubsection.5.2.1}
+\contentsline {subsection}{\numberline {5.3}Other resources}{54}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}i18n documentation for larger open source tools}{54}{subsubsection.5.3.1}
+\contentsline {subsection}{\numberline {5.4}Data and privacy}{54}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Linked open data}{55}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}A database for open source code}{55}{subsection.5.6}
+\contentsline {section}{\numberline {6}Case Studies}{56}{section.6}
+\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{56}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{56}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{57}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{58}{subsubsection.6.2.2}
+\contentsline {section}{\numberline {7}Methods}{60}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{60}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{60}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{60}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{61}{section.8}
+\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{61}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{61}{subsection.8.2}
+\contentsline {section}{\numberline {9}Future Work}{62}{section.9}
+\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{62}{subsection.9.1}
+\contentsline {section}{\numberline {10}Conclusion}{63}{section.10}
+\contentsline {section}{References}{64}{section*.12}
