@@ -21,7 +21,7 @@
 % to change float numbering in appendix to A.1.1, A.1.2, but A.2.1. etc
 \usepackage{chngcntr}
 
-\usepackage{url}
+\usepackage[hyphens]{url}
 
 %increase space for list of figures and tables (and long appendix numbering)
 \usepackage{tocloft}
@@ -251,7 +251,8 @@
 \def\signed #1 (#2){{\unskip\nobreak\hfil\penalty50
     \hskip2em\hbox{}\nobreak\hfil\sl#1\/ \rm(#2)
     \parfillskip=0pt \finalhyphendemerits=0 \par}}
-\usepackage{multibib, url, hyperref}
+\usepackage{multibib}
+
 \newcites{languageresource}{Language Resources}
 \usepackage{graphicx}
 % \usepackage{casyl} for syllabics

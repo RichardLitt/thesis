@@ -11,12 +11,12 @@
 \contentsline {subsection}{\numberline {2.2}Metrics for language vitality}{12}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}The Graded Intergenerational Disruption Scale (GIDS)}{13}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}The UNESCO measurement scale}{14}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}The Extended GIDS (EGIDS)}{15}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3}The Extended GIDS (EGIDS)}{16}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}The Language Endangerment Index (LEI)}{18}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}A response to qualitative metrics}{19}{subsubsection.2.2.5}
 \contentsline {subsection}{\numberline {2.3}Digital presence}{21}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Finding resources}{22}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Metrics for digital presence}{22}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2}Metrics for digital presence}{23}{subsubsection.2.3.2}
 \contentsline {section}{\numberline {3}Resources}{28}{section.3}
 \contentsline {subsection}{\numberline {3.1}Resource Aggregators}{29}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}BLARK and LRE maps}{31}{subsection.3.2}
