@@ -2,18 +2,18 @@
 \section{Open Source Code for Low Resource Languages}
 \label{sec:endlangcode}
 
-Now that low resource languages have been described, and now that there has been a brief overview of open source as a software methodology, the reader will doubtless wonder - what is the state of open source code that can be used today by language communities? 
+Now that low resource languages have been described, and now that there has been a brief overview of open source as a software methodology, the reader will doubtless wonder - what is the state of open source code that can be used today by language communities?
 
 % Removed as we've covered this in the Resources chapter, enough
 % \subsection{BLARK and beyond}
 % \label{subsec:blark-and-beyond}
 
-Unfortunately, due to the decentralised nature of open source, this is an inherently difficult question to answer. In the ecosystem, there are a few strategies that can be used to inform an answer: look at what resources are available from any of the main large data aggregators mentioned in Section~\ref{subsec:resource-aggregators}, take a screenshot of the ecosystem based on some of the more-cited open source tool used for low resource language NLP, examine linked open data databases, and sample relevant work on GitHub through an manually collated list of resources. Each of these strategies is employed in a subsection, below.
+Unfortunately, due to the decentralised nature of open source, this is an inherently difficult question to answer. In the ecosystem, there are a few strategies that can be used to inform an answer: look at what resources are available from any of the main large data aggregators mentioned in Section~\ref{subsec:resource-aggregators}, take a screenshot of the ecosystem based on some of the more-cited open source tool used for low resource language NLP, examine linked open data, and sample relevant work on GitHub through a manually collected list of resources. Each of these strategies is employed in a subsection, below.
 
 \subsection{Low resource language NLP available through data providers}
 \label{subsec:lrl-nlp-through-providers}
 
-The first resource aggregator listed in Section~\ref{subsec:resource-aggregators} starts on the lower end of the language resource pyramid: Unicode's CLDR resources. Unicode is often the first port-of-call for a language team working on developing scripts for their language, unless the script is already using some pre-existing format (such as the Roman alphabet). CLDR has instructions on checking out their open source subversion repository online.\footnote{\href{http://cldr.unicode.org/index/downloads}{http://cldr.unicode.org/index/downloads. Last accessed on April~24, 2018.}} They also have a GitHub repository\footnote{\href{https://github.com/unicode-cldr/cldr-json}{https://github.com/unicode-cldr/cldr-json. Last accessed on April~24, 2018.}} and organisation with code for digesting the normally XML representation in JSON, the notation format used most often by JavaScript developers. However, CLDR isn't an aggregator - it's more of a suite of tools under one umbrella, as the scope is limited to working with the Unicode format. 
+The first resource aggregator listed in Section~\ref{subsec:resource-aggregators} starts on the lower end of the language resource pyramid: Unicode's CLDR resources. Unicode is often the first port-of-call for a language team working on developing scripts for their language, unless the script is already using some pre-existing format (such as the Roman alphabet). CLDR has instructions on checking out their open source subversion repository online.\footnote{\href{http://cldr.unicode.org/index/downloads}{http://cldr.unicode.org/index/downloads. Last accessed on April~24, 2018.}} They also have a GitHub repository\footnote{\href{https://github.com/unicode-cldr/cldr-json}{https://github.com/unicode-cldr/cldr-json. Last accessed on April~24, 2018.}} and organisation with code for digesting the normally XML representation in JSON, the notation format used most often by JavaScript developers. However, CLDR isn't an aggregator - it's more of a suite of tools under one umbrella, as the scope is limited to working with the Unicode format.
 
 Finding resources isn't easy. The Endangered Languages Project, for instance, contains information on over 3000 languages, and has 6830 languages.\footnote{\href{http://www.endangeredlanguages.com/resources/}{http://www.endangeredlanguages.com/resources. Last accessed on April~24, 2018.}} None of these resources are code: the searchable formats are: Format, Image, Video, Document, Audio, Link, Guide. Glottolog only has academic references, and ODIN only has interlinear glossed text (IGT) corpora. Omniglot describes alphabets but doesn't index tooling for them. CLARIN has thousands of resources - but none of them are code, and you need to be an accredited researcher from a European institution to access them. The LDC has a tool page, where it notes five tools that may be useful for researchers using its data. The ELRA site provides hundreds of resources - mostly corpora - for purchase.
 
@@ -47,7 +47,7 @@ Specific examples of cross-language applicability of an open source coding libra
 
 \subsubsection{i18n documentation for larger open source tools}
 
-In some cases, tools themselves may canonically be used for NLP, but may also be translated into LRLs, thus allowing low resource language developers to use the code themselves for bootstrapping their tools. For example, Node has an i18n and l10n committee that works to translate tools - and there is some interested in working with LRLs. % Blah blah blah maybe this is a stretch? 
+In some cases, tools themselves may canonically be used for NLP, but may also be translated into LRLs, thus allowing low resource language developers to use the code themselves for bootstrapping their tools. For example, Node has an i18n and l10n committee that works to translate tools - and there is some interested in working with LRLs. % Blah blah blah maybe this is a stretch?
 Another instance would be code which has been ported into rare languages % cite uspanteko work in java
 
 % Removed as we cover this, basically, in Open Source
@@ -62,6 +62,12 @@ Another instance would be code which has been ported into rare languages % cite 
 \label{subsec:data-and-privacy}
 
 Here, I'll talk specifically about data rights and privacy, in regards to whether it makes sense to decouple code from data, especially in cases of low resource languages, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
+
+% TODO
+% Look at ethics section http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CLT/pdf/International%20cooperation%20programs.pdf
+
+% Ethical issues o2010ethical
+% Mention decolonialization cushman2013wampum
 
 % From Chiarcos:
 
@@ -101,6 +107,10 @@ Here, I'll talk specifically about data rights and privacy, in regards to whethe
 %but I would be responsible as I redistributed the data and by transforming
 %it from messy HTML to proper markup, I actually enabled this violation.
 
+Sometimes, privacy revolves less around the users or the language communities, and more around researchers not wishing to open source their code until they are done developing their project, or until a grant ends, or until they are safe that they won't be scooped by other researchers. For instance, in a paper describing a tool for sharing interlinearized and lexical data in different formats, \citet{kaufman2018kratylos} notes that "Kratylos will be made open-source and accessible to the public through a GitHub repository at the end of the current grant period. Kratylos is built entirely from open- source software itself and transcodes proprietary media formats into the open-source codecs Ogg Vorbis (for audio) and Ogg Theora (for video)." This is particularly insightful, as it shows that an understanding of open source can still be tied to initial closed-source development. % TODO Is there a name for this model, of closed then open?
+
+%% TODO Extend section on academics staying private
+
 \subsection{Linked open data}
 \label{subsec:lod}
 
@@ -137,3 +147,8 @@ I'll also include diagnostics on how it has been used and how the tools it menti
 
 % TODO Mention caballero.pdf
 % This was a linguistic fieldwork exercise; they made their own tools for resource management in ELAN https://github.com/ucsd-field-lab/kwaras In the paper, they use Word, Quicktime, ELAN, GitHub... but there's not much open source code, at all. Most of it is shimmied together.
+
+% TODO Subsection on mapping software as a case study
+% There don't appear to be any open source language mapping guidelines or databases. The closest is http://www.worldgeodatasets.com/index.html.
+% Update - there's an LDC paper on it, gawne2016mapmaking. TODO Go through this paper and highlight open source tools. Also hu2018web, which cites gawne and mentions a lot of open source tools, like Leaflet. Maybe add a subsection on mapping here?
+% Another note: "Packages in the software R (R Core Team 2016) such as ggplot2 (Wikham 2009), dplyr (Wikham et al. 2016), and igraph (Csárdi & Nepusz 2006) were used in order to compile isoglosses and patterns identified in the Interac- tive Dialectal Maps in cumulative geographical maps, dot plots, and network graphs." {cenerini2017mapping} This paper cites these, but doens't open source their own stuff - still, useful for talking about tooling that is used by open source which isn't LRL specific.
