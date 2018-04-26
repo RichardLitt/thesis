@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {4.6}Ethics and open source}{51}{subsection.4.6}
 \contentsline {section}{\numberline {5}Open Source Code for Low Resource Languages}{53}{section.5}
 \contentsline {subsection}{\numberline {5.1}Case study: Mapping linguistic co\"ordinates}{53}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Low resource language NLP available through data providers}{57}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{57}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Popular open source libraries}{57}{subsection.5.3}
 \contentsline {subsubsection}{\numberline {5.3.1}The Natural Language Toolkit}{57}{subsubsection.5.3.1}
 \contentsline {subsection}{\numberline {5.4}Other resources}{58}{subsection.5.4}
