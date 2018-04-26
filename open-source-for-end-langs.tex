@@ -32,7 +32,7 @@ As \citet{hu2012multimedia, hu2018web} notes, the general trend in mapping softw
 
 This was a small example, looking at only a couple of papers and showing how following open source methodology can be difficult, and how using mixed source applications is often necessary for research and linguistic information. This was a single use case, and every application involving NLP requires navigating software and licensing laws. My purpose in providing this study was to point out how describing the state of open source code that could be used for LRLs is not clear cut. One could argue that this case is reflective of linguistic software, as opposed to NLP or computational linguists. This arbitrary division is not useful, as all actors using language data that has been digitally encoded fall under the wider umbrella of users of human language technology. Languages do not exist within a vacu\"{u}m, and computational linguists using NLP to run deep learning artificial intelligence algorithms on spoken language corpora at scale depend upon previous work done by linguists, language communities, and researchers who spent time on the ground formalising orthographies, compiling dictionaries, and debating the finer points of linguistic minutiae. 
 
-That having been said, there are cases where using open source software decidedly clear cut. For instance, if the goal is to build a part of speech tagger using two hours of annotation, you could use the low-resource-post-tagging-2014 package developed as part of \citet{garrette2013real,garrette2013learning}, and available on GitHub\footnote{\href{https://github.com/dhgarrette/low-resource-pos-tagging-2014}{https://github.com/dhgarrette/low-resource-pos-tagging-2014}} without any other considerations than downloading Java and learning a bit of Scala, both free and open source languages. But this is a very limited use case, as this package was built as part of two scientific papers studying this narrowly scoped area.
+That having been said, there are cases where using open source software is decidedly clear cut. For instance, if the goal is to build a part of speech tagger using two hours of annotation, you could use the low-resource-post-tagging-2014 package developed as part of \citet{garrette2013real,garrette2013learning}, and available on GitHub\footnote{\href{https://github.com/dhgarrette/low-resource-pos-tagging-2014}{https://github.com/dhgarrette/low-resource-pos-tagging-2014}} without any other considerations than downloading Java and learning a bit of Scala, both free and open source languages. But this is a very limited use case, as this package was built as part of two scientific papers studying this narrowly scoped area.
 
 \subsection{LRL NLP available through data providers}
 \label{subsec:lrl-nlp-through-providers}
@@ -50,37 +50,73 @@ s Fieldwork Language Explorer (FLEx),\footnote{\href{http://software.sil.org/fie
 
 OLAC, with hundreds of thousands of resources, has a tooling page,\footnote{\href{http://www.language-archives.org/tools.html}{http://www.language-archives.org/tools.html. Last accessed April~26, 2018.}} which mainly helps with working with OLAC as opposed to pointing to resources which can be used with language data. Unfortunately, searching for software resources comes up short. A short look at a specific language, Naskapi, shows 23 resources\footnote{\href{http://www.language-archives.org/language/nsk}{http://www.language-archives.org/language/nsk. Last accessed April~26, 2018.}}, most of which are published papers - except for the Cr\'ubad\'an archive, the Glottolog reference, typological references on WALS and on the Rosetta Project, and a pointer to resources noted on the LINGUIST List, which lists no resources when accessed.\footnote{\href{https://linguistlist.org/olac/search-olac.cfm?LANG=nsk}{https://linguistlist.org/olac/search-olac.cfm?LANG=nsk. Last accessed April~26, 2018.}} Scottish Gaelic isn't much different (26 resources),\footnote{\href{http://www.language-archives.org/language/gla}{http://www.language-archives.org/language/gla. Last accessed April~26, 2018.}} although it does point to some corpora. 
 
-META-SHARE, which aggressively pursues open access and open licensing for resources in its database, has 344 tools available, and allows easy searching for these tools,\footnote{\href{http://www.meta-share.org/}{http://www.meta-share.org. Last accessed April~26, 2018.}} although signing up as a user is necessary. The ACL Wiki has resources for 84 languages,\footnote{\href{https://aclweb.org/aclwiki/List\_of\_resources\_by\_language}{https://aclweb.org/aclwiki/List\_of\_resources\_by\_language. Last accessed April~26, 2018.}}. From a random selection of these resources (including corpora), one could get an idea of how many resources are totally aggregated: Arabic (16), Navajo (1), Catalan (8), Faroese (4), Galician (20), Maltese (4), Irish (10). LT-World lists 523 separate tools (this number was reached by adding up all resource amounts listed on their language tools page\footnote{\href{http://www.lt-world.org/kb/resources-and-tools/language-tools/}{http://www.lt-world.org/kb/resources-and-tools/language-tools. Last accessed April~26, 2018.}} and assuming that there is no duplication of tools, which may be inaccurate). 
+META-SHARE, which aggressively pursues open access and open licensing for resources in its database, has 344 tools available, and allows easy searching for these tools,\footnote{\href{http://www.meta-share.org/}{http://www.meta-share.org. Last accessed April~26, 2018.}} although signing up as a user is necessary. The ACL Wiki has resources for 84 languages,\footnote{\href{https://aclweb.org/aclwiki/List\_of\_resources\_by\_language}{https://aclweb.org/aclwiki/List\_of\_resources\_by\_language. Last accessed April~26, 2018.}}. From a random selection of these resources (including corpora), one could get an idea of how many resources are totally aggregated: Arabic (16), Navajo (1), Catalan (8), Faroese (4), Galician (20), Maltese (4), Irish (10). LT-World lists 523 separate tools (this number was reached by adding up all resource amounts listed on their language tools page\footnote{\href{http://www.lt-world.org/kb/resources-and-tools/language-tools/}{http://www.lt-world.org/kb/resources-and-tools/language-tools. Last accessed April~26, 2018.}} and assuming that there is no duplication of tools, which may be inaccurate). These tools are for all languages, and only a subset could be understood to apply to LRLs. 
 
 These collected resources are, to my knowledge, the main place to look for aggregated data around software resources on particular languages. This overview was brief; more fine-tuned exploration of the numbers of packages would likely not improve our understanding of the ecosystem. From this, it is clear that there are global open source software resources in the order of hundreds, not thousands. Considering that thousands of languages have not ascended digitally, this is neither unexpected nor ideal.
 
-\subsection{Popular open source libraries}
+\subsection{Multilingual NLP libraries}
 \label{subsec:popular-open-source-libraries}
 
-\subsubsection{The Natural Language Toolkit}
-Here, I'll explain some open source resources that can be used to bootstrap development; for instance, \href{NLTK (Natural Language Toolkit)}{http://nltk.org/}, a free and open source library which uses the Python language by \citet{bird2006nltk}, and enables users to interface with over fifty different corpora and lexical resources.
+While searching for code that has been tagged with metadata noting the language it serves has some merits, there are also possibilities for using generic code on many languages. For instance, \citet{bender2016linguistic} explores the field of multilingual NLP (now decades old; for instance, \citet{kay1997proper} called for this in the 90s), pointing out that there is a growing body of research that uses language typology to abstract and identify language features which allow for applying NLP systems from one language to another. 
 
-A primer written by the main creators, \href{Natural Language Processing with Python}(http://nltk.org/book), is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, a common license \footnote{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. On GitHub, there are currently 204 contributors listed \href{https://github.com/nltk/nltk/graphs/contributors}, although the git history shows 234 (found by using the command {\tt git authors}).% TODO Explain
-Some of the resources within NLTK have to do with LRLs. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
+\begin{quote}
+Businesses developing commercial products with NLP are interested in the markets represented by {\tt low resource languages} (LRLs; i.e., those languages for which there are not many digitized data sets or basic NLP systems such as part-of-speech taggers or morphological or syntactic parsers), some of which represent very large populations in emerging economies. Finally, researchers looking to apply NLP techniques to assist in endangered language documentation are naturally interested in developing NLP systems that work across very diverse languages.\citep[646]{bender2016linguistic}
+\end{quote}
 
-By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports. % TODO cite.
-One of these is the JavaScript language implementation, \href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural}. This has 6700 stars on GitHub, which is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license \href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license}.
+\citet{bender2016linguistic} goes on to mention the LinGo Matrix system \citep{bender2002grammar, drellishak2005coordination} that can be used to create rule-based grammars for natural languages using linguistic typographical data. The LinGo Matrix, and all work within the DELPH-IN system (a collaboration looking mainly at the Head-Driven Phrase Structure Grammar and Minimal Recursion Semantics) is open source.\footnote{\href{http://www.delph-in.net/wiki/index.php/Software}{http://www.delph-in.net/wiki/index.php/Software. Last accessed April~26, 2018.}} 
 
-\subsection{Other resources}
+They also mention projecting resources across languages, such as \citet{yarowsky2001inducing}, who projected linguistic annotations like POS tags and noun phrase parsing from English to French and Chinese, by using bilingual texts that had been word-aligned. This was extended in the previously mentioned \citet{agic2015if}, who similar POS tagger projection for one hundred LRLs. Their code is open source on Bitbucket.\footnote{\href{https://bitbucket.org/lowlands/}{https://bitbucket.org/lowlands/. Last accessed April~26, 2018.}}
 
-% % Other stuff
-Not all research that is code based can be easily quantified as open source. For instance, Afranaph\footnote{\href{http://www.africananaphora.rutgers.edu/home-mainmenu-1}{http://www.africananaphora.rutgers.edu/home-mainmenu-1}} is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, TransNewGuinea\footnote{\href{http://transnewguinea.org/about}{http://transnewguinea.org/about}} has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite.
+This avenue of research is fascinating and broad, because it allows for small tools to be applied to other LRLs at a minimal cost. A study involving looking at all of the available research, with an in-depth look in each scientific article that includes links to source code, would be warranted and welcomed. It is unfortunately largely out of scope for this thesis; it is enough, here, to know that open source code for LRLs is dependent upon academics working in this field sharing their code on large repositories, and that this code must also be adapted to each particular LRL, which, while an extensive task, is made easier through multilingual NLP and cross-linguistic projection.
 
-Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
+At a lower level, there are NLP toolkits which are useful for working with LRL datasets, which are language agnostic. The most well known is arguably the Natural Language Toolkit (NTLK)\footnote{\href{http://nltk.org/}{http://nltk.org. Last accessed April~26, 2018.}} \citep{bird2006nltk}, a free and open source Python library that enables users to interface with over fifty different corpora and lexical resources, and which provides a suite of tools such as tokenizers and parsers which can be used in sparse data contexts. A primer written by the main creators \citep{bird2009natural}\footnote{Available online at \href{http://nltk.org/book}{http://nltk.org/book. Last accessed April~26, 2018.}}, is used frequently in natural language processing classes written by the creators. It is licensed under the Apache 2.0 license, an open source license \footnote{\href{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}{https://github.com/nltk/nltk/blob/develop/LICENSE.txt}. Last accessed April~26, 2018.}. On GitHub, there are currently 204 contributors listed\footnote{\href{https://github.com/nltk/nltk/graphs/contributors}{https://github.com/nltk/nltk/graphs/contributors. Last accessed April~10, 2018.}}, and the contribution history in Git shows 234 (found by using the command {\tt git authors}). Some of the resources within NLTK work especially well with LRLs. For instance, in 2015, NLTK added machine translation libraries, including popular ones such as IBM Models 1-3 and BLEU.
 
-Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
+By open sourcing their code, the NLTK authors have allowed it to be adapted and re-used. Currently, there are several ports, or reimplementations in another programming language which allows use in different coding language ecosystems. One of these is the JavaScript language implementation.\footnote{\href{https://github.com/NaturalNode/natural}{https://github.com/NaturalNode/natural. Last accessed April~26, 2018.}} This has 6700 stars on GitHub, which, since they reflect favouritism from individual users, is a good indicator of community vitality and use, and 88 contributors. The port is also open source, under an MIT license.\footnote{\href{https://github.com/NaturalNode/natural\#license}{https://github.com/NaturalNode/natural\#license. Last accessed April~26, 2018.}}
 
-Specific examples of cross-language applicability of an open source coding library (such as NLTK, or more specifically, family-related usage of parsers or MT models), and what that says about the incentives and use cases for open source libraries.
+It is difficult to track usage of these open source software packages by LRL communities or researchers, as, once downloaded, there are no convenient metrics which lead back to the original source. Code, when run, generally leaves no trace. Again, the fundamental problem of tracking LRL open source software inhibits understanding the ecosystem, but it is clear from individual anecdotes and through scientific citations that work is being done in this area. 
 
-\subsubsection{i18n documentation for larger open source tools}
+\subsection{Linked open data}
+\label{subsec:lod}
 
-In some cases, tools themselves may canonically be used for NLP, but may also be translated into LRLs, thus allowing LRL developers to use the code themselves for bootstrapping their tools. For example, Node has an i18n and l10n committee that works to translate tools - and there is some interested in working with LRLs. % Blah blah blah maybe this is a stretch?
-Another instance would be code which has been ported into rare languages % cite uspanteko work in java
+Here, I'll briefly talk about related efforts with the Open Linguistics Working Group's \citep{chiarcos2012open} work on open source data reflected on the semantic web.\citep{chiarcos2013building}
+
+
+%\subsubsection{i18n documentation for larger open source tools}
+%
+%In some cases, tools themselves may canonically be used for NLP, but may also be translated into LRLs, thus allowing LRL developers to use the code themselves for bootstrapping their tools. For example, Node has an i18n and l10n committee that works to translate tools - and there is some interested in working with LRLs. % Blah blah blah maybe this is a stretch?
+%Another instance would be code which has been ported into rare languages % cite uspanteko work in java
+%
+\subsection{A database for open source code}
+\label{sec:solutions}
+
+Here, I'll talk about a database of open source code. Specifically, I'll mention my own work building \href{https://github.com/RichardLitt/endangered-languages}{https://github.com/RichardLitt/endangered-languages}, described first in \citet{CCURL}, and what it contains and who has worked on it with me. I'll cover the main tools, what kind of tools were included, and why I built the database on GitHub in this way.
+
+I'll also include diagnostics on how it has been used and how the tools it mentions have been used - what percentage have been downloaded, and so on.
+
+% - Its uses (specifically)
+% - Current considerations in its planning
+% - reception
+%   - User evaluations from other open source scientists
+% - Future goals
+
+%
+% - Case study using endangered-languages repository
+%   - Clean up resource
+%     - Add all listed resources in issues
+%     - Contact and create the LSA CELP Technology Subcommittee
+%     - Clone all SourceForge repositories
+%     - "List quality"
+%     - "the pages and subpages are often dead"
+%   - Get diagnostics on the state of the links I've found:
+%     - What percentage have been updated when
+%     - Downloaded, etc.
+%   - Review Excel results
+
+
+\subsection{Data and privacy}
+\label{subsec:data-and-privacy}
+
+Here, I'll talk specifically about data rights and privacy, in regards to whether it makes sense to decouple code from data, especially in cases of LRLs, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
 
 % Removed as we cover this, basically, in Open Source
 %\subsection{Data permanence and interoperability}
@@ -90,10 +126,7 @@ Another instance would be code which has been ported into rare languages % cite 
 %
 %% TODO Cite Austin Principles for Data AustinPrinciples2017
 
-\subsection{Data and privacy}
-\label{subsec:data-and-privacy}
-
-Here, I'll talk specifically about data rights and privacy, in regards to whether it makes sense to decouple code from data, especially in cases of LRLs, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
+% Lack of sharing code or storing it usefully, due to factors: funding, academic cycle, inability, scope, lack of knowledge of domain
 
 % TODO
 % Look at ethics section http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CLT/pdf/International%20cooperation%20programs.pdf
@@ -143,36 +176,8 @@ Sometimes, privacy revolves less around the users or the language communities, a
 
 %% TODO Extend section on academics staying private
 
-\subsection{Linked open data}
-\label{subsec:lod}
 
-Here, I'll briefly talk about related efforts with the Open Linguistics Working Group's \citep{chiarcos2012open} work on open source data reflected on the semantic web.\citep{chiarcos2013building}
-
-\subsection{A database for open source code}
-\label{sec:solutions}
-
-Here, I'll talk about a database of open source code. Specifically, I'll mention my own work building \href{https://github.com/RichardLitt/endangered-languages}{https://github.com/RichardLitt/endangered-languages}, described first in \citet{CCURL}, and what it contains and who has worked on it with me. I'll cover the main tools, what kind of tools were included, and why I built the database on GitHub in this way.
-
-I'll also include diagnostics on how it has been used and how the tools it mentions have been used - what percentage have been downloaded, and so on.
+% TODO Keyboard layouts are another area where much i18n work has been focused. Link: https://github.com/HughP/MLKA
 
 
-% - Its uses (specifically)
-% - Current considerations in its planning
-% - reception
-%   - User evaluations from other open source scientists
-% - Future goals
-
-%
-% - Case study using endangered-languages repository
-%   - Clean up resource
-%     - Add all listed resources in issues
-%     - Contact and create the LSA CELP Technology Subcommittee
-%     - Clone all SourceForge repositories
-%     - Rename to low-resource-languages
-%     - "List quality"
-%     - "the pages and subpages are often dead"
-%   - Get diagnostics on the state of the links I've found:
-%     - What percentage have been updated when
-%     - Downloaded, etc.
-%   - Review Excel results
-
+% TODO Include somewhere It is worth remembering that not all LRL research that is code based can be easily quantified as open source. For instance, Afranaph\footnote{\href{http://www.africananaphora.rutgers.edu/home-mainmenu-1}{http://www.africananaphora.rutgers.edu/home-mainmenu-1. Last accessed April~26, 2018.}} is a database of research on African languages. However, there is no code directly available to build your own database. Instead, you only have the option of searching their database. Other sites may use open source technology, but not be open source themselves. For instance, TransNewGuinea\footnote{\href{http://transnewguinea.org/about}{http://transnewguinea.org/about. Last accessed April~26, 2018.}} has a colophon where they mention that they use Unicode, Django, Bootstrap, jQuery, Leaflet, PostgreSQL, and SQLite, all open source (but not NLP) libraries.
