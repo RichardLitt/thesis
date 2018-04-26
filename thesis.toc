@@ -31,24 +31,24 @@
 \contentsline {section}{\numberline {5}Open Source Code for Low Resource Languages}{53}{section.5}
 \contentsline {subsection}{\numberline {5.1}Case study: Mapping linguistic co\"ordinates}{53}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{57}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Multilingual NLP libraries}{59}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Linked open data}{61}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A database for open source code}{61}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Data and privacy}{62}{subsection.5.6}
-\contentsline {section}{\numberline {6}Case Studies}{63}{section.6}
-\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{63}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Naskapi}{63}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{64}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{65}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Resources on the web}{66}{subsubsection.6.2.3}
-\contentsline {section}{\numberline {7}Methods}{67}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{67}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{67}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{67}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{68}{section.8}
-\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{68}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{68}{subsection.8.2}
-\contentsline {section}{\numberline {9}Future Work}{69}{section.9}
-\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{69}{subsection.9.1}
-\contentsline {section}{\numberline {10}Conclusion}{70}{section.10}
-\contentsline {section}{References}{71}{section*.15}
+\contentsline {subsection}{\numberline {5.3}Linked open data}{60}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Multilingual NLP libraries}{62}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}A database for open source code}{63}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Data and privacy}{67}{subsection.5.6}
+\contentsline {section}{\numberline {6}Case Studies}{68}{section.6}
+\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{68}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{68}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{69}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{70}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Resources on the web}{71}{subsubsection.6.2.3}
+\contentsline {section}{\numberline {7}Methods}{72}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{72}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{72}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{72}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{73}{section.8}
+\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{73}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{73}{subsection.8.2}
+\contentsline {section}{\numberline {9}Future Work}{74}{section.9}
+\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{74}{subsection.9.1}
+\contentsline {section}{\numberline {10}Conclusion}{75}{section.10}
+\contentsline {section}{References}{76}{section*.16}
