@@ -37,18 +37,20 @@
 \contentsline {subsection}{\numberline {5.6}Data and privacy}{66}{subsection.5.6}
 \contentsline {section}{\numberline {6}Case Studies}{69}{section.6}
 \contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{69}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Naskapi}{70}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{71}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{72}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Resources on the web}{73}{subsubsection.6.2.3}
-\contentsline {section}{\numberline {7}Methods}{74}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{74}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{74}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{74}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{75}{section.8}
-\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{75}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{75}{subsection.8.2}
-\contentsline {section}{\numberline {9}Future Work}{76}{section.9}
-\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{76}{subsection.9.1}
-\contentsline {section}{\numberline {10}Conclusion}{77}{section.10}
-\contentsline {section}{References}{78}{section*.16}
+\contentsline {subsubsection}{\numberline {6.1.1}Language Vitality Status}{70}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Language Resources}{70}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{73}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Literacy developments}{74}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Computational tools}{76}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Resources on the web}{77}{subsubsection.6.2.3}
+\contentsline {section}{\numberline {7}Methods}{78}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{78}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{78}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{78}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{79}{section.8}
+\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{79}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{79}{subsection.8.2}
+\contentsline {section}{\numberline {9}Future Work}{80}{section.9}
+\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{80}{subsection.9.1}
+\contentsline {section}{\numberline {10}Conclusion}{81}{section.10}
+\contentsline {section}{References}{82}{section*.16}
