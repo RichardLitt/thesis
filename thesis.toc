@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{57}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Linked open data}{60}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Multilingual NLP libraries}{62}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A database for open source code}{63}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.5}A GitHub database for open source code}{64}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}Data and privacy}{67}{subsection.5.6}
 \contentsline {section}{\numberline {6}Case Studies}{68}{section.6}
 \contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{68}{subsection.6.1}

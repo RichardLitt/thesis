@@ -8,9 +8,9 @@ Unfortunately, due to the decentralised nature of open source, this is an inhere
 
 \subsection{Case study: Mapping linguistic co\"ordinates}
 
-The breadth of HLT is wide; choosing a specific task within it and then trying to perform that task as adequate as possible would be one way to figure out how much open source code exists, and what that looks like. For example, suppose we were interested in making dialect maps using language co\"ordinates. This is an old research area in linguistics \citep{trudgill1983on,labov2005atlas}, and computational methods for mapping languages have been described in some research, including in the recently started {\it Journal of Linguistic Geography} \citep{labov2012journal}.
+The breadth of HLT is wide; choosing a specific task within it and then trying to perform that task as adequate as possible would be one way to figure out how much open source code exists, and what that looks like. For example, suppose we were interested in making dialect maps using language co\"ordinates. This is an old research area in linguistics \citep{trudgill1983on,labov2005atlas}, and computational methods for mapping languages have been described in some research, including in the recently started {\it Journal of Linguistic Geography} \citep{labov2012journal}. 
 
-For NLP, this is a nontrivial task. Dialect maps using geolocational data could be used in several ways. For instance, \citep{mccrae2015reconciling} mentions an email sent to the {\it Corpora List} asking for "freely available geotagged tweets collection for research purpose."\footnote{\href{https://mailman.uib.no/public/corpora/2015-February/022044.html}{https://mailman.uib.no/public/corpora/2015-February/022044.html Last accessed April~26, 2018.}}
+For NLP, this is a nontrivial task. Language maps using geolocational data could be used in several ways. For instance, \citep{mccrae2015reconciling} mentions an email sent to the {\it Corpora List} asking for "freely available geotagged tweets collection for research purpose."\footnote{\href{https://mailman.uib.no/public/corpora/2015-February/022044.html}{https://mailman.uib.no/public/corpora/2015-February/022044.html Last accessed April~26, 2018.}} Geolocation can also be used to plot language relatedness \citep{littauer2012visualizing}.
 
 Another example where geolocation might be useful would be in l10n in the browser. For instance, if the client's browser does not send a {\tt Accept-Language} header\footnote{\href{https://tools.ietf.org/html/rfc7231\#section-5.3.5}{https://tools.ietf.org/html/rfc7231\#section-5.3.5}} in their requests to view a website, specifying languages the client understands by using ISO 639 tags\footnote{\href{https://www.ietf.org/rfc/bcp/bcp47.txt}{https://www.ietf.org/rfc/bcp/bcp47.txt}}, then the server may use the {\tt NavigatorLanguage.language} object in JavaScript\footnote{\href{https://www.w3.org/TR/html51/webappapis.html\#language-preferences}{https://www.w3.org/TR/html51/webappapis.html\#language-preferences}} to query for the language of the browser UI (normally set by the users depending on where they downloaded it), or they could ask the browser directly through the geolocation API (for instance, on Firefox\footnote{\href{https://www.mozilla.org/en-US/firefox/}{https://www.mozilla.org/en-US/firefox/}}\footnote{\href{https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using\_geolocation}{https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using\_geolocation}}) to supply the geolocation of users and extrapolate plausible languages from this data. Knowing where the user is likely to be, and what languages the user is likely to prefer using, could help with providing their native language automatically in the browser. 
 
@@ -28,7 +28,7 @@ To give some more general locational context we downloaded some Open Access geop
 
 This particular use-case may have benefited from a specific tool which could convert KMZ to KML. A cursory look on GitHub shows 54 repositories that could be relevant\footnote{\href{https://github.com/search?p=1&q=kmz+kml&type=Repositories}{https://github.com/search?p=1\&q=kmz+kml\&type=Repositories}}, including one which does solely this task (albeit with Spanish documentation).\footnote{\href{https://github.com/fadamiao/kmz2kml}{https://github.com/fadamiao/kmz2kml}} Using an entirely open source pipeline for working with language (or GIS data, as here) is rare, although it is hypothetically possible; however, one quickly runs into problems where open source is concerned, as each subsequent layer of computational processing must then depend upon open source - including the operating system (for instance, GNU/Linux as an open source alternative to the closed Mac OS), processor, silicon chips, and so on. (This is one of the reasons that copyleft remains an issue in licensing.) Idiomatically put: there are turtles all the way down. 
 
-As \citet{hu2012multimedia, hu2018web} notes, the general trend in mapping software has been away from native (meaning on the OS level) applications and towards web applications, which may have a steeper learning curve, but which afford remote storage and access, and users over the Internet. WALS uses LeafletJS\footnote{\href{http://leafletjs.com/}{http://leafletjs.com/. Last accessed April~26, 2018.}}, an open source mapping software that uses Open Street Maps as an alternative to using an embedded Google Maps map using their API. \citet{hu2018web} suggests a workflow that uses Leaflet along with jQuery\footnote{\href{https://jquery.com/}{https://jquery.com/. Last accessed April~26, 2018.}}, an open source JavaScript utility library, to display GIS linguistic maps. Further study around using only FLOSS software for displaying GIS data for linguistics is necessary.
+As \citet{hu2012multimedia, hu2018web} notes, the general trend in mapping software has been away from native (meaning on the OS level) applications and towards web applications, which may have a steeper learning curve, but which afford remote storage and access, and users over the Internet. WALS uses LeafletJS\footnote{\href{http://leafletjs.com/}{http://leafletjs.com/. Last accessed April~26, 2018.}}, an open source mapping software that uses Open Street Maps as an alternative to using an embedded Google Maps map using their API. \citet{hu2018web} suggests a workflow that uses Leaflet along with jQuery\footnote{\href{https://jquery.com/}{https://jquery.com/. Last accessed April~26, 2018.}}, an open source JavaScript utility library, to display GIS linguistic maps. Web applications can also be used to display geographical data for research; \citet{littauer2013linguistic}, for instance, explored using a SPARQL endpoint to mine RDF data, including geographic location from WALS, to map Dogon languages using Open Street Maps. Further study around using only FLOSS software for displaying GIS data for linguistics is necessary.
 
 \citet{cenerini2017mapping} cite several open source software applications and libraries they used in their study mapping the Cree-Innu-Naskapi continu\"{u}m using data from the Algonquian Linguistic Atlas \citep{junker2011linguistic},\footnote{\href{http://www.atlas-ling.ca/}{http://www.atlas-ling.ca/. Last accessed April~26, 2018.}} but don't open source their own code. This would have been useful, specifically as replicating their study using R \citep{ihaka1996r} would require researchers to write all of their own queries again. More on data privacy will be discussed in Section~\ref{subsec:data-and-privacy}.
 
@@ -67,7 +67,7 @@ Linghub and the Linguistics Linked Data cloud were both created to resolve these
 
 \begin{figure}
  \centering
- \includegraphics[width=.8\textwidth]{img/llod.png}
+ \includegraphics[width=1\textwidth]{img/llod.png}
  \caption{The Linguists Linked Open Data cloud \citep{chiarcos2012linking}}
  \label{fig:llod}
 \end{figure}
@@ -102,7 +102,7 @@ It is difficult to track usage of these open source software packages by LRL com
 %In some cases, tools themselves may canonically be used for NLP, but may also be translated into LRLs, thus allowing LRL developers to use the code themselves for bootstrapping their tools. For example, Node has an i18n and l10n committee that works to translate tools - and there is some interested in working with LRLs. % Blah blah blah maybe this is a stretch?
 %Another instance would be code which has been ported into rare languages % cite uspanteko work in java
 %
-\subsection{A database for open source code}
+\subsection{A GitHub database for open source code}
 \label{sec:solutions}
 
 \begin{quote}
@@ -139,7 +139,11 @@ There is ongoing work to do curating the list, gathering sources, and improving 
 \subsection{Data and privacy}
 \label{subsec:data-and-privacy}
 
+
+
 Here, I'll talk specifically about data rights and privacy, in regards to whether it makes sense to decouple code from data, especially in cases of LRLs, where sparse data may be naturally enriched with annotation schemas and hard to separate out from the tools being used. In such cases, how do we as a community, researchers as providers, and developers as consumers, deal with licensing, privacy, and proprietary data? Does it make sense to provide links to code that can be used institutionally or commercially without also allowing for things like royalties for usage, or proper licensing for data? Bound up in this are also ethical concerns - well studied in theoretical field linguistics - about the language users themselves not wishing for their data to be used in certain ways.
+
+% DBLP:journals/corr/KatzCWHVHSJCCVL15
 
 % Removed as we cover this, basically, in Open Source
 %\subsection{Data permanence and interoperability}
