@@ -49,9 +49,12 @@
 \contentsline {subsection}{\numberline {7.2}Choosing repositories}{82}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{83}{subsection.7.3}
 \contentsline {section}{\numberline {8}Discussion}{85}{section.8}
-\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{85}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{85}{subsection.8.2}
 \contentsline {section}{\numberline {9}Future Work}{86}{section.9}
-\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{86}{subsection.9.1}
-\contentsline {section}{\numberline {10}Conclusion}{87}{section.10}
-\contentsline {section}{References}{88}{section*.16}
+\contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{86}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{86}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{86}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{87}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{87}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{88}{subsection.9.6}
+\contentsline {section}{\numberline {10}Conclusion}{89}{section.10}
+\contentsline {section}{References}{90}{section*.16}
