@@ -46,12 +46,12 @@
 \contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{78}{subsubsection.6.2.4}
 \contentsline {section}{\numberline {7}Methods}{81}{section.7}
 \contentsline {subsection}{\numberline {7.1}Choosing a license}{81}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{81}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{81}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{82}{section.8}
-\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{82}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{82}{subsection.8.2}
-\contentsline {section}{\numberline {9}Future Work}{83}{section.9}
-\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{83}{subsection.9.1}
-\contentsline {section}{\numberline {10}Conclusion}{84}{section.10}
-\contentsline {section}{References}{85}{section*.16}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{82}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{83}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{85}{section.8}
+\contentsline {subsection}{\numberline {8.1}Why isn't more code open?}{85}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}How does open source demonstrably help?}{85}{subsection.8.2}
+\contentsline {section}{\numberline {9}Future Work}{86}{section.9}
+\contentsline {subsection}{\numberline {9.1}Beyond Wikipedia and Ethnologue}{86}{subsection.9.1}
+\contentsline {section}{\numberline {10}Conclusion}{87}{section.10}
+\contentsline {section}{References}{88}{section*.16}
