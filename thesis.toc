@@ -10,7 +10,7 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Computer languages}{11}{subsubsection.2.1.4}
 \contentsline {subsection}{\numberline {2.2}Metrics for language vitality}{11}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}The Graded Intergenerational Disruption Scale (GIDS)}{12}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}The UNESCO measurement scale}{13}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2}The UNESCO measurement scale}{12}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}The Extended GIDS (EGIDS)}{15}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}The Language Endangerment Index (LEI)}{17}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}A response to qualitative metrics}{18}{subsubsection.2.2.5}
