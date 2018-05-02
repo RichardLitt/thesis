@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.2
+before_script:
+  - gem install awesome_bot
+script:
+  - awesome_bot *.tex --allow-timeout -t 5 --allow-dupe --allow-ssl --white-list http://wals.info/languoid/lect/wals,https://www.cereproc.com/en/CereProc,http://ipfs.io/ipfs/QmaMxpSDjYpRXoDTgvCkEARqEhFjcoAVqFYWb1Wv654QVG,http://stories.schwa-fire.com/who,https://w3techs.com/technologies/history,https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using,http://www.visualtravelguide.com/Photo-kml.html,https://aclweb.org/aclwiki/List,https://github.com/RichardLitt/low-resource-languages/graphs/traffic,https://github.com/clab/fast,https://github.com/dkhamsing/awesome,https://vlo.clarin.eu,http://dobes.mpi.nl/archive,http://nltk.org/book,https://www.qgis.org/
