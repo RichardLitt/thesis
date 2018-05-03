@@ -37,4 +37,6 @@ ag "(aioli|Bootes|Bronte|cacoepistic|caique|caiquejee|Citroen|continuum|cooccurr
 # All footnotes should go after periods and commas, not before, unless in a list
 # Meaning that it goes before semicolons. This should only bring up \nolinkurl false positives, which are removed.
 ag '}}(?![;\\\) \n])' *.tex | ag -v "(nolinkurl)"
+# Make sure you didn't forget an n
+ag ' a [aeiou]'
 ```
