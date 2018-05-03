@@ -15,6 +15,9 @@
 \contentsline {subsection}{\numberline {2.3}Digital presence}{26}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Finding resources on the web}{27}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Metrics for digital presence}{29}{subsubsection.2.3.2}
+\contentsline {paragraph}{\citepos {kornai2013digital} metric}{29}{section*.8}
+\contentsline {paragraph}{\citepos {gibson2016assessing} extension}{31}{section*.9}
+\contentsline {paragraph}{\citepos {soria2017digital} metric}{32}{section*.10}
 \contentsline {section}{\numberline {3}Resources}{35}{section.3}
 \contentsline {subsection}{\numberline {3.1}Types of language resources}{35}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Corpora}{35}{subsubsection.3.1.1}
@@ -38,11 +41,11 @@
 \contentsline {subsection}{\numberline {5.6}Data and privacy}{84}{subsection.5.6}
 \contentsline {section}{\numberline {6}Case Studies}{87}{section.6}
 \contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{87}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Language Vitality Status}{88}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Language Resources}{89}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.1}Language vitality status}{88}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Language resources}{89}{subsubsection.6.1.2}
 \contentsline {subsection}{\numberline {6.2}Naskapi}{92}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Language Background}{93}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Language Vitality Status}{94}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Language background}{93}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Language vitality status}{94}{subsubsection.6.2.2}
 \contentsline {subsubsection}{\numberline {6.2.3}Language resources and developments}{95}{subsubsection.6.2.3}
 \contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{98}{subsubsection.6.2.4}
 \contentsline {section}{\numberline {7}Methods}{101}{section.7}
@@ -60,4 +63,4 @@
 \contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{110}{subsection.9.5}
 \contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{110}{subsection.9.6}
 \contentsline {section}{\numberline {10}Conclusion}{112}{section.10}
-\contentsline {section}{References}{114}{section*.14}
+\contentsline {section}{References}{114}{section*.17}

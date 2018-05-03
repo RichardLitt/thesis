@@ -12,6 +12,7 @@ Use these with Atom to show what is replaced easier.
 
 ```sh
 # Decap section headers
+ag "section{.*}" *.tex
 # Check its and it's
 ag "it's" *.tex
 # Remove negative contractions
