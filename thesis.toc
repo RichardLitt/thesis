@@ -51,6 +51,8 @@
 \contentsline {subsection}{\numberline {7.2}Choosing repositories}{101}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{102}{subsection.7.3}
 \contentsline {section}{\numberline {8}Discussion}{104}{section.8}
+\contentsline {subsection}{\numberline {8.1}Is digital language development necessary?}{104}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Open Source as a tool for saving languages}{104}{subsection.8.2}
 \contentsline {section}{\numberline {9}Future Work}{106}{section.9}
 \contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{106}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{106}{subsection.9.2}
