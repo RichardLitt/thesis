@@ -15,5 +15,14 @@ ag " it's "
 # Check all URLs have last accessed
 ag -o "}{(http.+?)}}" | ag -v "accessed"
 # Check all left-handed single quotes
-ag " '"
+ag " '"  
+# Clear all images  
+# https://tex.stackexchange.com/questions/125612/warning-pdflatex-libpng-warning-iccp-known-incorrect-srgb-profile
+cd img  
+for f in $(find . -type f -name "*.png")
+do
+echo "Processing $f ..."
+convert $f -strip $f
+done  
+cd ..
 ```
