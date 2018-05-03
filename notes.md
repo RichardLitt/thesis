@@ -34,4 +34,7 @@ done
 cd ..
 # Check for any words which need the diaeresis
 ag "(aioli|Bootes|Bronte|cacoepistic|caique|caiquejee|Citroen|continuum|cooccurr|cooccurrence|coop|cooped|cooperate|cooperation|cooperative|cooperator|coops|coopt|coopted|coopting|cooption|coordinate|coordinated|coordinateing|coordination|coordinator|coordinators|coossify|Creusa|dais|demosaicking|faience|faroelite|haliæetos|hyperoodon|intraatomic|langue d’oil|Laocoon|Moet|monoideism|mosaic|naif|naive|naiveté|Noel|noone|oocyte|oology|opium|palaeooceanography|paleooceanography|panzooty|preeminent|preeminently|preempt|preemption|preemptive|prooxidant|reelect|reelected|reelecting|reemergence|reenact|reenter|reentered|reentering|reestablish|reestablished|reestablishing|reexamine|reinvent|residuum|Thais|Zaire|Zoe|zoological|zoology)"
+# All footnotes should go after periods and commas, not before, unless in a list
+# Meaning that it goes before semicolons. This should only bring up \nolinkurl false positives, which are removed.
+ag '}}(?![;\\\) \n])' *.tex | ag -v "(nolinkurl)"
 ```
