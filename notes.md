@@ -22,7 +22,7 @@ ag "etc." # Should be &c.
 # Check all URLs have last accessed
 ag -o "}{(http.+?)}}" | ag -v "last"
 # Check all left-handed single quotes
-ag " '"
+ag " '[a-zA-Z]"
 # Clear all images
 # https://tex.stackexchange.com/questions/125612/warning-pdflatex-libpng-warning-iccp-known-incorrect-srgb-profile
 cd img
