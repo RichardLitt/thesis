@@ -6,6 +6,14 @@
 
 \documentclass[12pt,a4paper]{article}
 \usepackage{thesiscommands}
+\urlstyle{same}
+
+% Stop bugging me
+\overfullrule=2cm
+\hbadness=99999 
+\hfuzz=20pt
+\vfuzz=20pt
+\vbadness=\maxdimen
 
 % IGT
 % Important; include last
@@ -20,6 +28,8 @@
 % last changed on 26.8.16 9h30
 
 \begin{document}
+
+\hypersetup{pageanchor=false}
 
 \begin{titlepage}
 	\begin{center}
@@ -117,10 +127,12 @@
 \thispagestyle{empty}
 \newpage
 
+% Fix page errors
+\hypersetup{pageanchor=true}
 \setcounter{page}{1}
 
 % This is a joke. Do not turn on.
-% \doublespacing
+\onehalfspacing
 
 \include{introduction}
 \include{endangered-languages}
@@ -162,6 +174,8 @@
 \include{conclusion}
 
 \newpage
+
+\singlespacing
 
 \bibliographystyle{apalike-refs}
 \bibliography{references}
