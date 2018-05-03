@@ -17,43 +17,46 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Finding resources}{26}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Metrics for digital presence}{27}{subsubsection.2.3.2}
 \contentsline {section}{\numberline {3}Resources}{33}{section.3}
-\contentsline {subsection}{\numberline {3.1}Resource Aggregators}{34}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}BLARK and LRE maps}{37}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Who makes resources for languages?}{43}{subsection.3.3}
-\contentsline {section}{\numberline {4}Open Source Code}{47}{section.4}
-\contentsline {subsection}{\numberline {4.1}Defining {\it open source}}{47}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Open source licenses}{51}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Where is open source code?}{53}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Digital permanence and storage}{56}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Funding}{58}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Ethics and open source}{60}{subsection.4.6}
-\contentsline {section}{\numberline {5}Open Source Code for Low Resource Languages}{62}{section.5}
-\contentsline {subsection}{\numberline {5.1}Case study: Mapping linguistic co\"ordinates}{62}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{67}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Linked open data}{70}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Multilingual NLP libraries}{73}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A GitHub database for open source code}{75}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Data and privacy}{79}{subsection.5.6}
-\contentsline {section}{\numberline {6}Case Studies}{82}{section.6}
-\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{82}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Language Vitality Status}{83}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Language Resources}{84}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Naskapi}{87}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Language Background}{88}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Language Vitality Status}{89}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Language resources and developments}{90}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{93}{subsubsection.6.2.4}
-\contentsline {section}{\numberline {7}Methods}{96}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{96}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{98}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{99}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{101}{section.8}
-\contentsline {section}{\numberline {9}Future Work}{103}{section.9}
-\contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{103}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{103}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{104}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{104}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{105}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{105}{subsection.9.6}
-\contentsline {section}{\numberline {10}Conclusion}{106}{section.10}
-\contentsline {section}{References}{108}{section*.16}
+\contentsline {subsection}{\numberline {3.1}Types of language resources}{33}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Corpora}{33}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Code}{35}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Resource aggregators}{37}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}BLARK and LRE maps}{40}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Who makes resources for languages?}{46}{subsection.3.4}
+\contentsline {section}{\numberline {4}Open Source Code}{50}{section.4}
+\contentsline {subsection}{\numberline {4.1}Defining {\it open source}}{50}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Open source licenses}{54}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Where is open source code?}{56}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Digital permanence and storage}{59}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Funding}{61}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Ethics and open source}{63}{subsection.4.6}
+\contentsline {section}{\numberline {5}Open Source Code for Low Resource Languages}{65}{section.5}
+\contentsline {subsection}{\numberline {5.1}Case study: Mapping linguistic co\"ordinates}{65}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{70}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Linked open data}{73}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Multilingual NLP libraries}{76}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}A GitHub database for open source code}{78}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Data and privacy}{82}{subsection.5.6}
+\contentsline {section}{\numberline {6}Case Studies}{85}{section.6}
+\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{85}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Language Vitality Status}{86}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Language Resources}{87}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{90}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Language Background}{91}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Language Vitality Status}{92}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Language resources and developments}{93}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{96}{subsubsection.6.2.4}
+\contentsline {section}{\numberline {7}Methods}{99}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{99}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{101}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{102}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{104}{section.8}
+\contentsline {section}{\numberline {9}Future Work}{106}{section.9}
+\contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{106}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{106}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{107}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{107}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{108}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{108}{subsection.9.6}
+\contentsline {section}{\numberline {10}Conclusion}{109}{section.10}
+\contentsline {section}{References}{111}{section*.16}
