@@ -41,26 +41,27 @@
 \contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{87}{subsection.6.1}
 \contentsline {subsubsection}{\numberline {6.1.1}Language vitality status}{88}{subsubsection.6.1.1}
 \contentsline {subsubsection}{\numberline {6.1.2}Language resources}{89}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Naskapi}{92}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{93}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Language background}{93}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}Language vitality status}{94}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Language resources and developments}{95}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{98}{subsubsection.6.2.4}
-\contentsline {section}{\numberline {7}Methods}{101}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{101}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{103}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{104}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{107}{section.8}
-\contentsline {subsection}{\numberline {8.1}Is digital language development necessary?}{107}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Ethics and open source}{107}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Data and privacy}{108}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{111}{subsection.8.4}
-\contentsline {section}{\numberline {9}Future Work}{113}{section.9}
-\contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{113}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{113}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{114}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{114}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{115}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{115}{subsection.9.6}
-\contentsline {section}{\numberline {10}Conclusion}{117}{section.10}
-\contentsline {section}{References}{119}{section*.17}
+\contentsline {subsubsection}{\numberline {6.2.3}Orthographical developments and written corpora creation}{96}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{99}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {6.2.5}Naskapi language resource status today}{100}{subsubsection.6.2.5}
+\contentsline {section}{\numberline {7}Methods}{102}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{102}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{104}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{105}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{108}{section.8}
+\contentsline {subsection}{\numberline {8.1}Is digital language development necessary?}{108}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Ethics and open source}{108}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Data and privacy}{109}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{112}{subsection.8.4}
+\contentsline {section}{\numberline {9}Future Work}{114}{section.9}
+\contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{114}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{114}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{115}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{115}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{116}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{116}{subsection.9.6}
+\contentsline {section}{\numberline {10}Conclusion}{118}{section.10}
+\contentsline {section}{References}{120}{section*.19}
