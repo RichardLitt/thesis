@@ -2,7 +2,7 @@
 
 > My dissertation for Saarland University
 
-[![Build Status](https://travis-ci.org/RichardLitt/thesis.svg?branch=master)](https://travis-ci.org/RichardLitt/thesis)
+[![Build Status](https://api.travis-ci.org/RichardLitt/thesis.svg?branch=master)](https://travis-ci.org/RichardLitt/thesis)
 
 This is my final thesis for my MSc in Computational Linguistics at Saarland University.
 
