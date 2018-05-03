@@ -6,174 +6,47 @@
 
 \documentclass[12pt,a4paper]{article}
 \usepackage{thesiscommands}
-\urlstyle{same}
-
-% Stop bugging me
-\overfullrule=2cm
-\hbadness=99999 
-\hfuzz=20pt
-\vfuzz=20pt
-\vbadness=\maxdimen
-
-% IGT
-% Important; include last
-\usepackage{gb4e}
-
-%\drafttrue % or
-\draftfalse
-
-\author{Richard Littauer}
-
-% to be executed with: lualatex --shell-escape -synctex=1 -interaction=nonstopmode "complete_thesis_new_2".tex
-% last changed on 26.8.16 9h30
 
 \begin{document}
 
+% Turn off page numbers
 \hypersetup{pageanchor=false}
 
-\begin{titlepage}
-	\begin{center}
-
-		% Upper part of the page. The '~' is needed because \\
-		% only works if a paragraph has started.
-		\includegraphics[width=0.25\textwidth]{img/eule.png}~\\[1cm]
-
-		\textsc{\LARGE Saarland  University}\\[0.4cm]
-		\textsc{\Large Department of Computational Linguistics}\\[1.5cm]
-
-		\textsc{\LARGE Master's Thesis}\vspace{0.5cm}
-
-		% Title
-		\HRule \\[0.55cm]
-
-		{ \huge \bfseries Open Source Code
-
-			 and\vspace{0.2cm}
-
-			 Low Resource Languages}\vspace{0.5cm}
-
-		\HRule \\[1.5cm]
-
-		% Author and supervisor
-		\begin{minipage}{0.45\textwidth}
-			\begin{flushleft} \large
-				\emph{Author:}\\
-				Richard \textsc{Littauer}\\
-				Matriculation: 2539658
-			\end{flushleft}
-		\end{minipage}
-		\begin{minipage}{0.45\textwidth}
-			\begin{flushright} \large
-				\emph{Supervisors:} \\
-				Prof. Dr. Dietrich \textsc{Klakow}\\
-				Prof. Dr. Alexis \textsc{Palmer}\\
-				% \emph{Advisors:} \\
-				% Dr. Harm \textsc{Brouwer}\\
-			\end{flushright}
-		\end{minipage}
-
-		\vfill
-
-		% Bottom of the page
-		{\large \today}
-
-	\end{center}
-\end{titlepage}
-\newpage
-
+\include{title-page}
 \include{abstract}
-
-\newpage
-
-%%% Eidesstattliche Erkl�rung
-\thispagestyle{empty}
-\noindent\subsection*{Eidesstattliche Erkl\"arung}
-
-\noindent Hiermit erkl\"are ich, dass ich die vorliegende Arbeit selbstst\"andig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe.\\
-
-\noindent\subsection*{Declaration}
-
-\noindent I hereby confirm that the thesis presented here is my own work, with all assistance acknowledged. \\
-
-\vspace{1cm}
-
-\noindent Richard Littauer
-
-\vspace{.5cm}
-
-\noindent Montr\'eal, \thedate
-
-
-%%% Eidesstattliche Erkl�rung End
-
-\newpage
-
+\include{declaration}
 \include{acknowledgements}
 
+% Table of Contents section
 \newpage
-
-%
 \tableofcontents
 \thispagestyle{empty}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
-
 \newpage
 \thispagestyle{empty}
 \setcounter{page}{0}
 \listoffigures
 \setcounter{page}{0}
 \listoftables
-%\listoflistings % For code; not needed here.
 \thispagestyle{empty}
 \newpage
-
-% Fix page errors
+% Start page numbers again
 \hypersetup{pageanchor=true}
 \setcounter{page}{1}
 
-% This is a joke. Do not turn on.
+% Start spacing
 \onehalfspacing
 
 \include{introduction}
-\include{endangered-languages}
-% The State of endangered languages and computational linguistics
-%\subsection{Defining Endangered Languages}
-%\subsection{What are computational resources}
+\include{low-resource-languages}
 \include{resources}
 \include{floss}
-% \subsection{Defining "open source"}
-% \subsection{Where is open source code?}
-% \subsection{Data rights and privacy}
-% \subsection{Liability}
-% \subsection{Funding}
-% \subsection{Military and enterprise solutions}
-% \subsection{Ethical reasons for using open source}
-\include{open-source-for-end-langs}
-% Open Source code for endangered languages
-% \subsection{BLARK}
-% \subsection{NLTK and other larger libraries}
-% \subsection{Other resources}
-% \subsection{solutions}
-% A database for open source code
-% Describe github.com/RichardLitt/endangered-languages
+\include{open-source-for-lrls}
 \include{case-studies}
-% \subsection{Gaelic}
-% \subsection{Naskapi}
-% \subsection{Kilangi} Another possible usecase?
 \include{methods}
-% \subsection{Choosing a license}
-% \subsection{Choosing repositories}
-% \subsection{Sharing code without a platform}
 \include{discussion}
-% \subsection{Why isn't more code open?}
-% \subsection{How does open source demonstrably help?}
 \include{future-work}
-% \subsection{Beyond Wikipedia and Ethnologue}
-% \subsection{An Open Data Repository}
-% \subsection{Storage on a p2p network}
 \include{conclusion}
-
-\newpage
 
 \singlespacing
 
