@@ -18,6 +18,7 @@ ag "n't" *.tex
 ag "I'(m|ll)" *.tex
 ag "[a-zA-Z]'ve"
 ag "we " # Lots of false positives in quotes
+ag "etc." # Should be &c.
 # Check all URLs have last accessed
 ag -o "}{(http.+?)}}" | ag -v "last"
 # Check all left-handed single quotes
