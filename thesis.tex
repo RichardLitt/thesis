@@ -9,10 +9,11 @@
 
 \begin{document}
 
-% Turn off page numbers
-\hypersetup{pageanchor=false}
-
 \include{title-page}
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+
 \include{abstract}
 \include{declaration}
 \include{acknowledgements}
@@ -20,18 +21,13 @@
 % Table of Contents section
 \newpage
 \tableofcontents
-\thispagestyle{empty}
-\addtocontents{toc}{\protect\thispagestyle{empty}}
 \newpage
-\thispagestyle{empty}
-\setcounter{page}{0}
 \listoffigures
-\setcounter{page}{0}
 \listoftables
-\thispagestyle{empty}
 \newpage
-% Start page numbers again
-\hypersetup{pageanchor=true}
+
+% Start page numbers again, using arabic this time
+\pagenumbering{arabic}
 \setcounter{page}{1}
 
 % Start spacing

@@ -1,6 +1,5 @@
-\thispagestyle {empty}
-\contentsline {section}{List of Figures}{0}{section*.4}
-\contentsline {section}{List of Tables}{0}{section*.5}
+\contentsline {section}{List of Figures}{vii}{section*.4}
+\contentsline {section}{List of Tables}{vii}{section*.5}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {section}{\numberline {2}Low Resource Languages}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Definitions}{5}{subsection.2.1}
