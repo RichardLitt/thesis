@@ -1,12 +1,8 @@
 # Thesis
 
-> My dissertation for Saarland University
+> My thesis on "Open Source Code and Low Resource Languages" for an MSc Language Science and Technology at Saarland University
 
 [![Build Status](https://api.travis-ci.org/RichardLitt/thesis.svg?branch=master)](https://travis-ci.org/RichardLitt/thesis)
-
-This is my final thesis for my MSc in Computational Linguistics at Saarland University.
-
-The topic is: **Open Source Code and Low Resource Languages**. Read more to find out what I'm talking about!
 
 ## Abstract
 
