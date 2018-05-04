@@ -11,6 +11,8 @@ Notes:
 Use these with Atom to show what is replaced easier.
 
 ```sh
+# Check that all citations are used
+checkcites --unused *.aux
 # Remove smart quotes
 ag "’"
 # Decap section headers
