@@ -4,7 +4,7 @@
 
 This thesis, a cursory look at open source and low resource languages, has highlighted more than a few directions for future research. I cover some of these below.
 
-\subsection{Extending databases of OSS code for LRLs}
+\subsection{Extending databases of FLOSS code for LRLs}
 
 The LRE Map resource is fantastic in that it has an order of magnitude more resources listed than other aggregators, like OLAC. With 2000 resources, it should be a port of call for linguists and researchers working on LRLs. Similarly, the database provided by Kornai's lab to measure language vitality has great potential, as it examines many aspects of digital language presence that are not mentioned in the other large typological or reference databases. However, both fall short in a very important way; they do not link to the resources they mention. Ideally, they should be portals for language developers hoping to work on their specific languages. Extending these portals - or, as a last resort, making a new one - would be beneficial to language communities hoping to increase the scope of their language's digital presence. This is an area of ripe future research; the low-resource-languages list presented in Section~\ref{sec:solutions} is only a hint at might be possible with properly aggregated metadata.
 
@@ -31,7 +31,7 @@ This would be an interesting area of research, although it is unclear how easy i
 
 It should be possible to mine ACL or LREC papers for references to open source storage repositories. While this was not done for this paper, a quantitative study of academic research and open source code storage would greatly facilitate discussion around linguistic coding and tooling. This could also go hand in hand with extending the Austin Principles of Data Citation in Linguistics \citep{AustinPrinciples2017} to apply to code objects, and by providing DOIs to all of the repositories extracted.
 
-\subsection{Development of an p2p storage system for linguistics code}
+\subsection{Development of a p2p storage system for linguistics code}
 
 While data collectors like META-SHARE go a long way towards collecting metadata, it would be interesting to develop a p2p collection system for open source code in linguistics, using the process briefly outlined in Section~\ref{subsec:sharing-code-without-a-platform}. I have already put a subset of repositories listed on low-resource-languages into IPFS, by using a shell script to automatically extract all GitHub repositories from the list, to clone (download) them from GitHub, and then to add them into IPFS. Ideally, these repositories could then be pinned in IPFS by other nodes, which would involve publishing the process and results in an academic paper and then collaborating with research bodies and individual developers to help replicate the data. Ideally, a permanent, decentralised network could be created for scientific software, beyond linguistics data. This is an exciting area.
 
@@ -44,7 +44,7 @@ The research here has highlighted many areas of research which could be opened o
 \subsection{Beyond Ethnologue}
 
 Ethnologue holds the keys of the ISO 639-3 standard, widely used and accepted around in NLP communities. However, it is also a proprietary service, and has a paywall which limits usage. Glottolog and other open source efforts go a long way towards providing alternatives - Glottolog keeps its own ISO standards, for instance. Working with Glottolog, it would be advantageous to use this hurdle as a means to strengthen ties between academic associations such as the Linguistic Society of America's Committee on Endangered Language Preservation and the Association of Computational Linguistics, among others like the LDC and the ELP, to try and give Glottolog or another open source alternative the resources needed to petition the ISO standard body to grant ISO 639 regulation for standardisation rights. This would enable access for all researchers and communities to the tools and data they need to set l10n and i18n codes as needed, as opposed to going through a closed-source body. This is an area needing extensive collaboration and legal advice, but a path I feel is worth going down.
-  
+
 %\subsection{Beyond Wikipedia}
 %
 %I will talk about the shortcomings of both Wikipedia as a service, and Ethnologue as a provider of language data. Specifically, I want to draw attention to how Wikipedia treats its long-term contributors, and how Ethnologue charges exorbitant fees for using its data, and what we can do to improve this.

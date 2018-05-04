@@ -1,11 +1,3 @@
-Notes:
-
-- Add footnotes into the Table refs for the two tables that come from websites
-- Look for _any_ paper on Syllabics or Cree languages and open source
-  - There's a few. There's a new chapter on Cree fonts. But there's not really a lot.
-- Talk about property rights and intellectual rights, Demsetz 1969
-- Use a citation style that has DOIs
-
 ### Final checks
 
 Use these with Atom to show what is replaced easier.
@@ -27,12 +19,11 @@ ag "it's" *.tex
 ag "n't" *.tex
 ag "I'(m|ll)" *.tex
 ag "[a-zA-Z]'ve"
-ag "we " # Lots of false positives in quotes
 ag "etc." # Should be &c.
 # Check all URLs have last accessed
 ag -o "}{(http.+?)}}" | ag -v "last"
 # Check all left-handed single quotes
-ag " '[a-zA-Z]"
+ag " '[a-zA-Z]" *.tex
 # Clear all images
 # https://tex.stackexchange.com/questions/125612/warning-pdflatex-libpng-warning-iccp-known-incorrect-srgb-profile
 cd img

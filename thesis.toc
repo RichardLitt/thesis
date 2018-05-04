@@ -57,11 +57,11 @@
 \contentsline {subsection}{\numberline {8.3}Data and privacy}{112}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{115}{subsection.8.4}
 \contentsline {section}{\numberline {9}Future Work}{117}{section.9}
-\contentsline {subsection}{\numberline {9.1}Extending databases of OSS code for LRLs}{117}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.1}Extending databases of FLOSS code for LRLs}{117}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{117}{subsection.9.2}
 \contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{118}{subsection.9.3}
 \contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{119}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Development of an p2p storage system for linguistics code}{119}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.5}Development of a p2p storage system for linguistics code}{119}{subsection.9.5}
 \contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{120}{subsection.9.6}
 \contentsline {subsection}{\numberline {9.7}Beyond Ethnologue}{120}{subsection.9.7}
 \contentsline {section}{\numberline {10}Conclusion}{122}{section.10}
