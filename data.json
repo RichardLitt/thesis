@@ -1,0 +1,368 @@
+{
+  "prCreators": [
+    {
+      "login": "cesine",
+      "name": "cesine",
+      "url": "https://github.com/cesine",
+      "count": 17
+    },
+    {
+      "login": "HughP",
+      "name": "HughP",
+      "url": "https://github.com/HughP",
+      "count": 4
+    },
+    {
+      "login": "ReadmeCritic",
+      "name": "",
+      "url": "https://github.com/ReadmeCritic",
+      "count": 3
+    },
+    {
+      "login": "alvations",
+      "name": "",
+      "url": "https://github.com/alvations",
+      "count": 2
+    },
+    {
+      "login": "rtxanson",
+      "name": "",
+      "url": "https://github.com/rtxanson",
+      "count": 2
+    },
+    {
+      "login": "xrotwang",
+      "name": "Robert Forkel",
+      "url": "https://github.com/xrotwang",
+      "count": 2
+    },
+    {
+      "login": "eddersko",
+      "name": "Edwin Ko",
+      "url": "https://github.com/eddersko",
+      "count": 1
+    },
+    {
+      "login": "katamaritaco",
+      "name": "Nick Heindl",
+      "url": "https://github.com/katamaritaco",
+      "count": 1
+    },
+    {
+      "login": "orthographic-pedant",
+      "name": "",
+      "url": "https://github.com/orthographic-pedant",
+      "count": 1
+    },
+    {
+      "login": "arne-cl",
+      "name": "Arne Neumann",
+      "url": "https://github.com/arne-cl",
+      "count": 1
+    },
+    {
+      "login": "kscanne",
+      "name": "Kevin Scannell",
+      "url": "https://github.com/kscanne",
+      "count": 1
+    },
+    {
+      "login": "DrDub",
+      "name": "Pablo Duboue",
+      "url": "https://github.com/DrDub",
+      "count": 1
+    },
+    {
+      "login": "0joshuaolson1",
+      "name": "Joshua Olson",
+      "url": "https://github.com/0joshuaolson1",
+      "count": 1
+    },
+    {
+      "login": "roedoejet",
+      "name": "Aidan Pine",
+      "url": "https://github.com/roedoejet",
+      "count": 1
+    },
+    {
+      "login": "snomos",
+      "name": "Sjur Moshagen",
+      "url": "https://github.com/snomos",
+      "count": 1
+    },
+    {
+      "login": "waldyrious",
+      "name": "Waldir Pimenta",
+      "url": "https://github.com/waldyrious",
+      "count": 1
+    },
+    {
+      "login": "RichardLitt",
+      "name": "Richard Littauer",
+      "url": "https://github.com/RichardLitt",
+      "count": 1
+    },
+    {
+      "login": "greenkeeper",
+      "count": 1
+    },
+    {
+      "login": "AurelienLourot",
+      "name": "Aurelien Lourot",
+      "url": "https://github.com/AurelienLourot",
+      "count": 1
+    }
+  ],
+  "prCommentators": [
+    {
+      "login": "RichardLitt",
+      "name": "Richard Littauer",
+      "url": "https://github.com/RichardLitt",
+      "count": 57
+    },
+    {
+      "login": "cesine",
+      "name": "cesine",
+      "url": "https://github.com/cesine",
+      "count": 6
+    },
+    {
+      "login": "HughP",
+      "name": "HughP",
+      "url": "https://github.com/HughP",
+      "count": 6
+    },
+    {
+      "login": "ReadmeCritic",
+      "name": "",
+      "url": "https://github.com/ReadmeCritic",
+      "count": 4
+    },
+    {
+      "login": "xrotwang",
+      "name": "Robert Forkel",
+      "url": "https://github.com/xrotwang",
+      "count": 2
+    },
+    {
+      "login": "eddersko",
+      "name": "Edwin Ko",
+      "url": "https://github.com/eddersko",
+      "count": 2
+    },
+    {
+      "login": "thoppe",
+      "name": "Travis Hoppe",
+      "url": "https://github.com/thoppe",
+      "count": 2
+    },
+    {
+      "login": "rtxanson",
+      "name": "",
+      "url": "https://github.com/rtxanson",
+      "count": 1
+    }
+  ],
+  "issueCreators": [
+    {
+      "login": "RichardLitt",
+      "name": "Richard Littauer",
+      "url": "https://github.com/RichardLitt",
+      "count": 68
+    },
+    {
+      "login": "HughP",
+      "name": "HughP",
+      "url": "https://github.com/HughP",
+      "count": 19
+    },
+    {
+      "login": "cesine",
+      "name": "cesine",
+      "url": "https://github.com/cesine",
+      "count": 6
+    },
+    {
+      "login": "arthurvr",
+      "name": "Arthur Verschaeve",
+      "url": "https://github.com/arthurvr",
+      "count": 2
+    },
+    {
+      "login": "mapmeld",
+      "name": "Nick Doiron",
+      "url": "https://github.com/mapmeld",
+      "count": 1
+    },
+    {
+      "login": "diogobernini",
+      "name": "Diogo Bernini",
+      "url": "https://github.com/diogobernini",
+      "count": 1
+    },
+    {
+      "login": "greenkeeper",
+      "count": 1
+    }
+  ],
+  "issueCommentators": [
+    {
+      "login": "RichardLitt",
+      "name": "Richard Littauer",
+      "url": "https://github.com/RichardLitt",
+      "count": 192
+    },
+    {
+      "login": "HughP",
+      "name": "HughP",
+      "url": "https://github.com/HughP",
+      "count": 52
+    },
+    {
+      "login": "cesine",
+      "name": "cesine",
+      "url": "https://github.com/cesine",
+      "count": 24
+    },
+    {
+      "login": "roedoejet",
+      "name": "Aidan Pine",
+      "url": "https://github.com/roedoejet",
+      "count": 7
+    },
+    {
+      "login": "h4ck3rm1k3",
+      "name": "James Michael DuPont",
+      "url": "https://github.com/h4ck3rm1k3",
+      "count": 5
+    },
+    {
+      "login": "dkhamsing",
+      "name": "",
+      "url": "https://github.com/dkhamsing",
+      "count": 4
+    },
+    {
+      "login": "rtxanson",
+      "name": "",
+      "url": "https://github.com/rtxanson",
+      "count": 4
+    },
+    {
+      "login": "alvations",
+      "name": "",
+      "url": "https://github.com/alvations",
+      "count": 3
+    },
+    {
+      "login": "Lingomat",
+      "name": "Mat Bettinson",
+      "url": "https://github.com/Lingomat",
+      "count": 3
+    },
+    {
+      "login": "amir-zeldes",
+      "name": "Amir Zeldes",
+      "url": "https://github.com/amir-zeldes",
+      "count": 2
+    },
+    {
+      "login": "DrDub",
+      "name": "Pablo Duboue",
+      "url": "https://github.com/DrDub",
+      "count": 2
+    },
+    {
+      "login": "AnnaLuisaD",
+      "name": null,
+      "url": "https://github.com/AnnaLuisaD",
+      "count": 2
+    },
+    {
+      "login": "eddersko",
+      "name": "Edwin Ko",
+      "url": "https://github.com/eddersko",
+      "count": 2
+    },
+    {
+      "login": "dowobeha",
+      "name": "Lane Schwartz",
+      "url": "https://github.com/dowobeha",
+      "count": 2
+    },
+    {
+      "login": "ctschroeder",
+      "name": "Caroline T. Schroeder",
+      "url": "https://github.com/ctschroeder",
+      "count": 1
+    },
+    {
+      "login": "kscanne",
+      "name": "Kevin Scannell",
+      "url": "https://github.com/kscanne",
+      "count": 1
+    },
+    {
+      "login": "kghose",
+      "name": "Kaushik Ghose",
+      "url": "https://github.com/kghose",
+      "count": 1
+    },
+    {
+      "login": "diogobernini",
+      "name": "Diogo Bernini",
+      "url": "https://github.com/diogobernini",
+      "count": 1
+    },
+    {
+      "login": "katamaritaco",
+      "name": "Nick Heindl",
+      "url": "https://github.com/katamaritaco",
+      "count": 1
+    },
+    {
+      "login": "pbouda",
+      "name": "Peter Bouda",
+      "url": "https://github.com/pbouda",
+      "count": 1
+    },
+    {
+      "login": "mapmeld",
+      "name": "Nick Doiron",
+      "url": "https://github.com/mapmeld",
+      "count": 1
+    },
+    {
+      "login": "arthurvr",
+      "name": "Arthur Verschaeve",
+      "url": "https://github.com/arthurvr",
+      "count": 1
+    },
+    {
+      "login": "alketii",
+      "name": "Alket Rexhepi",
+      "url": "https://github.com/alketii",
+      "count": 1
+    },
+    {
+      "login": "jrwdunham",
+      "name": "Joel Dunham",
+      "url": "https://github.com/jrwdunham",
+      "count": 1
+    },
+    {
+      "login": "snomos",
+      "name": "Sjur Moshagen",
+      "url": "https://github.com/snomos",
+      "count": 1
+    }
+  ],
+  "reviewers": [
+    {
+      "login": "RichardLitt",
+      "name": "Richard Littauer",
+      "url": "https://github.com/RichardLitt",
+      "count": 3
+    }
+  ]
+}
