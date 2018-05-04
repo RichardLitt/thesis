@@ -51,9 +51,6 @@ As far as I am aware, the highest amount of code resources for Gaelic which are 
 
 Ideally, researchers would start to open source more of their code involving Gaelic. However, there are so few researchers and language communities currently working on Gaelic HLT that this may be a na\"{i}ve wish. Indeed, the main researcher over the past decade for Gaelic releases most of his code publicly - that is, Kevin Scannell of \citet{scannell2007crubadan}. And his focus is mainly on Irish. One solution would be to implement a Scottish Gaelic computational linguistics course at one of the major Scottish universities, such as the University of Edinburgh, Glasgow, St. Andrews, or potentially at Sabhal M\`or Ostaig. This option would reward further lines of inquiry.
 
-% TODO Mention Scannell's pooling paper
-% TODO Mention Salt on a shoestring
-
 \subsection{Naskapi}
 \label{sec:naskapi}
 
@@ -132,28 +129,3 @@ When there is a need to come up with a new term, the elders are consulted, and t
 
 The linguists use the Fieldworks Language Explorer (FLEx) \footnote{\href{https://software.sil.org/fieldworks/}{https://software.sil.org/fieldworks/}. \last{April~27}} to document new linguistic terms. FLEx was developed by SIL International, and provides linguists with an out-of-the-box solution for recording linguistics terms using interlinear glossed text. It is also open source, and available on GitHub.\footnote{\href{https://github.com/sillsdev/FieldWorks}{https://github.com/sillsdev/FieldWorks}. \last{April~27}} Users can export as a PDF (among other file formats), or export words to an online interface known as Webonary.\footnote{\href{https://www.webonary.org/configuring-the-dictionary-in-flex/}{https://www.webonary.org/configuring-the-dictionary-in-flex/}. \last{April~27}} This allows language workers to automatically create a useable, free dictionary for members of the community.
 
-% TODO Ask if I can access the Webonary
-
-\subsubsection{Computational tools}
-
-There are no spell checkers, word lists, or large corpora available digitally except for the dictionary. As well as the SIL-sponsored Webonary, there is also work done by \href{http://atlas-ling.ca/}{\nolinkurl{http://atlas-ling.ca}}, which is a Canadian government-backed venture, originally cofounded by MacKenzie, who also worked on the Naskapi dictionary.\footnote{\href{http://atlas-ling.ca/}{http://atlas-ling.ca/}. \last{April~27}} This website has some options for looking at languages, but does not seem to be updated by local translators from the community. It is sourced from the previously published dictionary, which the SIL linguists have indicated is not up to date and has insufficient English to Naskapi translations. These are insufficient because of the nature of Naskapi; a root word is used with a slot system, and any word which mentions water is included under the English heading. This makes translating something as simple as "the mug is red" difficult, as one needs to know to look for `red' as a root word, and then to find the appropriate example from which you can extrapolate the correct form for translation.
-
-There is a potentially large corpus of spoken language in Naskapi from the local radio station, but this has not been collected into a corpus. There does not appear to be any adult-level secular written corpora which could be utilised to jump-start a written corpus; \citet{jancewicz2002applied} points out that "While in some language communities it may be supposed that such an emphasis on the production of religious texts may limit the use of Native language literacy in secular community institutions, the Cree and Naskapi cultures treated in these case studies traditionally do not draw a sharp distinction between the secular and spiritual in their day-to-day life." It is also worth noting that the Band Office employs translators (who generally have other jobs - one this author talked to was a band Councilman, one of four elected officials underneath the Chief) who may be able to provide bilingual texts in English, French, or Innu.
-
-All told, computational work that is easily accessible on the web is exceedingly limited. There are some websites in Naskapi, which could be used to make a small corpus, but there are no currently active projects working on collecting corpora for the purpose of linguistic study, and neither is there an active academic community working on Naskapi outside of the SIL translators, who may occasionally publish a paper (or, of course, a dictionary or physical book).
-
-While FLEx is open source, none of the linguists edit the code for it or use the codebase, depending on SIL International to keep the product up to date. Keyman is likewise not edited, although it is installed on local computers. The Naskapi community website, run by the Naskapi Nation of Kawawachikamach, does have a webpage on installing syllabics,\footnote{\href{http://www.naskapi.ca/en/Install-syllabics}{http://www.naskapi.ca/en/Install-syllabics}. \last{April~27}} which may be useful for some speakers.
-
-\subsubsection{Naskapi language resource status today}
-
-Today, a small group of external linguists still provide much of the language resources for the community, although collaboration with the Band continues.
-
-\begin{quote}
-"The authors hope that the dichotomy between "resource people" and "aboriginal people" reflected in the section headings above would become less and less distinct. ... As a growing number of local people gain experience and expertise to become their own resource persons, such a dichotomy will dissolve, and all the vital resources for language development will exist at a community level. However, until this ideal is realised, small language communities such as these must continue to identify and avail themselves of professional and academic resources found outside their communities." \citep[89]{jancewicz2002applied}
-\end{quote}
-
-This remains just as true, fifteen years on. There is work which could be done; for instance, moving the silo'ed dictionary efforts into the public web, and using bilingual texts from the Band Office to bootstrap corpora, POS taggers, spellcheckers (there is not a Hunspell yet), and perhaps MT systems. However, this work would need to be matched by on-the-ground work by local community members - and, as \citet[90]{jancewicz2002applied} finally notes: "The initial learning curve is sometimes steep, but there is no substitute for hands-on experience."
-
-Open source is less of a concern for Naskapi as is general software; the community is so small that any code is liable to made by community members and open sourced, anyway. However, the tools which the linguists use to develop languages benefit from open source. Any SIL missionary can contribute to FLEx, which means that incremental changes in different communities can be folded back into work in Naskapi. Likewise, any work done on Cree or any related languages can be applied or projected onto Naskapi more easily if it is open source. Open source is not a {\it sine qua non} for Naskapi technological development, then; but it could be a benefit.
-
-% TODO Ask Bill for a copy of his MA thesis "Grammar enhanced biliteracy: Naskapi language structures for facilitating reading in Naskapi"
