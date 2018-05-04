@@ -44,9 +44,10 @@
 \contentsline {subsection}{\numberline {6.2}Naskapi}{94}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Language background}{94}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}Language vitality status}{95}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Orthographical developments and written corpora creation}{97}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Computational tools}{100}{subsubsection.6.2.4}
-\contentsline {subsubsection}{\numberline {6.2.5}Naskapi language resource status today}{101}{subsubsection.6.2.5}
+\contentsline {subsubsection}{\numberline {6.2.3}Orthography}{97}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Corpora creation}{99}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {6.2.5}Computational tools}{100}{subsubsection.6.2.5}
+\contentsline {subsubsection}{\numberline {6.2.6}Naskapi language resource status today}{102}{subsubsection.6.2.6}
 \contentsline {section}{\numberline {7}Methods}{103}{section.7}
 \contentsline {subsection}{\numberline {7.1}Choosing a license}{103}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Choosing repositories}{105}{subsection.7.2}
