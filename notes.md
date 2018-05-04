@@ -15,6 +15,7 @@ Use these with Atom to show what is replaced easier.
 checkcites --unused *.aux
 # Remove smart quotes
 ag "’"
+ag "–"
 # Decap section headers
 ag "section{.*}" *.tex
 # Decapitalize acronyms in references
