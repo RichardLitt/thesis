@@ -13,6 +13,10 @@ My specific contributions in this thesis include not only the first published an
 
 _Copied verbatim from `abstract.tex`_
 
+## Build
+
+I use TeXShop to build, and I use [apalike-refs](https://github.com/matthieu-vergne/LaTeX) as the bibliographic style. Make sure to put `apalike-refs.bst` where your system can read it. In my case, `~/Library/texmf/bibtex/bst/.` worked.
+
 ## Contribute
 
 Please feel free. Note that this is largely an academic work, and I'd probably prefer to talk to you first before merging anything. Send me an email, or open an issue!
