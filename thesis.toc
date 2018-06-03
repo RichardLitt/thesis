@@ -5,19 +5,19 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Official, \textit {de facto}, \textit {de jure}, majority, and minority languages}{10}{subsubsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.3}Low resource, under resourced and incident languages}{12}{subsubsection.2.1.3}
 \contentsline {subsubsection}{\numberline {2.1.4}Computer languages}{14}{subsubsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.5}Other terms}{14}{subsubsection.2.1.5}
 \contentsline {subsection}{\numberline {2.2}Metrics for language vitality}{14}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}The Graded Intergenerational Disruption Scale (GIDS)}{15}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}The UNESCO measurement scale}{15}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}The Extended GIDS (EGIDS)}{18}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}The Language Endangerment Index (LEI)}{23}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}A response to qualitative metrics}{24}{subsubsection.2.2.5}
-\contentsline {subsection}{\numberline {2.3}Digital presence}{27}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Finding resources on the web}{28}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3}Digital presence}{26}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Finding resources on the web}{27}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Metrics for digital presence}{29}{subsubsection.2.3.2}
 \contentsline {paragraph}{\citepos {kornai2013digital} metric}{29}{section*.8}
-\contentsline {paragraph}{\citepos {gibson2016assessing} extension}{32}{section*.9}
-\contentsline {paragraph}{\citepos {soria2017digital} metric}{33}{section*.10}
+\contentsline {paragraph}{\citepos {gibson2016assessing} extension}{31}{section*.9}
+\contentsline {paragraph}{\citepos {soria2017digital} metric}{32}{section*.10}
+\contentsline {subsection}{\numberline {2.4}Summary}{35}{subsection.2.4}
 \contentsline {section}{\numberline {3}Resources}{36}{section.3}
 \contentsline {subsection}{\numberline {3.1}Types of language resources}{36}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Corpora}{36}{subsubsection.3.1.1}
