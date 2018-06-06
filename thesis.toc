@@ -36,35 +36,40 @@
 \contentsline {subsection}{\numberline {4.6}Summary}{71}{subsection.4.6}
 \contentsline {section}{\numberline {5}Open Source Code for Low Resource Languages}{73}{section.5}
 \contentsline {subsection}{\numberline {5.1}Case study: Mapping linguistic co\"ordinates}{73}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{78}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Linked open data}{82}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Multilingual NLP libraries}{84}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A GitHub database for open source code}{86}{subsection.5.5}
-\contentsline {section}{\numberline {6}Case Studies}{91}{section.6}
-\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{91}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Language vitality status}{92}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Language resources}{93}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Naskapi}{98}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Language background}{98}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Language vitality status}{99}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Orthography}{101}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Corpora creation}{103}{subsubsection.6.2.4}
-\contentsline {section}{\numberline {7}Methods}{105}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{105}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{107}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{109}{subsection.7.3}
-\contentsline {section}{\numberline {8}Discussion}{112}{section.8}
-\contentsline {subsection}{\numberline {8.1}Is digital presence necessary?}{112}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Ethics and open source}{113}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Data and privacy}{114}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{117}{subsection.8.4}
-\contentsline {section}{\numberline {9}Future Work}{119}{section.9}
-\contentsline {subsection}{\numberline {9.1}Extending databases of FLOSS code for LRLs}{119}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{119}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{120}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{121}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Development of a p2p storage system for linguistics code}{121}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{122}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Beyond Ethnologue}{122}{subsection.9.7}
-\contentsline {section}{\numberline {10}Conclusion}{124}{section.10}
-\contentsline {section}{References}{126}{section*.19}
+\contentsline {subsection}{\numberline {5.2}LRL NLP available through data providers}{79}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Few to no computational resources}{79}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Some scoped computational resources}{80}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Many computational resources}{82}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Summary of computational resources}{82}{subsubsection.5.2.4}
+\contentsline {subsection}{\numberline {5.3}Linked open data}{83}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Multilingual NLP libraries}{85}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}A GitHub database for open source code}{88}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Summary}{92}{subsection.5.6}
+\contentsline {section}{\numberline {6}Case Studies}{94}{section.6}
+\contentsline {subsection}{\numberline {6.1}Scottish Gaelic}{94}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Language vitality status}{95}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Language resources}{96}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Naskapi}{101}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Language background}{101}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Language vitality status}{102}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Orthography}{104}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Corpora creation}{106}{subsubsection.6.2.4}
+\contentsline {section}{\numberline {7}Methods}{108}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{108}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{110}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{112}{subsection.7.3}
+\contentsline {section}{\numberline {8}Discussion}{115}{section.8}
+\contentsline {subsection}{\numberline {8.1}Is digital presence necessary?}{115}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Ethics and open source}{116}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Data and privacy}{117}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{120}{subsection.8.4}
+\contentsline {section}{\numberline {9}Future Work}{122}{section.9}
+\contentsline {subsection}{\numberline {9.1}Extending databases of FLOSS code for LRLs}{122}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{122}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{123}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{124}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Development of a p2p storage system for linguistics code}{124}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{125}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Beyond Ethnologue}{125}{subsection.9.7}
+\contentsline {section}{\numberline {10}Conclusion}{127}{section.10}
+\contentsline {section}{References}{129}{section*.19}
