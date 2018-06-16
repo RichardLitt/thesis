@@ -53,25 +53,25 @@
 \contentsline {subsubsection}{\numberline {6.2.1}Language background}{102}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}Language vitality status}{103}{subsubsection.6.2.2}
 \contentsline {subsubsection}{\numberline {6.2.3}Orthography}{104}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Corpora creation}{106}{subsubsection.6.2.4}
-\contentsline {subsection}{\numberline {6.3}Summary}{108}{subsection.6.3}
-\contentsline {section}{\numberline {7}Best Practice Recommendations}{109}{section.7}
-\contentsline {subsection}{\numberline {7.1}Choosing a license}{109}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Choosing repositories}{111}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{113}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Summary}{116}{subsection.7.4}
-\contentsline {section}{\numberline {8}Discussion}{117}{section.8}
-\contentsline {subsection}{\numberline {8.1}Is digital presence necessary?}{117}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Ethics and open source}{118}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Data and privacy}{119}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{122}{subsection.8.4}
-\contentsline {section}{\numberline {9}Future Work}{124}{section.9}
-\contentsline {subsection}{\numberline {9.1}Extending databases of FLOSS code for LRLs}{124}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{124}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{125}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{126}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Development of a p2p storage system for linguistics code}{126}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{127}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Beyond Ethnologue}{127}{subsection.9.7}
-\contentsline {section}{\numberline {10}Conclusion}{129}{section.10}
-\contentsline {section}{References}{131}{section*.20}
+\contentsline {subsubsection}{\numberline {6.2.4}Corpora creation}{107}{subsubsection.6.2.4}
+\contentsline {subsection}{\numberline {6.3}Summary}{109}{subsection.6.3}
+\contentsline {section}{\numberline {7}Best Practice Recommendations}{110}{section.7}
+\contentsline {subsection}{\numberline {7.1}Choosing a license}{110}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Choosing repositories}{112}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Sharing code without a platform}{114}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Summary}{117}{subsection.7.4}
+\contentsline {section}{\numberline {8}Discussion}{118}{section.8}
+\contentsline {subsection}{\numberline {8.1}Is digital presence necessary?}{118}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Ethics and open source}{119}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Data and privacy}{120}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Open Source as a tool for saving languages}{123}{subsection.8.4}
+\contentsline {section}{\numberline {9}Future Work}{125}{section.9}
+\contentsline {subsection}{\numberline {9.1}Extending databases of FLOSS code for LRLs}{125}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Rethinking metrics for digital presence}{125}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Rethinking language diversity and typological relation}{126}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Metrics for code usage in LREC or ACL papers}{127}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Development of a p2p storage system for linguistics code}{127}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Extending Gaelic and Naskapi resources}{128}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Beyond Ethnologue}{128}{subsection.9.7}
+\contentsline {section}{\numberline {10}Conclusion}{130}{section.10}
+\contentsline {section}{References}{132}{section*.20}
